@@ -1,0 +1,51 @@
+.cover {
+  align-items: center;
+  display: flex;
+  height: 100vh;
+}
+
+.content {
+  flex: 2;
+}
+
+.titleContainer {
+  margin-bottom: 32px;
+  transform: translateX(-96px);
+}
+
+.title {
+  background-color: var(--color-highlight);
+  color: var(--color-primary);
+  display: inline;
+  font-family: georgia, serif;
+  font-weight: 800;
+  font-size: 64px;
+  line-height: 1.44;
+  text-align: center;
+}
+
+.intro {
+  color: var(--color-gray);
+  padding-right: 56px;
+}
+
+.image {
+  filter: saturate(0.2);
+  margin-right: 32px;
+  flex: 3;
+}
+
+.actions {
+  padding: 12px 0;
+}
+
+.button {
+  background-color: var(--color-highlight);
+  color: var(--color-primary);
+  cursor: pointer;
+  display: inline-block;
+  font-weight: bold;
+  padding: 16px 64px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}

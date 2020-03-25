@@ -5,29 +5,23 @@ import React from "react"
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#2a2e55`,
+      borderBottom: `1px solid rgba(255, 255, 255, 0.1)`,
+      color: `#fafafa`,
       marginBottom: `1.45rem`,
+      padding: 12,
     }}
   >
-    <div
+    <Link
+      to="/"
       style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        color: `#ccc`,
+        textDecoration: `none`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
-    </div>
+      Capa
+    </Link>{" "}
+    / Tópicos
   </header>
 )
 
