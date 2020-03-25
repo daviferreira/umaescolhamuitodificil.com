@@ -16,7 +16,6 @@ body {
   background-color: var(--color-white);
   font-size: 16px;
   margin: 0;
-  overflow: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
