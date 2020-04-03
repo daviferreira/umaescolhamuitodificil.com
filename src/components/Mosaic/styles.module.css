@@ -1,15 +1,13 @@
 .root {
+  display: flex;
+  flex-wrap: wrap;
   margin: 60px auto;
   max-width: 1280px;
 }
 
-.row {
-  display: flex;
-}
-
 .item {
   cursor: pointer;
-  flex: 1;
+  flex: 0 0 25%;
   margin: 12px 24px 48px;
   max-height: 280px;
   max-width: 33.33%;
