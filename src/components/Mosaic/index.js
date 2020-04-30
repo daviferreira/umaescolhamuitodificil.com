@@ -1,28 +1,32 @@
-import React, { useEffect } from "react"
+import React, { useEffect } from 'react';
 
-import Image from "./image"
+import Image from './image';
 
-import styles from "./styles.module.css"
+import styles from './styles.module.css';
 
-const items = [{
-  id: 1,
-  title: 'Milícia'
-}, {
-  id: 1,
-  title: 'Presidência'
-}, {
-  id: 1,
-  title: 'COVID-19'
-}];
+const items = [
+  {
+    id: 1,
+    title: 'Milícia'
+  },
+  {
+    id: 1,
+    title: 'Presidência'
+  },
+  {
+    id: 1,
+    title: 'COVID-19'
+  }
+];
 
 const Mosaic = () => {
   useEffect(() => {
-    document.body.classList.add("internal")
+    document.body.classList.add('internal');
 
     return () => {
-      document.body.classList.remove("internal")
-    }
-  })
+      document.body.classList.remove('internal');
+    };
+  });
 
   return (
     <div className={styles.root}>
@@ -69,7 +73,7 @@ const Mosaic = () => {
         </div>
       ))}
     </div>
-  )
-}
+  );
+};
 
-export default Mosaic
+export default Mosaic;

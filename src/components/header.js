@@ -1,6 +1,6 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const Header = ({ siteTitle }) => (
   <header
@@ -9,28 +9,28 @@ const Header = ({ siteTitle }) => (
       borderBottom: `1px solid rgba(255, 255, 255, 0.1)`,
       color: `#fafafa`,
       marginBottom: `1.45rem`,
-      padding: 12,
+      padding: 12
     }}
   >
     <Link
       to="/"
       style={{
         color: `#ccc`,
-        textDecoration: `none`,
+        textDecoration: `none`
       }}
     >
       Capa
-    </Link>{" "}
+    </Link>{' '}
     / Tópicos
   </header>
-)
+);
 
 Header.propTypes = {
-  siteTitle: PropTypes.string,
-}
+  siteTitle: PropTypes.string
+};
 
 Header.defaultProps = {
-  siteTitle: ``,
-}
+  siteTitle: ``
+};
 
-export default Header
+export default Header;

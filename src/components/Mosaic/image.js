@@ -1,9 +1,9 @@
-import React from "react"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import React from 'react';
+import PropTypes from 'prop-types';
+import { useStaticQuery, graphql } from 'gatsby';
+import Img from 'gatsby-image';
 
-import styles from "./styles.module.css"
+import styles from './styles.module.css';
 
 const Image = ({ index }) => {
   const data = useStaticQuery(graphql`
@@ -37,7 +37,7 @@ const Image = ({ index }) => {
         }
       }
     }
-  `)
+  `);
 
   return (
     <Img
@@ -45,11 +45,11 @@ const Image = ({ index }) => {
       className={styles.image}
       fluid={data[`bolsonaro${index}`].childImageSharp.fluid}
     />
-  )
-}
+  );
+};
 
 Image.propTypes = {
-  index: PropTypes.number,
-}
+  index: PropTypes.number
+};
 
-export default Image
+export default Image;

@@ -18,8 +18,8 @@
   color: var(--color-primary);
   display: inline;
   font-family: georgia, serif;
-  font-weight: 800;
   font-size: 64px;
+  font-weight: 800;
   line-height: 1.44;
   text-align: center;
 }
@@ -31,8 +31,8 @@
 
 .image {
   filter: saturate(0.2);
-  margin-right: 32px;
   flex: 3;
+  margin-right: 32px;
 }
 
 .actions {
