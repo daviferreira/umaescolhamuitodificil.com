@@ -1,9 +1,14 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
+import { useDispatch } from 'react-redux';
+
+import { updateGraphData } from '../../reducers/app';
 
 import Quote from '../Quote';
 
 const QuotesList = () => {
+  const dispatch = useDispatch();
+
   const {
     quotes: { edges: data }
   } = useStaticQuery(graphql`
@@ -23,23 +28,22 @@ const QuotesList = () => {
     }
   `);
 
+  const handleUpdate = id => {
+    const graphData = data
+      .filter(({ node }) => node.id <= id)
+      .map(({ node: { cases, deaths, formattedDate } }) => ({
+        cases,
+        deaths,
+        label: formattedDate
+      }));
+    dispatch(updateGraphData(graphData));
+  };
+
   return (
     <>
-      {data.map(
-        ({ node: { id, cases, date, deaths, formattedDate, text } }) => (
-          <Quote
-            key={id}
-            date={formattedDate}
-            graphData={{
-              cases,
-              date,
-              deaths,
-              label: formattedDate
-            }}
-            text={text}
-          />
-        )
-      )}
+      {data.map(({ node: { id, text } }) => (
+        <Quote key={id} onUpdate={() => handleUpdate(id)} text={text} />
+      ))}
     </>
   );
 };

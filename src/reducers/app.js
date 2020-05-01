@@ -11,22 +11,34 @@ const UPDATE_GRAPH_DATA = 'UPDATE_GRAPH_DATA';
 
 export const updateGraphData = data => ({
   type: UPDATE_GRAPH_DATA,
-  data
+  data: {
+    data
+  }
 });
 
 export default (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_GRAPH_DATA: {
-      const { cases, deaths, label } = action.data;
+      const { data } = action.data;
+
+      const totals = {
+        cases: 2,
+        deaths: 0
+      };
+
+      data.forEach(item => {
+        totals.cases += item.cases;
+        totals.deaths += item.deaths;
+      });
 
       return {
         ...state,
-        cases: [...state.cases, cases],
-        currentDate: label,
-        deaths: [...state.deaths, deaths],
-        labels: [...state.labels, label],
-        totalCases: state.totalCases + cases,
-        totalDeaths: state.totalDeaths + deaths
+        cases: [2, ...data.map(item => item.cases)],
+        currentDate: data[data.length - 1].label,
+        deaths: [0, ...data.map(item => item.deaths)],
+        labels: ['2 de março', ...data.map(item => item.label)],
+        totalCases: totals.cases,
+        totalDeaths: totals.deaths
       };
     }
 

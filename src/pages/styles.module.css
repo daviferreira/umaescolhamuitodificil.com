@@ -14,17 +14,31 @@
   z-index: -1;
 }
 
+.gradient,
+.gradientBottom {
+  height: 180px;
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+}
+
 .gradient {
   background: linear-gradient(
     180deg,
     rgba(0, 0, 0, 1) 0%,
     rgba(0, 0, 0, 0) 50%
   );
-  height: 200px;
-  position: fixed;
   top: 0;
-  width: 100%;
-  z-index: 5;
+}
+
+.gradientBottom {
+  background: linear-gradient(
+    360deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0) 50%
+  );
+  bottom: 0;
+  z-index: 2;
 }
 
 .quotesContainer {
@@ -40,5 +54,14 @@
   left: 0;
   position: fixed;
   width: 100%;
-  z-index: 1;
+  z-index: 10;
+}
+
+.time {
+  display: block;
+  opacity: 1;
+  position: fixed;
+  right: 24px;
+  top: 24px;
+  z-index: 10;
 }

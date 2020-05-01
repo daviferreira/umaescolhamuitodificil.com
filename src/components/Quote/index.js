@@ -1,32 +1,21 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { InView } from 'react-intersection-observer';
-import { useDispatch } from 'react-redux';
-
-import { updateGraphData } from '../../reducers/app';
 
 import styles from './styles.module.css';
 
-const Quote = ({ date, graphData, text }) => {
-  const dispatch = useDispatch();
-
+const Quote = ({ onUpdate, text }) => {
   const handleVisibilityChange = (inView, entry) => {
     if (inView) {
-      dispatch(updateGraphData(graphData));
+      onUpdate();
     }
   };
 
   return (
-    <InView
-      as="div"
-      onChange={handleVisibilityChange}
-      threshold={0.5}
-      triggerOnce
-    >
+    <InView as="div" onChange={handleVisibilityChange} threshold={0.5}>
       <div className={styles.root}>
         <a href="#" className={styles.link}>
           <blockquote>{text}</blockquote>
-          {/* <time className={styles.time}>{date}</time> */}
         </a>
       </div>
     </InView>
@@ -34,8 +23,7 @@ const Quote = ({ date, graphData, text }) => {
 };
 
 Quote.propTypes = {
-  date: PropTypes.string,
-  graphData: PropTypes.object,
+  onUpdate: PropTypes.func,
   text: PropTypes.string
 };
 

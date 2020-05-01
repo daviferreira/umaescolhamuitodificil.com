@@ -13,12 +13,6 @@
   margin-top: 0;
 }
 
-.root time {
-  display: block;
-  font-weight: 300;
-  opacity: 0.6;
-}
-
 .root blockquote {
   font-size: 64px;
   font-weight: bolder;

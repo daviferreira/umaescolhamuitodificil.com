@@ -3,8 +3,10 @@ import { Line } from 'react-chartjs-2';
 import { useSelector } from 'react-redux';
 import { useStaticQuery, graphql } from 'gatsby';
 
-import { DEFAULT_DATA_OPTIONS } from './constants';
-import { getOptions } from './utils';
+import { getDataOptions, getOptions } from './utils';
+
+const COLOR_CASES = 'rgba(75,192,192,1)';
+const COLOR_DEATHS = 'red';
 
 const Graph = () => {
   const { cases, deaths, labels } = useSelector(state => state.app);
@@ -27,14 +29,14 @@ const Graph = () => {
     labels,
     datasets: [
       {
-        ...DEFAULT_DATA_OPTIONS,
-        borderColor: 'rgba(75,192,192,1)',
+        ...getDataOptions({ color: COLOR_CASES }),
+        borderColor: COLOR_CASES,
         label: 'Casos confirmados',
         data: cases
       },
       {
-        ...DEFAULT_DATA_OPTIONS,
-        borderColor: 'red',
+        ...getDataOptions({ color: COLOR_DEATHS }),
+        borderColor: COLOR_DEATHS,
         label: 'Óbitos',
         data: deaths
       }
