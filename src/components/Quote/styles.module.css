@@ -4,14 +4,19 @@
   flex-direction: column;
   height: 100vh;
   justify-content: center;
+  margin: 120px auto;
+  max-width: 70vw;
   width: 100%;
+}
+
+.root:first-child {
+  margin-top: 0;
 }
 
 .root time {
   display: block;
   font-weight: 300;
   opacity: 0.6;
-  text-align: right;
 }
 
 .root blockquote {

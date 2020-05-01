@@ -4,7 +4,7 @@
   line-height: 1;
   position: fixed;
   top: 24px;
-  z-index: 5;
+  z-index: 10;
 }
 
 .count {
@@ -14,8 +14,9 @@
 }
 
 .count > div:first-child {
-  flex: 2;
+  flex: 0 0 120px;
   opacity: 0.5;
+  text-align: right;
 }
 
 .count > div {

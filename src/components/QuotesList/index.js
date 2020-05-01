@@ -12,7 +12,9 @@ const QuotesList = () => {
         edges {
           node {
             id
+            cases
             date
+            deaths
             formattedDate
             text
           }
@@ -23,9 +25,21 @@ const QuotesList = () => {
 
   return (
     <>
-      {data.map(({ node: { id, formattedDate: date, text } }) => (
-        <Quote key={id} date={date} text={text} />
-      ))}
+      {data.map(
+        ({ node: { id, cases, date, deaths, formattedDate, text } }) => (
+          <Quote
+            key={id}
+            date={formattedDate}
+            graphData={{
+              cases,
+              date,
+              deaths,
+              label: formattedDate
+            }}
+            text={text}
+          />
+        )
+      )}
     </>
   );
 };

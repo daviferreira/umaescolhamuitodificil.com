@@ -17,6 +17,7 @@ const IndexPage = () => {
       <div className={styles.quotesContainer}>
         <QuotesList />
       </div>
+      <div className={styles.gradient} />
       <div className={styles.graph}>
         <Graph />
       </div>

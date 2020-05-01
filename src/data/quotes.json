@@ -1,26 +1,50 @@
 [
   {
     "id": 1,
+    "cases": 25,
+    "deaths": 0,
     "date": "2020-03-09",
     "formattedDate": "3 de março",
     "text": "Está superdimensionado"
   },
   {
     "id": 2,
+    "cases": 52,
+    "deaths": 0,
     "date": "2020-03-11",
     "formattedDate": "11 de março",
     "text": "Outras gripes mataram mais"
   },
   {
     "id": 3,
+    "cases": 200,
+    "deaths": 0,
     "date": "2020-03-15",
     "formattedDate": "15 de março",
     "text": "Em 2009, 2010, teve uma crise semelhante"
   },
   {
     "id": 4,
+    "cases": 234,
+    "deaths": 0,
+    "date": "2020-03-16",
+    "formattedDate": "16 de março",
+    "text": "FIXME!"
+  },
+  {
+    "id": 5,
+    "cases": 291,
+    "deaths": 1,
     "date": "2020-03-17",
     "formattedDate": "17 de março",
     "text": "Esse vírus trouxe uma certa histeria"
+  },
+  {
+    "id": 6,
+    "deaths": 5901,
+    "cases": 85380,
+    "date": "2020-04-30",
+    "formattedDate": "30 de abril",
+    "text": "FIXME! Last"
   }
 ]
