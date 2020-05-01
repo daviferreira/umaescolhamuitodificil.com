@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "date": "2020-03-09",
+    "formattedDate": "3 de março",
+    "text": "Está superdimensionado"
+  },
+  {
+    "id": 2,
+    "date": "2020-03-11",
+    "formattedDate": "11 de março",
+    "text": "Outras gripes mataram mais"
+  },
+  {
+    "id": 3,
+    "date": "2020-03-15",
+    "formattedDate": "15 de março",
+    "text": "Em 2009, 2010, teve uma crise semelhante"
+  },
+  {
+    "id": 4,
+    "date": "2020-03-17",
+    "formattedDate": "17 de março",
+    "text": "Esse vírus trouxe uma certa histeria"
+  }
+]

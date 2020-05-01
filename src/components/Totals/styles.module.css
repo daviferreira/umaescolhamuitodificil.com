@@ -1,0 +1,23 @@
+.root {
+  font-size: 13px;
+  left: 24px;
+  line-height: 1;
+  position: fixed;
+  top: 24px;
+  z-index: 5;
+}
+
+.count {
+  align-items: center;
+  display: flex;
+  font-size: 24px;
+}
+
+.count > div:first-child {
+  flex: 2;
+  opacity: 0.5;
+}
+
+.count > div {
+  padding: 12px;
+}

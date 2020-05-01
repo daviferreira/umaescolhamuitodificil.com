@@ -1,51 +1,31 @@
-.cover {
-  align-items: center;
-  display: flex;
-  height: 100vh;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+
+.background {
+  background-image: url('./bg.png');
+  background-position: -50vw -10px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  left: 0;
+  opacity: 0.4;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: -1;
 }
 
-.content {
-  flex: 2;
+.quotesContainer {
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 2;
 }
 
-.titleContainer {
-  margin-bottom: 32px;
-  transform: translateX(-96px);
-}
-
-.title {
-  background-color: var(--color-highlight);
-  color: var(--color-primary);
-  display: inline;
-  font-family: georgia, serif;
-  font-size: 64px;
-  font-weight: 800;
-  line-height: 1.44;
-  text-align: center;
-}
-
-.intro {
-  color: var(--color-gray);
-  padding-right: 56px;
-}
-
-.image {
-  filter: saturate(0.2);
-  flex: 3;
-  margin-right: 32px;
-}
-
-.actions {
-  padding: 12px 0;
-}
-
-.button {
-  background-color: var(--color-highlight);
-  color: var(--color-primary);
-  cursor: pointer;
-  display: inline-block;
-  font-weight: bold;
-  padding: 16px 64px;
-  text-decoration: none;
-  transition: background-color 0.3s;
+.graph {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
 }
