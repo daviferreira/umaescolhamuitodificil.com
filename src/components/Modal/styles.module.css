@@ -21,7 +21,7 @@
   animation-duration: 0.3s;
   animation-fill-mode: both;
   animation-name: fadeIn;
-  color: var(--color-black);
+  color: #000;
   cursor: pointer;
   display: flex;
   position: fixed;
@@ -31,7 +31,7 @@
 }
 
 .close span {
-  color: var(--color-white);
+  color: #fff;
   display: block;
   font-size: 48px;
   font-weight: 300;

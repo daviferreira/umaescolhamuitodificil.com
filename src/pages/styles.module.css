@@ -69,9 +69,9 @@
 
 .about {
   align-items: center;
-  background-color: var(--color-white);
+  background-color: #fff;
   border-radius: 100%;
-  color: var(--color-black);
+  color: #000;
   cursor: pointer;
   display: flex;
   font-size: 13px;

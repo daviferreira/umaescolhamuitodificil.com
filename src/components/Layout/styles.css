@@ -1,10 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap');
 
-:root {
-  --color-black: #0a0a0a;
-  --color-white: #fcfcfc;
-}
-
 html {
   font-family: 'Open Sans', sans-serif;
   -ms-text-size-adjust: 100%;
@@ -201,8 +196,8 @@ html {
   box-sizing: inherit;
 }
 body {
-  background-color: var(--color-black);
-  color: var(--color-white);
+  background-color: #000;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   word-wrap: break-word;
