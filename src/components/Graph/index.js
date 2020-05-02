@@ -40,7 +40,7 @@ const Graph = () => {
       {
         ...getDataOptions({ color: COLOR_DEATHS }),
         borderColor: COLOR_DEATHS,
-        label: 'Óbitos',
+        label: 'Mortes',
         data: deaths
       }
     ]

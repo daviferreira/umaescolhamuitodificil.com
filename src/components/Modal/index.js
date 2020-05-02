@@ -3,9 +3,12 @@ import PropTypes from 'prop-types';
 
 import styles from './styles.module.css';
 
-const Modal = ({ children, onClose }) => (
-  <div className={styles.root} onClick={onClose}>
-    <div className={styles.close}>
+const Modal = ({ children, closeOnOverlay = true, onClose }) => (
+  <div className={styles.root} onClick={closeOnOverlay ? onClose : undefined}>
+    <div
+      className={styles.close}
+      onClick={!closeOnOverlay ? onClose : undefined}
+    >
       <span>&times;</span>
     </div>
     {children}
@@ -14,6 +17,7 @@ const Modal = ({ children, onClose }) => (
 
 Modal.propTypes = {
   children: PropTypes.node,
+  closeOnOverlay: PropTypes.bool,
   onClose: PropTypes.func
 };
 

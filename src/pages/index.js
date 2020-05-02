@@ -1,8 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import Graph from '../components/Graph';
 import Layout from '../components/Layout';
+import Modal from '../components/Modal';
 import QuotesList from '../components/QuotesList';
 import SEO from '../components/Seo';
 import Totals from '../components/Totals';
@@ -14,6 +15,7 @@ import styles from './styles.module.css';
 
 const IndexPage = () => {
   const dispatch = useDispatch();
+  const [open, setOpen] = useState(false);
 
   const {
     currentDate,
@@ -25,6 +27,13 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
+      <div
+        className={styles.about}
+        onClick={() => setOpen(true)}
+        title="Sobre este site"
+      >
+        ?
+      </div>
       <time dateTime={currentDate} className={styles.time}>
         {currentFormattedDate}
         {currentVideoId && (
@@ -32,7 +41,7 @@ const IndexPage = () => {
             className={styles.link}
             onClick={() => dispatch(setVideoId(currentVideoId))}
           >
-            Não acredita? Veja o vídeo.
+            Veja o vídeo.
           </a>
         )}
       </time>
@@ -47,6 +56,11 @@ const IndexPage = () => {
       </div>
       <div className={styles.gradientBottom} />
       {videoId && <Video id={videoId} />}
+      {open && (
+        <Modal closeOnOverlay={false} onClose={() => setOpen(false)}>
+          About
+        </Modal>
+      )}
     </Layout>
   );
 };

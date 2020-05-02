@@ -2,11 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useDispatch, useSelector } from 'react-redux';
 
-import {
-  setVideoId,
-  updateCurrentData,
-  updateGraphData
-} from '../../reducers/app';
+import { updateCurrentData, updateGraphData } from '../../reducers/app';
 
 import Quote from '../Quote';
 
@@ -64,7 +60,6 @@ const QuotesList = () => {
           date={date}
           formattedDate={formattedDate}
           key={id}
-          onClick={() => dispatch(setVideoId(videoId))}
           onUpdate={() => handleUpdate(date, { date, formattedDate, videoId })}
           text={text}
         />

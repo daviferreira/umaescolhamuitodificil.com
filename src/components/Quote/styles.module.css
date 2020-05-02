@@ -10,7 +10,7 @@
 }
 
 .root blockquote {
-  font-size: 48px;
+  font-size: 42px;
   font-weight: 700;
   line-height: 1.33;
   margin: 0 0 12px;
@@ -25,22 +25,8 @@
   line-height: 1;
   opacity: 0.3;
   position: absolute;
-  top: -4px;
+  top: -10px;
   transform: translateX(-100%);
-}
-
-.link {
-  cursor: pointer;
-  transition: opacity 0.3s ease;
-}
-
-.link,
-.link:active,
-.link:hover,
-.link:visited,
-.link:focus {
-  color: var(--color-white);
-  text-decoration: none;
 }
 
 @media only screen and (max-width: 767px) {

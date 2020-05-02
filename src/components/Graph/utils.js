@@ -78,7 +78,7 @@ export const getOptions = ({ edges, suggestedMax }) => ({
         return ` ${tooltipItem.yLabel
           .toString()
           .replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ${
-          tooltipItem.datasetIndex === 0 ? 'casos' : 'óbitos'
+          tooltipItem.datasetIndex === 0 ? 'casos' : 'mortes'
         }`;
       }
     },

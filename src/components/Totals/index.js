@@ -26,7 +26,7 @@ const Totals = () => {
         />
       </div>
       <div className={styles.count}>
-        <div>Óbitos</div>
+        <div>Mortes</div>
         <CountUp
           separator="."
           start={previousTotalDeaths}

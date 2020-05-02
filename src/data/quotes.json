@@ -5,8 +5,8 @@
     "deaths": 0,
     "date": "2020-03-09",
     "formattedDate": "3 de março",
-    "text": "Está sendo superdimensionado o poder destruidor deste vírus.",
-    "videoId": "YBL_5ahQBeo"
+    "text": "Tem a questão do coronavírus também que, no meu entender, está sendo superdimensionado o poder destruidor desse vírus.",
+    "videoId": "VTCHQkJqv3I"
   },
   {
     "id": 2,
@@ -23,7 +23,7 @@
     "deaths": 0,
     "date": "2020-03-11",
     "formattedDate": "11 de março",
-    "text": "Outras gripes mataram mais."
+    "text": "Eu não sou médico, eu não sou infectologista. O que eu ouvi até o momento outras gripes mataram mais do que essa."
   },
   {
     "id": 4,
@@ -33,15 +33,6 @@
     "formattedDate": "15 de março",
     "text": "Mas não podemos entrar numa neurose, como se fosse o fim do mundo.",
     "videoId": "DYJV4G5Oz1c"
-  },
-  {
-    "id": 5,
-    "cases": 200,
-    "deaths": 0,
-    "date": "2020-03-15",
-    "formattedDate": "15 de março",
-    "text": "Depois da facada, não vai ser uma gripezinha que vai me derrubar não, tá ok?",
-    "videoId": "ts2ClqnHKWA"
   },
   {
     "id": 6,
@@ -76,7 +67,8 @@
     "cases": 902,
     "date": "2020-03-20",
     "formattedDate": "20 de março",
-    "text": "Não vai ser uma gripezinha que vai me derrubar."
+    "text": "Depois da facada, não vai ser uma gripezinha que vai me derrubar não, tá ok?",
+    "videoId": "ts2ClqnHKWA"
   },
   {
     "id": 10,
@@ -84,7 +76,8 @@
     "cases": 1546,
     "date": "2020-03-22",
     "formattedDate": "22 de março",
-    "text": "O povo saberá que foi enganado por estes governadores e por parte da grande mídia."
+    "text": "O povo saberá que foi enganado por estes governadores e por parte da grande mídia.",
+    "videoId": "NKUY8ez5yXQ"
   },
   {
     "id": 11,
@@ -92,7 +85,8 @@
     "cases": 1546,
     "date": "2020-03-22",
     "formattedDate": "22 de março",
-    "text": "O número de pessoas que morreram de H1N1, no ano passado, foi na ordem de 800 pessoas. A previsão é não chegar a essa quantidade de óbitos no tocante ao coronavírus."
+    "text": "O número de pessoas que morreram de H1N1, no ano passado, foi na ordem de 800 pessoas. A previsão é não chegar a essa quantidade de óbitos no tocante ao coronavírus.",
+    "videoId": "NKUY8ez5yXQ"
   },
   {
     "id": 12,
@@ -100,7 +94,8 @@
     "cases": 1888,
     "date": "2020-03-23",
     "formattedDate": "23 de março",
-    "text": "Não dá pra fazer mais do que estamos fazendo."
+    "text": "Não dá pra fazer mais do que estamos fazendo.",
+    "videoId": "b2V4CuM51kQ"
   },
   {
     "id": 13,
@@ -108,15 +103,17 @@
     "cases": 2197,
     "date": "2020-03-24",
     "formattedDate": "24 de março",
-    "text": "Não sentiria, ou sentiria, quando muito, uma gripezinha ou resfriadinho."
+    "text": "Nada sentiria, ou seria, quando muito, acometido de uma gripezinha ou resfriadinho, como bem disse aquele conhecido médico, daquela conhecida televisão.",
+    "videoId": "Vl_DYb-XaAE"
   },
   {
     "id": 14,
-    "deaths": 77,
-    "cases": 2915,
+    "deaths": 46,
+    "cases": 2197,
     "date": "2020-03-26",
-    "formattedDate": "26 de março",
-    "text": "O brasileiro tem que ser estudado. Ele não pega nada. Você vê o cara pulando em esgoto ali, sai, mergulha, tá certo? E não acontece nada com ele."
+    "formattedDate": "24 de março",
+    "text": "No meu caso particular, pelo meu histórico de atleta, caso fosse contaminado pelo vírus, não precisaria me preocupar.",
+    "videoId": "Vl_DYb-XaAE"
   },
   {
     "id": 15,
@@ -124,7 +121,8 @@
     "cases": 2915,
     "date": "2020-03-26",
     "formattedDate": "26 de março",
-    "text": "No meu caso particular, pelo meu histórico de atleta, caso fosse contaminado pelo vírus, não precisaria me preocupar."
+    "text": "O brasileiro tem que ser estudado. Ele não pega nada. Você vê o cara pulando em esgoto ali, sai, mergulha, tá certo? E não acontece nada com ele.",
+    "videoId": "Q1MGUvHwkTk"
   },
   {
     "id": 16,

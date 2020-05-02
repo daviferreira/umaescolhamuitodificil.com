@@ -7,6 +7,8 @@ import Modal from '../Modal';
 
 import { setVideoId } from '../../reducers/app';
 
+import styles from './styles.module.css';
+
 const Video = ({ id }) => {
   const dispatch = useDispatch();
 
@@ -37,15 +39,17 @@ const Video = ({ id }) => {
 
   return (
     <Modal onClose={() => dispatch(setVideoId(null))}>
-      <YouTube
-        videoId={id}
-        opts={{
-          ...dimensions,
-          playerVars: {
-            autoplay: 1
-          }
-        }}
-      />
+      <div className={styles.video}>
+        <YouTube
+          videoId={id}
+          opts={{
+            ...dimensions,
+            playerVars: {
+              autoplay: 1
+            }
+          }}
+        />
+      </div>
     </Modal>
   );
 };
