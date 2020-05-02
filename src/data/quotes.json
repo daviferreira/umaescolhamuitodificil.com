@@ -67,7 +67,8 @@
     "cases": 420,
     "date": "2020-03-18",
     "formattedDate": "18 de março",
-    "text": "Já tivemos problemas mais graves no passado, que não teve essa comoção toda, ou repercussão toda por parte da mídia brasileira."
+    "text": "Já tivemos problemas mais graves no passado, que não teve essa comoção toda, ou repercussão toda por parte da mídia brasileira.",
+    "videoId": "lhltNqinvm4"
   },
   {
     "id": 9,
@@ -236,5 +237,13 @@
     "date": "2020-05-01",
     "formattedDate": "01 de maio",
     "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos."
+  },
+  {
+    "id": 30,
+    "deaths": 92,
+    "cases": 3417,
+    "date": "2020-03-27",
+    "formattedDate": "27 de março",
+    "text": "Infelizmente algumas mortes terão, paciência, acontece, e vamos tocar o barco."
   }
 ]

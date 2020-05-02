@@ -32,7 +32,7 @@ const IndexPage = () => {
             className={styles.link}
             onClick={() => dispatch(setVideoId(currentVideoId))}
           >
-            veja o vídeo
+            Não acredita? Veja o vídeo.
           </a>
         )}
       </time>
