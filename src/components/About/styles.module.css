@@ -1,0 +1,40 @@
+.root {
+  max-width: 50vw;
+  padding: 24px;
+}
+
+.title {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.root a,
+.root a:active,
+.root a:hover,
+.root a:visited,
+.root a:focus {
+  color: #02bdaa;
+  text-decoration: underline;
+}
+
+.root p {
+  line-height: 1.45;
+  margin-bottom: 32px;
+}
+
+.heading {
+  font-weight: 700;
+  margin-top: 64px;
+}
+
+.share > div:last-child {
+  justify-content: flex-start;
+  padding-top: 12px;
+}
+
+@media only screen and (max-width: 767px) {
+  .root {
+    max-width: 100%;
+  }
+}

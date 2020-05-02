@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 
+import About from '../components/About';
 import Graph from '../components/Graph';
 import Header from '../components/Header';
 import Layout from '../components/Layout';
@@ -41,7 +42,7 @@ const IndexPage = () => {
       {videoId && <Video id={videoId} />}
       {open && (
         <Modal closeOnOverlay={false} onClose={() => setOpen(false)}>
-          About
+          <About />
         </Modal>
       )}
     </Layout>

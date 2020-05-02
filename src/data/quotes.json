@@ -99,21 +99,21 @@
     "videoId": "b2V4CuM51kQ"
   },
   {
+    "id": 14,
+    "deaths": 46,
+    "cases": 2197,
+    "date": "2020-03-24",
+    "formattedDate": "24 de março",
+    "text": "No meu caso particular, pelo meu histórico de atleta, caso fosse contaminado pelo vírus, não precisaria me preocupar.",
+    "videoId": "Vl_DYb-XaAE"
+  },
+  {
     "id": 13,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
     "formattedDate": "24 de março",
     "text": "Nada sentiria, ou seria, quando muito, acometido de uma gripezinha ou resfriadinho, como bem disse aquele conhecido médico, daquela conhecida televisão.",
-    "videoId": "Vl_DYb-XaAE"
-  },
-  {
-    "id": 14,
-    "deaths": 46,
-    "cases": 2197,
-    "date": "2020-03-26",
-    "formattedDate": "24 de março",
-    "text": "No meu caso particular, pelo meu histórico de atleta, caso fosse contaminado pelo vírus, não precisaria me preocupar.",
     "videoId": "Vl_DYb-XaAE"
   },
   {
@@ -238,14 +238,6 @@
     "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos."
   },
   {
-    "id": 30,
-    "deaths": 92,
-    "cases": 3417,
-    "date": "2020-03-27",
-    "formattedDate": "27 de março",
-    "text": "Infelizmente algumas mortes terão, paciência, acontece, e vamos tocar o barco."
-  },
-  {
     "id": 31,
     "deaths": 6434,
     "cases": 92630,
@@ -253,5 +245,32 @@
     "formattedDate": "02 de maio",
     "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
     "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
+  },
+  {
+    "id": 32,
+    "deaths": 92,
+    "cases": 3417,
+    "date": "2020-03-27",
+    "formattedDate": "27 de março",
+    "text": "Na questão das mortes na Itália, por exemplo, a maioria das mortes não tem nada a ver com o coronavírus, nada a ver.",
+    "videoId": "Q8DaRmkkkq8"
+  },
+  {
+    "id": 33,
+    "deaths": 92,
+    "cases": 3417,
+    "date": "2020-03-27",
+    "formattedDate": "27 de março",
+    "text": "Outra [medida] é começar a redirecionar para um isolamento vertical, que o horizontal, temos informações, que não foi a melhor medida tomada por alguns países.",
+    "videoId": "Q8DaRmkkkq8"
+  },
+  {
+    "id": 30,
+    "deaths": 92,
+    "cases": 3417,
+    "date": "2020-03-27",
+    "formattedDate": "27 de março",
+    "text": "Alguns vão morrer. Vão morrer, ué, lamento. Lamento. Essa é a vida, é a realidade.",
+    "videoId": "Q8DaRmkkkq8"
   }
 ]
