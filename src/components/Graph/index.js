@@ -7,6 +7,8 @@ import { getDataOptions, getOptions } from './utils';
 
 import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
 
+import removeDuplicates from '../../utils/removeDuplicates';
+
 const Graph = () => {
   const { cases, deaths, labels } = useSelector(state => state.app);
 
@@ -14,10 +16,12 @@ const Graph = () => {
     quotes: { edges }
   } = useStaticQuery(graphql`
     query {
-      quotes: allQuotesJson(sort: { fields: [cases], order: DESC }, limit: 1) {
+      quotes: allQuotesJson(sort: { fields: [cases], order: ASC }) {
         edges {
           node {
             cases
+            date
+            formattedDate
           }
         }
       }
@@ -42,14 +46,23 @@ const Graph = () => {
     ]
   };
 
-  const suggestedMax = edges[0].node.cases;
+  const suggestedMax = edges[edges.length - 1].node.cases;
 
   return (
     <Line
       id="graph"
       key="graph"
       data={data}
-      options={getOptions({ suggestedMax })}
+      options={getOptions({
+        edges: removeDuplicates(
+          edges.map(({ node: { date, formattedDate } }) => ({
+            date,
+            formattedDate
+          })),
+          'date'
+        ),
+        suggestedMax
+      })}
     />
   );
 };

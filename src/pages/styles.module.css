@@ -44,16 +44,11 @@
 }
 
 .quotesContainer {
-  bottom: 100vh; /* hack graph tooltip */
   left: 0;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 2;
-}
-
-.quotesContainer > div {
-  margin: 120px;
 }
 
 .quotesContainer > div:first-child {
@@ -67,14 +62,36 @@
 .graph {
   bottom: 0;
   left: 0;
-  pointer-events: none;
   position: fixed;
   width: 100%;
   z-index: 10;
 }
 
-@media only screen and (max-width: 767px) {
-  .quotesContainer > div {
-    margin: 24px;
-  }
+.time {
+  display: block;
+  font-weight: 700;
+  left: 50%;
+  line-height: 1;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  position: fixed;
+  text-align: center;
+  top: 24px;
+  transform: translateX(-50%);
+  z-index: 15;
+}
+
+.link {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin-top: 8px;
+  opacity: 0.6;
+  text-decoration: underline;
+  transition: opacity 0.3s;
+}
+
+.link:hover {
+  opacity: 1;
 }

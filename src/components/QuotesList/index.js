@@ -1,19 +1,21 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
-import { setVideoId, updateGraphData } from '../../reducers/app';
+import {
+  setVideoId,
+  updateCurrentData,
+  updateGraphData
+} from '../../reducers/app';
 
 import Quote from '../Quote';
 
-function removeDuplicates(myArr, prop) {
-  return myArr.filter((obj, pos, arr) => {
-    return arr.map(mapObj => mapObj[prop]).indexOf(obj[prop]) === pos;
-  });
-}
+import removeDuplicates from '../../utils/removeDuplicates';
 
 const QuotesList = () => {
   const dispatch = useDispatch();
+
+  const { lastLoadedDate } = useSelector(state => state.app);
 
   const {
     quotes: { edges: data }
@@ -35,16 +37,22 @@ const QuotesList = () => {
     }
   `);
 
-  const handleUpdate = date => {
+  const handleUpdate = (date, currentData) => {
+    if (date <= lastLoadedDate) {
+      return dispatch(updateCurrentData(currentData));
+    }
+
     const graphData = removeDuplicates(
       data
         .filter(({ node }) => node.date <= date)
-        .map(({ node: { cases, deaths, formattedDate } }) => ({
+        .map(({ node: { cases, date, deaths, formattedDate, videoId } }) => ({
           cases,
+          date,
           deaths,
-          label: formattedDate
+          formattedDate,
+          videoId
         })),
-      'label'
+      'date'
     );
     dispatch(updateGraphData(graphData));
   };
@@ -57,7 +65,7 @@ const QuotesList = () => {
           formattedDate={formattedDate}
           key={id}
           onClick={() => dispatch(setVideoId(videoId))}
-          onUpdate={() => handleUpdate(date)}
+          onUpdate={() => handleUpdate(date, { date, formattedDate, videoId })}
           text={text}
         />
       ))}

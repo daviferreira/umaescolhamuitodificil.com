@@ -26,6 +26,15 @@ const Video = ({ id }) => {
     };
   }, [dispatch, id]);
 
+  const dimensions = {};
+  if (typeof window !== `undefined` && window.innerWidth < 768) {
+    dimensions.height = '100%';
+    dimensions.width = '100%';
+  } else {
+    dimensions.height = '390';
+    dimensions.width = '640';
+  }
+
   return (
     <div className={styles.modal} onClick={() => dispatch(setVideoId(null))}>
       {id && (
@@ -37,8 +46,7 @@ const Video = ({ id }) => {
         <YouTube
           videoId={id}
           opts={{
-            height: '390',
-            width: '640',
+            ...dimensions,
             playerVars: {
               autoplay: 1
             }

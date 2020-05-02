@@ -1,11 +1,11 @@
 .root {
   display: flex;
   flex-direction: column;
-  height: 50vh;
+  height: 100vh;
   justify-content: center;
-  margin: 25vh auto;
+  margin: 0 auto;
   max-width: 60vw;
-  transform: translateY(-26px);
+  padding: 24px;
   width: 100%;
 }
 
@@ -43,18 +43,12 @@
   text-decoration: none;
 }
 
-.time {
-  display: block;
-  font-weight: 300;
-  margin-bottom: 12px;
-  opacity: 0.8;
-}
-
 @media only screen and (max-width: 767px) {
   .root {
     height: 100vh;
     margin: 0;
     max-width: 100%;
+    padding: 24px;
   }
 
   .root blockquote {

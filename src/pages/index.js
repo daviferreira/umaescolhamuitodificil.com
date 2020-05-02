@@ -1,5 +1,5 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import Graph from '../components/Graph';
 import Layout from '../components/Layout';
@@ -8,14 +8,34 @@ import SEO from '../components/Seo';
 import Totals from '../components/Totals';
 import Video from '../components/Video';
 
+import { setVideoId } from '../reducers/app';
+
 import styles from './styles.module.css';
 
 const IndexPage = () => {
-  const { videoId } = useSelector(state => state.app);
+  const dispatch = useDispatch();
+
+  const {
+    currentDate,
+    currentFormattedDate,
+    currentVideoId,
+    videoId
+  } = useSelector(state => state.app);
 
   return (
     <Layout>
       <SEO title="Home" />
+      <time dateTime={currentDate} className={styles.time}>
+        {currentFormattedDate}
+        {currentVideoId && (
+          <a
+            className={styles.link}
+            onClick={() => dispatch(setVideoId(currentVideoId))}
+          >
+            veja o vídeo
+          </a>
+        )}
+      </time>
       <Totals />
       <div className={styles.background} />
       <div className={styles.quotesContainer}>

@@ -1,2 +1,2 @@
-export const COLOR_CASES = '#ea5568';
-export const COLOR_DEATHS = '#9d43cf';
+export const COLOR_CASES = '#02bdaa';
+export const COLOR_DEATHS = '#ea5568';

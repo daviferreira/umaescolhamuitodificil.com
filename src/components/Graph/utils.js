@@ -1,8 +1,27 @@
+import animateScrollTo from 'animated-scroll-to';
+
+const windowObject = typeof window !== `undefined` ? window : {};
+
 export const getDataOptions = ({ color }) => ({
-  pointRadius: 0
+  fill: false,
+  lineTension: 0.1,
+  backgroundColor: 'rgba(75,192,192,0)',
+  borderCapStyle: 'butt',
+  borderDash: [],
+  borderDashOffset: 0.0,
+  borderJoinStyle: 'miter',
+  pointBorderColor: 'rgba(75,192,192,0)',
+  pointBackgroundColor: color,
+  pointBorderWidth: 1,
+  pointHoverRadius: 5,
+  pointHoverBackgroundColor: color,
+  pointHoverBorderColor: 'rgba(220,220,220,0)',
+  pointHoverBorderWidth: 2,
+  pointRadius: windowObject.innerWidth < 768 ? 0 : 6,
+  pointHitRadius: 24
 });
 
-export const getOptions = ({ suggestedMax }) => ({
+export const getOptions = ({ edges, suggestedMax }) => ({
   scales: {
     xAxes: [
       {
@@ -34,7 +53,7 @@ export const getOptions = ({ suggestedMax }) => ({
   },
   layout: {
     padding:
-      typeof window !== `undefined` && window.innerWidth < 768
+      windowObject.innerWidth < 768
         ? {}
         : {
             left: 24,
@@ -43,18 +62,57 @@ export const getOptions = ({ suggestedMax }) => ({
             bottom: 24
           }
   },
+  hover: {
+    animationDuration: 0
+  },
   tooltips: {
-    backgroundColor: 'rgba(0, 0, 0, 0.9)',
+    backgroundColor: 'rgba(0,0,0,0.8)',
+    bodyAlign: 'left',
     bodyFontColor: '#fff',
-    bodyFontSize: 13,
-    caretSize: 3,
+    bodyFontSize: 16,
+    bodySpacing: 10,
+    borderColor: 'rgba(0,0,0,0)',
+    borderWidth: 0,
+    callbacks: {
+      label(tooltipItem, data) {
+        return ` ${tooltipItem.yLabel
+          .toString()
+          .replace(/\B(?=(\d{3})+(?!\d))/g, '.')} ${
+          tooltipItem.datasetIndex === 0 ? 'casos' : 'óbitos'
+        }`;
+      }
+    },
+    caretPadding: 2,
+    caretSize: 2,
     cornerRadius: 2,
-    displayColors: false,
+    custom: null,
+    displayColors: true,
+    enabled: true,
     fontFamily: `'Open Sans', sans-serif`,
+    intersect: true,
+    mode: 'index',
+    position: 'average',
+    titleAlign: 'left',
     titleFontColor: '#fff',
     titleFontFamily: `'Open Sans', sans-serif`,
     titleFontSize: 13,
+    titleFontStyle: 'bold',
+    titleMarginBottom: 16,
+    titleSpacing: 12,
     xPadding: 16,
     yPadding: 16
+  },
+  onClick(event, elements) {
+    if (!elements || !elements[0]) {
+      return;
+    }
+
+    const quote = edges[elements[0]._index - 1];
+
+    quote &&
+      animateScrollTo(document.querySelector(`[data-date="${quote.date}"]`), {
+        maxDuration: 1000,
+        speed: 300
+      });
   }
 });

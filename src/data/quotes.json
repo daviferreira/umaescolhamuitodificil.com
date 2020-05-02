@@ -35,7 +35,16 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "id": 4,
+    "id": 5,
+    "cases": 200,
+    "deaths": 0,
+    "date": "2020-03-15",
+    "formattedDate": "15 de março",
+    "text": "Depois da facada, não vai ser uma gripezinha que vai me derrubar não, tá ok?",
+    "videoId": "ts2ClqnHKWA"
+  },
+  {
+    "id": 6,
     "cases": 200,
     "deaths": 0,
     "date": "2020-03-15",
@@ -44,7 +53,7 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "id": 6,
+    "id": 7,
     "cases": 291,
     "deaths": 1,
     "date": "2020-03-17",
@@ -53,15 +62,15 @@
     "videoId": "Mv36mZ_b3J0"
   },
   {
-    "id": 7,
+    "id": 8,
     "deaths": 4,
-    "cases": 428,
+    "cases": 420,
     "date": "2020-03-18",
     "formattedDate": "18 de março",
     "text": "Já tivemos problemas mais graves no passado, que não teve essa comoção toda, ou repercussão toda por parte da mídia brasileira."
   },
   {
-    "id": 8,
+    "id": 9,
     "deaths": 11,
     "cases": 902,
     "date": "2020-03-20",
@@ -69,7 +78,7 @@
     "text": "Não vai ser uma gripezinha que vai me derrubar."
   },
   {
-    "id": 9,
+    "id": 10,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -77,7 +86,7 @@
     "text": "O povo saberá que foi enganado por estes governadores e por parte da grande mídia."
   },
   {
-    "id": 10,
+    "id": 11,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -85,7 +94,7 @@
     "text": "O número de pessoas que morreram de H1N1, no ano passado, foi na ordem de 800 pessoas. A previsão é não chegar a essa quantidade de óbitos no tocante ao coronavírus."
   },
   {
-    "id": 11,
+    "id": 12,
     "deaths": 34,
     "cases": 1888,
     "date": "2020-03-23",
@@ -93,7 +102,7 @@
     "text": "Não dá pra fazer mais do que estamos fazendo."
   },
   {
-    "id": 12,
+    "id": 13,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
@@ -101,7 +110,7 @@
     "text": "Não sentiria, ou sentiria, quando muito, uma gripezinha ou resfriadinho."
   },
   {
-    "id": 13,
+    "id": 14,
     "deaths": 77,
     "cases": 2915,
     "date": "2020-03-26",
@@ -109,7 +118,15 @@
     "text": "O brasileiro tem que ser estudado. Ele não pega nada. Você vê o cara pulando em esgoto ali, sai, mergulha, tá certo? E não acontece nada com ele."
   },
   {
-    "id": 14,
+    "id": 15,
+    "deaths": 77,
+    "cases": 2915,
+    "date": "2020-03-26",
+    "formattedDate": "26 de março",
+    "text": "No meu caso particular, pelo meu histórico de atleta, caso fosse contaminado pelo vírus, não precisaria me preocupar."
+  },
+  {
+    "id": 16,
     "deaths": 133,
     "cases": 4256,
     "date": "2020-03-29",
@@ -117,7 +134,7 @@
     "text": "Todo mundo vai morrer um dia."
   },
   {
-    "id": 15,
+    "id": 17,
     "deaths": 159,
     "cases": 4579,
     "date": "2020-03-30",
@@ -125,7 +142,7 @@
     "text": "Vai morrer gente? Vai!"
   },
   {
-    "id": 16,
+    "id": 18,
     "deaths": 241,
     "cases": 6834,
     "date": "2020-04-01",
@@ -133,7 +150,7 @@
     "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado."
   },
   {
-    "id": 17,
+    "id": 19,
     "deaths": 299,
     "cases": 7910,
     "date": "2020-04-02",
@@ -141,7 +158,7 @@
     "text": "Tá com medinho de pegar vírus?"
   },
   {
-    "id": 18,
+    "id": 20,
     "deaths": 359,
     "cases": 9056,
     "date": "2020-04-03",
@@ -149,7 +166,7 @@
     "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter problemas sérios."
   },
   {
-    "id": 19,
+    "id": 21,
     "deaths": 800,
     "cases": 15927,
     "date": "2020-04-08",
@@ -157,7 +174,7 @@
     "text": "Cada vez mais o uso da cloroquina se apresenta como algo eficaz."
   },
   {
-    "id": 20,
+    "id": 22,
     "deaths": 1056,
     "cases": 19638,
     "date": "2020-04-10",
@@ -165,7 +182,7 @@
     "text": "Ninguém vai tolher meu direito de ir e vir."
   },
   {
-    "id": 21,
+    "id": 23,
     "deaths": 1223,
     "cases": 22169,
     "date": "2020-04-12",
@@ -173,7 +190,7 @@
     "text": "40 dias depois, parece que está indo embora a questão do vírus."
   },
   {
-    "id": 21,
+    "id": 24,
     "deaths": 2141,
     "cases": 33682,
     "date": "2020-04-17",
@@ -181,7 +198,7 @@
     "text": "Abrir o comércio é um risco que eu corro: se agravar, vai cair no meu colo."
   },
   {
-    "id": 22,
+    "id": 25,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
@@ -189,7 +206,7 @@
     "text": "Não sou coveiro, tá?"
   },
   {
-    "id": 23,
+    "id": 26,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
@@ -197,7 +214,7 @@
     "text": "Levaram o pavor para o público, histeria. E não é verdade. Estamos vendo que não é verdade. Lamentamos as mortes, e é a vida. Vai morrer."
   },
   {
-    "id": 24,
+    "id": 27,
     "deaths": 5017,
     "cases": 71886,
     "date": "2020-04-28",
@@ -205,7 +222,7 @@
     "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres."
   },
   {
-    "id": 25,
+    "id": 28,
     "deaths": 5466,
     "cases": 78162,
     "date": "2020-04-29",
@@ -213,7 +230,7 @@
     "text": "A minha opinião não vale, o que vale são os decretos de governadores e prefeitos. Não adianta a imprensa colocar na minha conta essas questões, não adianta 'botar' a culpa em mim."
   },
   {
-    "id": 26,
+    "id": 29,
     "deaths": 6329,
     "cases": 91589,
     "date": "2020-05-01",
