@@ -15,7 +15,6 @@
   line-height: 1.33;
   margin: 0 0 12px;
   position: relative;
-  text-shadow: 2px 2px 2px var(--color-black);
 }
 
 .root blockquote::before {

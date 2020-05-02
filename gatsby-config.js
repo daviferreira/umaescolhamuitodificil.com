@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Uma escolha muito difícil`,
+    title: `Uma escolha muito difícil?`,
     description: `Bolsonaro x Haddad NÃO era uma escolha muito difícil.`,
     author: `@davitferreira`
   },

@@ -146,7 +146,7 @@
     "cases": 9056,
     "date": "2020-04-03",
     "formattedDate": "03 de abril",
-    "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter [sic] problemas sérios."
+    "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter problemas sérios."
   },
   {
     "id": 19,
@@ -171,6 +171,14 @@
     "date": "2020-04-12",
     "formattedDate": "12 de abril",
     "text": "40 dias depois, parece que está indo embora a questão do vírus."
+  },
+  {
+    "id": 21,
+    "deaths": 2141,
+    "cases": 33682,
+    "date": "2020-04-17",
+    "formattedDate": "17 de abril",
+    "text": "Abrir o comércio é um risco que eu corro: se agravar, vai cair no meu colo."
   },
   {
     "id": 22,
