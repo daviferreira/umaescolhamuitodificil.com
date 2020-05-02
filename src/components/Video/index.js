@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import YouTube from 'react-youtube';
 import { useDispatch } from 'react-redux';
 
-import { setVideoId } from '../../reducers/app';
+import Modal from '../Modal';
 
-import styles from './styles.module.css';
+import { setVideoId } from '../../reducers/app';
 
 const Video = ({ id }) => {
   const dispatch = useDispatch();
@@ -36,24 +36,17 @@ const Video = ({ id }) => {
   }
 
   return (
-    <div className={styles.modal} onClick={() => dispatch(setVideoId(null))}>
-      {id && (
-        <div className={styles.close}>
-          <span>&times;</span> fechar
-        </div>
-      )}
-      <div className={styles.video}>
-        <YouTube
-          videoId={id}
-          opts={{
-            ...dimensions,
-            playerVars: {
-              autoplay: 1
-            }
-          }}
-        />
-      </div>
-    </div>
+    <Modal onClose={() => dispatch(setVideoId(null))}>
+      <YouTube
+        videoId={id}
+        opts={{
+          ...dimensions,
+          playerVars: {
+            autoplay: 1
+          }
+        }}
+      />
+    </Modal>
   );
 };
 
