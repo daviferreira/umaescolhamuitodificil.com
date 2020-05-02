@@ -1,6 +1,6 @@
 [
   {
-    "order": 1,
+    "order": 100,
     "cases": 25,
     "deaths": 0,
     "date": "2020-03-09",
@@ -9,7 +9,7 @@
     "videoId": "VTCHQkJqv3I"
   },
   {
-    "order": 2,
+    "order": 200,
     "cases": 34,
     "deaths": 0,
     "date": "2020-03-10",
@@ -18,7 +18,7 @@
     "videoId": "Ai742dM_tNA"
   },
   {
-    "order": 3,
+    "order": 300,
     "cases": 52,
     "deaths": 0,
     "date": "2020-03-11",
@@ -27,7 +27,7 @@
     "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/03/11/bolsonaro-nao-sou-medico-pelo-que-ouvi-outras-gripes-mataram-mais.htm"
   },
   {
-    "order": 4,
+    "order": 400,
     "cases": 200,
     "deaths": 0,
     "date": "2020-03-15",
@@ -36,7 +36,7 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "order": 5,
+    "order": 500,
     "cases": 200,
     "deaths": 0,
     "date": "2020-03-15",
@@ -45,7 +45,7 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "order": 6,
+    "order": 600,
     "cases": 291,
     "deaths": 1,
     "date": "2020-03-17",
@@ -54,7 +54,7 @@
     "videoId": "Mv36mZ_b3J0"
   },
   {
-    "order": 7,
+    "order": 700,
     "deaths": 4,
     "cases": 420,
     "date": "2020-03-18",
@@ -63,7 +63,7 @@
     "videoId": "lhltNqinvm4"
   },
   {
-    "order": 8,
+    "order": 800,
     "deaths": 11,
     "cases": 902,
     "date": "2020-03-20",
@@ -72,7 +72,7 @@
     "videoId": "ts2ClqnHKWA"
   },
   {
-    "order": 9,
+    "order": 900,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -81,7 +81,7 @@
     "videoId": "NKUY8ez5yXQ"
   },
   {
-    "order": 10,
+    "order": 1000,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -90,7 +90,7 @@
     "videoId": "NKUY8ez5yXQ"
   },
   {
-    "order": 11,
+    "order": 1100,
     "deaths": 34,
     "cases": 1888,
     "date": "2020-03-23",
@@ -99,7 +99,7 @@
     "videoId": "b2V4CuM51kQ"
   },
   {
-    "order": 12,
+    "order": 1200,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
@@ -108,7 +108,7 @@
     "videoId": "Vl_DYb-XaAE"
   },
   {
-    "order": 13,
+    "order": 1300,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
@@ -117,7 +117,7 @@
     "videoId": "Vl_DYb-XaAE"
   },
   {
-    "order": 14,
+    "order": 1400,
     "deaths": 77,
     "cases": 2915,
     "date": "2020-03-26",
@@ -126,7 +126,7 @@
     "videoId": "Q1MGUvHwkTk"
   },
   {
-    "order": 15,
+    "order": 1500,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
@@ -135,7 +135,7 @@
     "videoId": "Q8DaRmkkkq8"
   },
   {
-    "order": 16,
+    "order": 1600,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
@@ -144,7 +144,7 @@
     "videoId": "Q8DaRmkkkq8"
   },
   {
-    "order": 17,
+    "order": 1700,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
@@ -153,47 +153,52 @@
     "videoId": "Q8DaRmkkkq8"
   },
   {
-    "order": 18,
+    "order": 1800,
     "deaths": 133,
     "cases": 4256,
     "date": "2020-03-29",
     "formattedDate": "29 de março",
-    "text": "Todo mundo vai morrer um dia."
+    "text": "O vírus tá aí. Vamos ter que enfrentá-lo, mas enfrentar como homem, porra. Não como um moleque. Vamos enfrentar o vírus com a realidade. É a vida. Tomos nós iremos morrer um dia.",
+    "url": "https://www.facebook.com/watch/?v=675670036521008"
   },
   {
-    "order": 19,
+    "order": 1900,
     "deaths": 159,
     "cases": 4579,
     "date": "2020-03-30",
     "formattedDate": "30 de março",
-    "text": "Vai morrer gente? Vai!"
+    "text": "Vai morrer gente? Vai!",
+    "videoId": "FxrL2MaBydg"
   },
   {
-    "order": 20,
+    "order": 2000,
     "deaths": 241,
     "cases": 6834,
     "date": "2020-04-01",
     "formattedDate": "01 de abril",
-    "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado."
+    "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado.",
+    "videoId": "I_GRKK5GGu8"
   },
   {
-    "order": 21,
+    "order": 2100,
     "deaths": 299,
     "cases": 7910,
     "date": "2020-04-02",
     "formattedDate": "02 de abril",
-    "text": "Tá com medinho de pegar vírus?"
+    "text": "Tá com medinho de pegar vírus?",
+    "videoId": "G0DA7c4mAq4"
   },
   {
-    "order": 22,
+    "order": 2200,
     "deaths": 359,
     "cases": 9056,
     "date": "2020-04-03",
     "formattedDate": "03 de abril",
-    "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter problemas sérios."
+    "text": "Agora, desses 70%, uma pequena parte, que são os idosos e quem têm problema de saúde, vai ter problemas sérios.",
+    "videoId": "OIn1EjxiObc"
   },
   {
-    "order": 23,
+    "order": 2300,
     "deaths": 800,
     "cases": 15927,
     "date": "2020-04-08",
@@ -201,7 +206,7 @@
     "text": "Cada vez mais o uso da cloroquina se apresenta como algo eficaz."
   },
   {
-    "order": 24,
+    "order": 2400,
     "deaths": 1056,
     "cases": 19638,
     "date": "2020-04-10",
@@ -209,7 +214,7 @@
     "text": "Ninguém vai tolher meu direito de ir e vir."
   },
   {
-    "order": 25,
+    "order": 2500,
     "deaths": 1223,
     "cases": 22169,
     "date": "2020-04-12",
@@ -217,7 +222,7 @@
     "text": "40 dias depois, parece que está indo embora a questão do vírus."
   },
   {
-    "order": 26,
+    "order": 2600,
     "deaths": 2141,
     "cases": 33682,
     "date": "2020-04-17",
@@ -225,15 +230,16 @@
     "text": "Abrir o comércio é um risco que eu corro: se agravar, vai cair no meu colo."
   },
   {
-    "order": 27,
+    "order": 2700,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
     "formattedDate": "20 de abril",
-    "text": "Não sou coveiro, tá?"
+    "text": "Não sou coveiro, tá certo?",
+    "videoId": "IrKpqx74BWY"
   },
   {
-    "order": 28,
+    "order": 2800,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
@@ -241,15 +247,16 @@
     "text": "Levaram o pavor para o público, histeria. E não é verdade. Estamos vendo que não é verdade. Lamentamos as mortes, e é a vida. Vai morrer."
   },
   {
-    "order": 29,
+    "order": 2900,
     "deaths": 5017,
     "cases": 71886,
     "date": "2020-04-28",
     "formattedDate": "28 de abril",
-    "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres."
+    "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres.",
+    "videoId": "KGACSgIToUk"
   },
   {
-    "order": 30,
+    "order": 3000,
     "deaths": 5466,
     "cases": 78162,
     "date": "2020-04-29",
@@ -257,15 +264,16 @@
     "text": "A minha opinião não vale, o que vale são os decretos de governadores e prefeitos. Não adianta a imprensa colocar na minha conta essas questões, não adianta 'botar' a culpa em mim."
   },
   {
-    "order": 31,
+    "order": 3100,
     "deaths": 6329,
     "cases": 91589,
     "date": "2020-05-01",
     "formattedDate": "01 de maio",
-    "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos."
+    "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos.",
+    "videoId": "_1xNTZ2GZoE"
   },
   {
-    "order": 32,
+    "order": 3200,
     "deaths": 6434,
     "cases": 92630,
     "date": "2020-05-02",

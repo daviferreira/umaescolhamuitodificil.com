@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 .background {
-  background-image: url('./bg.png');
-  background-position: -55vw -10px;
+  background-image: url('/images/cemiterio.jpg');
+  background-position: 0 0;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
