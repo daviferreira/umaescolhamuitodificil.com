@@ -1,8 +1,8 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
-import { updateCurrentData, updateGraphData } from '../../reducers/app';
+import { updateGraphData } from '../../reducers/app';
 
 import Quote from '../Quote';
 
@@ -10,8 +10,6 @@ import removeDuplicates from '../../utils/removeDuplicates';
 
 const QuotesList = () => {
   const dispatch = useDispatch();
-
-  const { lastLoadedDate } = useSelector(state => state.app);
 
   const {
     quotes: { edges: data }
@@ -37,15 +35,6 @@ const QuotesList = () => {
   const handleUpdate = (order, currentData) => {
     const nextQuote = data.find(({ node }) => node.order > order);
     const nextQuoteId = nextQuote && nextQuote.node.order;
-
-    if (currentData.date <= lastLoadedDate) {
-      return dispatch(
-        updateCurrentData({
-          ...currentData,
-          nextQuoteId
-        })
-      );
-    }
 
     const graphData = removeDuplicates(
       data

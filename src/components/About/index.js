@@ -45,7 +45,7 @@ const About = () => (
       .
     </p>
     <p>
-      Dados:{' '}
+      Dados do gráfico:{' '}
       <a
         href="https://covid.saude.gov.br/"
         target="_blank"
