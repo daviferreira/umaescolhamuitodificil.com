@@ -69,10 +69,11 @@ export const getOptions = ({ edges, suggestedMax }) => ({
     backgroundColor: 'rgba(0,0,0,0.8)',
     bodyAlign: 'left',
     bodyFontColor: '#fff',
-    bodyFontSize: 16,
+    bodyFontFamily: `'Open Sans', sans-serif`,
+    bodyFontSize: 13,
     bodySpacing: 10,
-    borderColor: 'rgba(0,0,0,0)',
-    borderWidth: 0,
+    borderColor: 'rgba(255, 255, 255, 0.2)',
+    borderWidth: 1,
     callbacks: {
       label(tooltipItem, data) {
         return ` ${tooltipItem.yLabel
@@ -88,12 +89,11 @@ export const getOptions = ({ edges, suggestedMax }) => ({
     custom: null,
     displayColors: true,
     enabled: true,
-    fontFamily: `'Open Sans', sans-serif`,
     intersect: true,
     mode: 'index',
     position: 'average',
     titleAlign: 'left',
-    titleFontColor: '#fff',
+    titleFontColor: 'rgba(255, 255, 255, 0.7)',
     titleFontFamily: `'Open Sans', sans-serif`,
     titleFontSize: 13,
     titleFontStyle: 'bold',

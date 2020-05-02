@@ -1,5 +1,5 @@
 .root {
-  align-items: flex-start;
+  align-items: center;
   display: flex;
   left: 50%;
   max-width: 60vw;
@@ -21,7 +21,6 @@
   flex: 1;
   font-weight: 700;
   line-height: 1;
-  margin-bottom: 12px;
   opacity: 0.8;
   padding: 0 24px;
 }
