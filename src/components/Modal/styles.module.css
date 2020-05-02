@@ -17,7 +17,7 @@
 
 .close {
   align-items: center;
-  animation-delay: 0.5s;
+  animation-delay: 0.2s;
   animation-duration: 0.3s;
   animation-fill-mode: both;
   animation-name: fadeIn;

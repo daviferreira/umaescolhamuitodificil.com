@@ -7,6 +7,7 @@ const initialState = {
   lastLoadedDate: '2020-03-02',
   totalCases: 2,
   totalDeaths: 0,
+  url: null,
   videoId: null
 };
 
@@ -52,20 +53,22 @@ export default (state = initialState, action) => {
         labels: ['2 de março', ...data.map(item => item.formattedDate)],
         lastLoadedDate: currentItem.date,
         totalCases: currentItem.cases,
-        totalDeaths: currentItem.deaths
+        totalDeaths: currentItem.deaths,
+        url: currentItem.url
       };
     }
 
     case UPDATE_CURRENT_DATA: {
       const {
-        data: { date, formattedDate, videoId }
+        data: { date, formattedDate, url, videoId }
       } = action.data;
 
       return {
         ...state,
         currentDate: date,
         currentFormattedDate: formattedDate,
-        currentVideoId: videoId
+        currentVideoId: videoId,
+        url
       };
     }
 

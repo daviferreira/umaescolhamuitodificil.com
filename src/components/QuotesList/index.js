@@ -26,6 +26,7 @@ const QuotesList = () => {
             deaths
             formattedDate
             text
+            url
             videoId
           }
         }
@@ -41,13 +42,16 @@ const QuotesList = () => {
     const graphData = removeDuplicates(
       data
         .filter(({ node }) => node.date <= date)
-        .map(({ node: { cases, date, deaths, formattedDate, videoId } }) => ({
-          cases,
-          date,
-          deaths,
-          formattedDate,
-          videoId
-        })),
+        .map(
+          ({ node: { cases, date, deaths, formattedDate, url, videoId } }) => ({
+            cases,
+            date,
+            deaths,
+            formattedDate,
+            url,
+            videoId
+          })
+        ),
       'date'
     );
     dispatch(updateGraphData(graphData));
@@ -55,12 +59,14 @@ const QuotesList = () => {
 
   return (
     <>
-      {data.map(({ node: { date, formattedDate, id, text, videoId } }) => (
+      {data.map(({ node: { date, formattedDate, id, text, url, videoId } }) => (
         <Quote
           date={date}
           formattedDate={formattedDate}
           key={id}
-          onUpdate={() => handleUpdate(date, { date, formattedDate, videoId })}
+          onUpdate={() =>
+            handleUpdate(date, { date, formattedDate, url, videoId })
+          }
           text={text}
         />
       ))}

@@ -23,7 +23,8 @@
     "deaths": 0,
     "date": "2020-03-11",
     "formattedDate": "11 de março",
-    "text": "Eu não sou médico, eu não sou infectologista. O que eu ouvi até o momento outras gripes mataram mais do que essa."
+    "text": "Eu não sou médico, eu não sou infectologista. O que eu ouvi até o momento outras gripes mataram mais do que essa.",
+    "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/03/11/bolsonaro-nao-sou-medico-pelo-que-ouvi-outras-gripes-mataram-mais.htm"
   },
   {
     "id": 4,
@@ -76,7 +77,7 @@
     "cases": 1546,
     "date": "2020-03-22",
     "formattedDate": "22 de março",
-    "text": "O povo saberá que foi enganado por estes governadores e por parte da grande mídia.",
+    "text": "Brevemente, o povo saberá que foi enganado por estes governadores e por parte da grande mídia nesta questão do coronavírus.",
     "videoId": "NKUY8ez5yXQ"
   },
   {
@@ -94,7 +95,7 @@
     "cases": 1888,
     "date": "2020-03-23",
     "formattedDate": "23 de março",
-    "text": "Não dá pra fazer mais do que estamos fazendo.",
+    "text": "Não dá pra ir além do que estamos fazendo.",
     "videoId": "b2V4CuM51kQ"
   },
   {
@@ -250,6 +251,7 @@
     "cases": 92630,
     "date": "2020-05-02",
     "formattedDate": "02 de maio",
-    "text": "Esse vírus vai pegar mesmo, não tem como fugir."
+    "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
+    "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
   }
 ]

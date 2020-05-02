@@ -10,21 +10,35 @@ import styles from './styles.module.css';
 const Header = () => {
   const dispatch = useDispatch();
 
-  const { currentDate, currentFormattedDate, currentVideoId } = useSelector(
-    state => state.app
-  );
+  const {
+    currentDate,
+    currentFormattedDate,
+    currentVideoId,
+    url
+  } = useSelector(state => state.app);
 
   return (
     <header className={styles.root}>
       <time dateTime={currentDate} className={styles.time}>
         {currentFormattedDate}
-        {currentVideoId && (
+        {currentVideoId ? (
           <a
             className={styles.link}
             onClick={() => dispatch(setVideoId(currentVideoId))}
           >
             Veja o vídeo
           </a>
+        ) : (
+          url && (
+            <a
+              className={styles.link}
+              href={url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Veja a reportagem
+            </a>
+          )
         )}
       </time>
       <ShareBar />
