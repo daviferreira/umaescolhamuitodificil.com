@@ -2,7 +2,7 @@
   font-weight: 700;
   line-height: 1;
   position: fixed;
-  right: 24px;
+  right: 48px;
   top: 24px;
   z-index: 10;
 }
@@ -25,6 +25,7 @@
     align-items: center;
     display: flex;
     left: 0;
+    right: auto;
     top: 0;
     width: 100%;
   }
