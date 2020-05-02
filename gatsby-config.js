@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Uma escolha muito difícil?`,
-    description: `Bolsonaro x Haddad NÃO era uma escolha muito difícil.`,
+    title: `Uma escolha muito difícil`,
+    description: `Gráfico interativo mostrando a relação das frases de Bolsonaro durante a pandemia do novo coronavírus com o número de casos e mortes.`,
     author: `@davitferreira`
   },
   plugins: [
