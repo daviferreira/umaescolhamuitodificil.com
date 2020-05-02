@@ -1,36 +1,35 @@
-import { Link } from 'gatsby';
-import PropTypes from 'prop-types';
 import React from 'react';
+import { useDispatch, useSelector } from 'react-redux';
 
-const Header = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `#2a2e55`,
-      borderBottom: `1px solid rgba(255, 255, 255, 0.1)`,
-      color: `#fafafa`,
-      marginBottom: `1.45rem`,
-      padding: 12
-    }}
-  >
-    <Link
-      to="/"
-      style={{
-        color: `#ccc`,
-        textDecoration: `none`
-      }}
-    >
-      Capa
-    </Link>{' '}
-    / Tópicos
-  </header>
-);
+import { setVideoId } from '../../reducers/app';
 
-Header.propTypes = {
-  siteTitle: PropTypes.string
-};
+import ShareBar from '../ShareBar';
 
-Header.defaultProps = {
-  siteTitle: ``
+import styles from './styles.module.css';
+
+const Header = () => {
+  const dispatch = useDispatch();
+
+  const { currentDate, currentFormattedDate, currentVideoId } = useSelector(
+    state => state.app
+  );
+
+  return (
+    <header className={styles.root}>
+      <time dateTime={currentDate} className={styles.time}>
+        {currentFormattedDate}
+        {currentVideoId && (
+          <a
+            className={styles.link}
+            onClick={() => dispatch(setVideoId(currentVideoId))}
+          >
+            Veja o vídeo
+          </a>
+        )}
+      </time>
+      <ShareBar />
+    </header>
+  );
 };
 
 export default Header;

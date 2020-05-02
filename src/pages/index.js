@@ -1,29 +1,21 @@
 import React, { useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux';
+import { useSelector } from 'react-redux';
 
 import Graph from '../components/Graph';
+import Header from '../components/Header';
 import Layout from '../components/Layout';
 import Modal from '../components/Modal';
 import QuotesList from '../components/QuotesList';
 import SEO from '../components/Seo';
-import ShareBar from '../components/ShareBar';
 import Totals from '../components/Totals';
 import Video from '../components/Video';
-
-import { setVideoId } from '../reducers/app';
 
 import styles from './styles.module.css';
 
 const IndexPage = () => {
-  const dispatch = useDispatch();
   const [open, setOpen] = useState(false);
 
-  const {
-    currentDate,
-    currentFormattedDate,
-    currentVideoId,
-    videoId
-  } = useSelector(state => state.app);
+  const { videoId } = useSelector(state => state.app);
 
   return (
     <Layout>
@@ -35,20 +27,7 @@ const IndexPage = () => {
       >
         ?
       </div>
-      <header className={styles.header}>
-        <time dateTime={currentDate} className={styles.time}>
-          {currentFormattedDate}
-          {currentVideoId && (
-            <a
-              className={styles.link}
-              onClick={() => dispatch(setVideoId(currentVideoId))}
-            >
-              Veja o vídeo
-            </a>
-          )}
-        </time>
-        <ShareBar />
-      </header>
+      <Header />
       <Totals />
       <div className={styles.background} />
       <div className={styles.quotesContainer}>

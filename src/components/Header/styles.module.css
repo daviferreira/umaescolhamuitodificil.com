@@ -1,0 +1,60 @@
+.root {
+  align-items: flex-start;
+  display: flex;
+  left: 50%;
+  max-width: 60vw;
+  position: fixed;
+  top: 24px;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: 15;
+}
+
+.root > div {
+  flex: 1;
+  padding: 0 24px;
+}
+
+.time {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 12px;
+  opacity: 0.8;
+  padding: 0 24px;
+}
+
+.link {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 8px;
+  opacity: 0.6;
+  text-decoration: underline;
+  transition: opacity 0.3s;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 767px) {
+  .root {
+    bottom: 24px;
+    max-width: 100%;
+    top: auto;
+    width: 100%;
+  }
+
+  .time {
+    display: block;
+  }
+
+  .link {
+    margin-left: 0;
+    margin-top: 8px;
+  }
+}
