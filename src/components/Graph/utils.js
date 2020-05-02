@@ -34,7 +34,7 @@ export const getOptions = ({ suggestedMax }) => ({
   },
   layout: {
     padding:
-      window.innerWidth < 768
+      typeof window !== `undefined` && window.innerWidth < 768
         ? {}
         : {
             left: 24,
