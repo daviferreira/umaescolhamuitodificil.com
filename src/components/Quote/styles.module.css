@@ -50,3 +50,21 @@
   margin-bottom: 12px;
   opacity: 0.8;
 }
+
+@media only screen and (max-width: 767px) {
+  .root {
+    height: 100vh;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .root blockquote {
+    font-size: 26px;
+  }
+
+  .root blockquote::before {
+    left: 24px;
+    top: -112px;
+    transform: translateX(-50%);
+  }
+}

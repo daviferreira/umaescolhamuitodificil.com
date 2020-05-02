@@ -33,12 +33,15 @@ export const getOptions = ({ suggestedMax }) => ({
     easing: 'linear'
   },
   layout: {
-    padding: {
-      left: 24,
-      right: 24,
-      top: 24,
-      bottom: 24
-    }
+    padding:
+      window.innerWidth < 768
+        ? {}
+        : {
+            left: 24,
+            right: 24,
+            top: 24,
+            bottom: 24
+          }
   },
   tooltips: {
     backgroundColor: 'rgba(0, 0, 0, 0.9)',

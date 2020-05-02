@@ -1,5 +1,4 @@
 .root {
-  font-size: 13px;
   font-weight: 700;
   line-height: 1;
   position: fixed;
@@ -16,4 +15,31 @@
 
 .count > div:first-child {
   opacity: 0.5;
+}
+
+@media only screen and (max-width: 767px) {
+  .root {
+    align-items: center;
+    display: flex;
+    left: 0;
+    top: 0;
+    width: 100%;
+  }
+
+  .count {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 24px;
+  }
+
+  .count > div:first-child {
+    margin-right: 8px;
+  }
+
+  .count:last-child {
+    justify-content: flex-end;
+  }
 }
