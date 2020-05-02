@@ -10,7 +10,7 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 
-function SEO({ description, lang, meta, title }) {
+function SEO({ description = '', lang = 'pt-BR', meta = [], title }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -81,17 +81,12 @@ function SEO({ description, lang, meta, title }) {
         {
           property: `og:url`,
           content: `https://www.umaescolhamuitodificil.com`
-        }
-      ].concat(meta)}
+        },
+        ...meta
+      ]}
     />
   );
 }
-
-SEO.defaultProps = {
-  lang: `en`,
-  meta: [],
-  description: ``
-};
 
 SEO.propTypes = {
   description: PropTypes.string,

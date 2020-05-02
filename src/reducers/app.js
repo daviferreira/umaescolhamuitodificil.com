@@ -5,6 +5,7 @@ const initialState = {
   deaths: [0],
   labels: ['2 de março'],
   lastLoadedDate: '2020-03-02',
+  nextQuoteId: null,
   totalCases: 2,
   totalDeaths: 0,
   url: null,
@@ -22,10 +23,11 @@ export const updateCurrentData = data => ({
   }
 });
 
-export const updateGraphData = data => ({
+export const updateGraphData = (data, nextQuoteId) => ({
   type: UPDATE_GRAPH_DATA,
   data: {
-    data
+    data,
+    nextQuoteId
   }
 });
 
@@ -39,7 +41,7 @@ export const setVideoId = videoId => ({
 export default (state = initialState, action) => {
   switch (action.type) {
     case UPDATE_GRAPH_DATA: {
-      const { data } = action.data;
+      const { data, nextQuoteId } = action.data;
 
       const currentItem = data[data.length - 1];
 
@@ -52,6 +54,7 @@ export default (state = initialState, action) => {
         deaths: [0, ...data.map(item => item.deaths)],
         labels: ['2 de março', ...data.map(item => item.formattedDate)],
         lastLoadedDate: currentItem.date,
+        nextQuoteId,
         totalCases: currentItem.cases,
         totalDeaths: currentItem.deaths,
         url: currentItem.url
@@ -60,7 +63,7 @@ export default (state = initialState, action) => {
 
     case UPDATE_CURRENT_DATA: {
       const {
-        data: { date, formattedDate, url, videoId }
+        data: { date, formattedDate, nextQuoteId, url, videoId }
       } = action.data;
 
       return {
@@ -68,6 +71,7 @@ export default (state = initialState, action) => {
         currentDate: date,
         currentFormattedDate: formattedDate,
         currentVideoId: videoId,
+        nextQuoteId,
         url
       };
     }

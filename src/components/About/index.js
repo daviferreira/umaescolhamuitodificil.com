@@ -56,7 +56,7 @@ const About = () => (
     </p>
     <div className={styles.share}>
       <div className={styles.heading}>Compartilhe:</div>
-      <ShareBar />
+      <ShareBar animated={false} />
     </div>
   </div>
 );

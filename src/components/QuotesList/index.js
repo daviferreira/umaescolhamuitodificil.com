@@ -17,10 +17,10 @@ const QuotesList = () => {
     quotes: { edges: data }
   } = useStaticQuery(graphql`
     query {
-      quotes: allQuotesJson(sort: { fields: [date], order: [ASC] }) {
+      quotes: allQuotesJson(sort: { fields: [order], order: [ASC] }) {
         edges {
           node {
-            id
+            order
             cases
             date
             deaths
@@ -34,14 +34,22 @@ const QuotesList = () => {
     }
   `);
 
-  const handleUpdate = (date, currentData) => {
-    if (date <= lastLoadedDate) {
-      return dispatch(updateCurrentData(currentData));
+  const handleUpdate = (order, currentData) => {
+    const nextQuote = data.find(({ node }) => node.order > order);
+    const nextQuoteId = nextQuote && nextQuote.node.order;
+
+    if (currentData.date <= lastLoadedDate) {
+      return dispatch(
+        updateCurrentData({
+          ...currentData,
+          nextQuoteId
+        })
+      );
     }
 
     const graphData = removeDuplicates(
       data
-        .filter(({ node }) => node.date <= date)
+        .filter(({ node }) => node.order <= order)
         .map(
           ({ node: { cases, date, deaths, formattedDate, url, videoId } }) => ({
             cases,
@@ -54,22 +62,25 @@ const QuotesList = () => {
         ),
       'date'
     );
-    dispatch(updateGraphData(graphData));
+    dispatch(updateGraphData(graphData, nextQuoteId));
   };
 
   return (
     <>
-      {data.map(({ node: { date, formattedDate, id, text, url, videoId } }) => (
-        <Quote
-          date={date}
-          formattedDate={formattedDate}
-          key={id}
-          onUpdate={() =>
-            handleUpdate(date, { date, formattedDate, url, videoId })
-          }
-          text={text}
-        />
-      ))}
+      {data.map(
+        ({ node: { date, formattedDate, order, text, url, videoId } }) => (
+          <Quote
+            id={order}
+            date={date}
+            formattedDate={formattedDate}
+            key={order}
+            onUpdate={() =>
+              handleUpdate(order, { date, formattedDate, url, videoId })
+            }
+            text={text}
+          />
+        )
+      )}
     </>
   );
 };

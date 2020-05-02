@@ -1,0 +1,39 @@
+.root {
+  align-items: center;
+  animation-delay: 0.3s;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-name: slideInUp;
+  border: 1px solid #fff;
+  border-radius: 100%;
+  cursor: pointer;
+  display: flex;
+  height: 48px;
+  justify-content: center;
+  transition: background-color 0.2s;
+  width: 48px;
+}
+
+.root:hover {
+  background-color: #fff;
+}
+
+.root use {
+  transition: fill 0.2s;
+}
+
+.root:hover use {
+  fill: #000;
+}
+
+@keyframes slideInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}

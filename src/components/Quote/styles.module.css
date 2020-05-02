@@ -6,6 +6,7 @@
   margin: 0 auto;
   max-width: 60vw;
   padding: 24px;
+  position: relative;
   width: 100%;
 }
 
@@ -45,5 +46,9 @@
     left: 24px;
     top: -112px;
     transform: translateX(-50%);
+  }
+
+  .next {
+    display: none;
   }
 }

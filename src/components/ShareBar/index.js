@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import React from 'react';
 import PropTypes from 'prop-types';
 
@@ -7,8 +8,16 @@ import WhatsappIcon from './whatsapp.svg';
 
 import styles from './styles.module.css';
 
-const ShareBar = ({ text, url }) => (
-  <div className={styles.root}>
+const ShareBar = ({
+  animated = true,
+  text = 'Uma escolha muito difícil - Bolsonaro e a pandemia',
+  url = 'https://www.umaescolhamuitodificil.com'
+}) => (
+  <div
+    className={classnames(styles.root, {
+      [styles.animated]: animated
+    })}
+  >
     <a
       className={styles.button}
       href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
@@ -39,13 +48,9 @@ const ShareBar = ({ text, url }) => (
 );
 
 ShareBar.propTypes = {
+  animated: PropTypes.bool,
   text: PropTypes.string,
   url: PropTypes.string
-};
-
-ShareBar.defaultProps = {
-  text: 'Uma escolha muito difícil - Bolsonaro e a pandemia',
-  url: 'https://www.umaescolhamuitodificil.com'
 };
 
 export default ShareBar;

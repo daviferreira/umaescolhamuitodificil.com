@@ -1,6 +1,6 @@
 [
   {
-    "id": 1,
+    "order": 1,
     "cases": 25,
     "deaths": 0,
     "date": "2020-03-09",
@@ -9,7 +9,7 @@
     "videoId": "VTCHQkJqv3I"
   },
   {
-    "id": 2,
+    "order": 2,
     "cases": 34,
     "deaths": 0,
     "date": "2020-03-10",
@@ -18,7 +18,7 @@
     "videoId": "Ai742dM_tNA"
   },
   {
-    "id": 3,
+    "order": 3,
     "cases": 52,
     "deaths": 0,
     "date": "2020-03-11",
@@ -27,7 +27,7 @@
     "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/03/11/bolsonaro-nao-sou-medico-pelo-que-ouvi-outras-gripes-mataram-mais.htm"
   },
   {
-    "id": 4,
+    "order": 4,
     "cases": 200,
     "deaths": 0,
     "date": "2020-03-15",
@@ -36,7 +36,7 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "id": 6,
+    "order": 5,
     "cases": 200,
     "deaths": 0,
     "date": "2020-03-15",
@@ -45,7 +45,7 @@
     "videoId": "DYJV4G5Oz1c"
   },
   {
-    "id": 7,
+    "order": 6,
     "cases": 291,
     "deaths": 1,
     "date": "2020-03-17",
@@ -54,7 +54,7 @@
     "videoId": "Mv36mZ_b3J0"
   },
   {
-    "id": 8,
+    "order": 7,
     "deaths": 4,
     "cases": 420,
     "date": "2020-03-18",
@@ -63,7 +63,7 @@
     "videoId": "lhltNqinvm4"
   },
   {
-    "id": 9,
+    "order": 8,
     "deaths": 11,
     "cases": 902,
     "date": "2020-03-20",
@@ -72,7 +72,7 @@
     "videoId": "ts2ClqnHKWA"
   },
   {
-    "id": 10,
+    "order": 9,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -81,7 +81,7 @@
     "videoId": "NKUY8ez5yXQ"
   },
   {
-    "id": 11,
+    "order": 10,
     "deaths": 25,
     "cases": 1546,
     "date": "2020-03-22",
@@ -90,7 +90,7 @@
     "videoId": "NKUY8ez5yXQ"
   },
   {
-    "id": 12,
+    "order": 11,
     "deaths": 34,
     "cases": 1888,
     "date": "2020-03-23",
@@ -99,7 +99,7 @@
     "videoId": "b2V4CuM51kQ"
   },
   {
-    "id": 14,
+    "order": 12,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
@@ -108,7 +108,7 @@
     "videoId": "Vl_DYb-XaAE"
   },
   {
-    "id": 13,
+    "order": 13,
     "deaths": 46,
     "cases": 2197,
     "date": "2020-03-24",
@@ -117,7 +117,7 @@
     "videoId": "Vl_DYb-XaAE"
   },
   {
-    "id": 15,
+    "order": 14,
     "deaths": 77,
     "cases": 2915,
     "date": "2020-03-26",
@@ -126,128 +126,7 @@
     "videoId": "Q1MGUvHwkTk"
   },
   {
-    "id": 16,
-    "deaths": 133,
-    "cases": 4256,
-    "date": "2020-03-29",
-    "formattedDate": "29 de março",
-    "text": "Todo mundo vai morrer um dia."
-  },
-  {
-    "id": 17,
-    "deaths": 159,
-    "cases": 4579,
-    "date": "2020-03-30",
-    "formattedDate": "30 de março",
-    "text": "Vai morrer gente? Vai!"
-  },
-  {
-    "id": 18,
-    "deaths": 241,
-    "cases": 6834,
-    "date": "2020-04-01",
-    "formattedDate": "01 de abril",
-    "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado."
-  },
-  {
-    "id": 19,
-    "deaths": 299,
-    "cases": 7910,
-    "date": "2020-04-02",
-    "formattedDate": "02 de abril",
-    "text": "Tá com medinho de pegar vírus?"
-  },
-  {
-    "id": 20,
-    "deaths": 359,
-    "cases": 9056,
-    "date": "2020-04-03",
-    "formattedDate": "03 de abril",
-    "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter problemas sérios."
-  },
-  {
-    "id": 21,
-    "deaths": 800,
-    "cases": 15927,
-    "date": "2020-04-08",
-    "formattedDate": "08 de abril",
-    "text": "Cada vez mais o uso da cloroquina se apresenta como algo eficaz."
-  },
-  {
-    "id": 22,
-    "deaths": 1056,
-    "cases": 19638,
-    "date": "2020-04-10",
-    "formattedDate": "10 de abril",
-    "text": "Ninguém vai tolher meu direito de ir e vir."
-  },
-  {
-    "id": 23,
-    "deaths": 1223,
-    "cases": 22169,
-    "date": "2020-04-12",
-    "formattedDate": "12 de abril",
-    "text": "40 dias depois, parece que está indo embora a questão do vírus."
-  },
-  {
-    "id": 24,
-    "deaths": 2141,
-    "cases": 33682,
-    "date": "2020-04-17",
-    "formattedDate": "17 de abril",
-    "text": "Abrir o comércio é um risco que eu corro: se agravar, vai cair no meu colo."
-  },
-  {
-    "id": 25,
-    "deaths": 2575,
-    "cases": 40581,
-    "date": "2020-04-20",
-    "formattedDate": "20 de abril",
-    "text": "Não sou coveiro, tá?"
-  },
-  {
-    "id": 26,
-    "deaths": 2575,
-    "cases": 40581,
-    "date": "2020-04-20",
-    "formattedDate": "20 de abril",
-    "text": "Levaram o pavor para o público, histeria. E não é verdade. Estamos vendo que não é verdade. Lamentamos as mortes, e é a vida. Vai morrer."
-  },
-  {
-    "id": 27,
-    "deaths": 5017,
-    "cases": 71886,
-    "date": "2020-04-28",
-    "formattedDate": "28 de abril",
-    "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres."
-  },
-  {
-    "id": 28,
-    "deaths": 5466,
-    "cases": 78162,
-    "date": "2020-04-29",
-    "formattedDate": "29 de abril",
-    "text": "A minha opinião não vale, o que vale são os decretos de governadores e prefeitos. Não adianta a imprensa colocar na minha conta essas questões, não adianta 'botar' a culpa em mim."
-  },
-  {
-    "id": 29,
-    "deaths": 6329,
-    "cases": 91589,
-    "date": "2020-05-01",
-    "formattedDate": "01 de maio",
-    "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos."
-  },
-  {
-    "id": 31,
-    "deaths": 6434,
-    "cases": 92630,
-    "date": "2020-05-02",
-    "formattedDate": "02 de maio",
-    "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
-    "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
-  },
-  {
-    "id": 32,
+    "order": 15,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
@@ -256,7 +135,7 @@
     "videoId": "Q8DaRmkkkq8"
   },
   {
-    "id": 33,
+    "order": 16,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
@@ -265,12 +144,133 @@
     "videoId": "Q8DaRmkkkq8"
   },
   {
-    "id": 30,
+    "order": 17,
     "deaths": 92,
     "cases": 3417,
     "date": "2020-03-27",
     "formattedDate": "27 de março",
     "text": "Alguns vão morrer. Vão morrer, ué, lamento. Lamento. Essa é a vida, é a realidade.",
     "videoId": "Q8DaRmkkkq8"
+  },
+  {
+    "order": 18,
+    "deaths": 133,
+    "cases": 4256,
+    "date": "2020-03-29",
+    "formattedDate": "29 de março",
+    "text": "Todo mundo vai morrer um dia."
+  },
+  {
+    "order": 19,
+    "deaths": 159,
+    "cases": 4579,
+    "date": "2020-03-30",
+    "formattedDate": "30 de março",
+    "text": "Vai morrer gente? Vai!"
+  },
+  {
+    "order": 20,
+    "deaths": 241,
+    "cases": 6834,
+    "date": "2020-04-01",
+    "formattedDate": "01 de abril",
+    "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado."
+  },
+  {
+    "order": 21,
+    "deaths": 299,
+    "cases": 7910,
+    "date": "2020-04-02",
+    "formattedDate": "02 de abril",
+    "text": "Tá com medinho de pegar vírus?"
+  },
+  {
+    "order": 22,
+    "deaths": 359,
+    "cases": 9056,
+    "date": "2020-04-03",
+    "formattedDate": "03 de abril",
+    "text": "Agora, desses 70%, uma pequena parte, que são os idosos  e que têm planos de saúde, vai ter problemas sérios."
+  },
+  {
+    "order": 23,
+    "deaths": 800,
+    "cases": 15927,
+    "date": "2020-04-08",
+    "formattedDate": "08 de abril",
+    "text": "Cada vez mais o uso da cloroquina se apresenta como algo eficaz."
+  },
+  {
+    "order": 24,
+    "deaths": 1056,
+    "cases": 19638,
+    "date": "2020-04-10",
+    "formattedDate": "10 de abril",
+    "text": "Ninguém vai tolher meu direito de ir e vir."
+  },
+  {
+    "order": 25,
+    "deaths": 1223,
+    "cases": 22169,
+    "date": "2020-04-12",
+    "formattedDate": "12 de abril",
+    "text": "40 dias depois, parece que está indo embora a questão do vírus."
+  },
+  {
+    "order": 26,
+    "deaths": 2141,
+    "cases": 33682,
+    "date": "2020-04-17",
+    "formattedDate": "17 de abril",
+    "text": "Abrir o comércio é um risco que eu corro: se agravar, vai cair no meu colo."
+  },
+  {
+    "order": 27,
+    "deaths": 2575,
+    "cases": 40581,
+    "date": "2020-04-20",
+    "formattedDate": "20 de abril",
+    "text": "Não sou coveiro, tá?"
+  },
+  {
+    "order": 28,
+    "deaths": 2575,
+    "cases": 40581,
+    "date": "2020-04-20",
+    "formattedDate": "20 de abril",
+    "text": "Levaram o pavor para o público, histeria. E não é verdade. Estamos vendo que não é verdade. Lamentamos as mortes, e é a vida. Vai morrer."
+  },
+  {
+    "order": 29,
+    "deaths": 5017,
+    "cases": 71886,
+    "date": "2020-04-28",
+    "formattedDate": "28 de abril",
+    "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres."
+  },
+  {
+    "order": 30,
+    "deaths": 5466,
+    "cases": 78162,
+    "date": "2020-04-29",
+    "formattedDate": "29 de abril",
+    "text": "A minha opinião não vale, o que vale são os decretos de governadores e prefeitos. Não adianta a imprensa colocar na minha conta essas questões, não adianta 'botar' a culpa em mim."
+  },
+  {
+    "order": 31,
+    "deaths": 6329,
+    "cases": 91589,
+    "date": "2020-05-01",
+    "formattedDate": "01 de maio",
+    "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos."
+  },
+  {
+    "order": 32,
+    "deaths": 6434,
+    "cases": 92630,
+    "date": "2020-05-02",
+    "formattedDate": "02 de maio",
+    "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
+    "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
   }
 ]

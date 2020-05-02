@@ -6,10 +6,6 @@
 
 .button {
   align-items: center;
-  animation-delay: 0.3s;
-  animation-duration: 0.4s;
-  animation-fill-mode: both;
-  animation-name: slideInDown;
   border: 1px solid #fff;
   border-radius: 100%;
   display: flex;
@@ -19,6 +15,13 @@
   margin-right: 8px;
   transition: background-color 0.3s ease;
   width: 32px;
+}
+
+.animated .button {
+  animation-delay: 0.3s;
+  animation-duration: 0.4s;
+  animation-fill-mode: both;
+  animation-name: slideInDown;
 }
 
 .button:last-child {
@@ -76,6 +79,6 @@
   }
 
   .button {
-    animation: none;
+    animation: none !important;
   }
 }

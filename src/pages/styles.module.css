@@ -88,6 +88,13 @@
   z-index: 15;
 }
 
+.next {
+  bottom: 96px;
+  left: 50%;
+  position: fixed;
+  z-index: 15;
+}
+
 .about:hover {
   opacity: 1;
 }
@@ -107,7 +114,14 @@
 }
 
 @media only screen and (max-width: 767px) {
-  .about {
+  .about,
+  .next {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 600px) {
+  .next {
     display: none;
   }
 }
