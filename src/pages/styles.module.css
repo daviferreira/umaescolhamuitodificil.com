@@ -68,20 +68,35 @@
 }
 
 .about,
-.time {
+.header {
   position: fixed;
   z-index: 15;
 }
 
-.time {
-  font-weight: 700;
+.header {
+  align-items: flex-start;
+  display: flex;
   left: 50%;
+  max-width: 60vw;
+  top: 24px;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.header > div {
+  flex: 1;
+  padding: 0 24px;
+}
+
+.time {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-weight: 700;
   line-height: 1;
   margin-bottom: 12px;
   opacity: 0.8;
-  text-align: center;
-  top: 24px;
-  transform: translateX(-50%);
+  padding: 0 24px;
 }
 
 .about {
@@ -112,7 +127,7 @@
   display: block;
   font-size: 14px;
   font-weight: 300;
-  margin-top: 8px;
+  margin-left: 8px;
   opacity: 0.6;
   text-decoration: underline;
   transition: opacity 0.3s;
@@ -127,9 +142,19 @@
     display: none;
   }
 
-  .time {
+  .header {
     bottom: 24px;
+    max-width: 100%;
     top: auto;
     width: 100%;
+  }
+
+  .time {
+    display: block;
+  }
+
+  .link {
+    margin-left: 0;
+    margin-top: 8px;
   }
 }

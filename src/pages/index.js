@@ -6,6 +6,7 @@ import Layout from '../components/Layout';
 import Modal from '../components/Modal';
 import QuotesList from '../components/QuotesList';
 import SEO from '../components/Seo';
+import ShareBar from '../components/ShareBar';
 import Totals from '../components/Totals';
 import Video from '../components/Video';
 
@@ -34,17 +35,20 @@ const IndexPage = () => {
       >
         ?
       </div>
-      <time dateTime={currentDate} className={styles.time}>
-        {currentFormattedDate}
-        {currentVideoId && (
-          <a
-            className={styles.link}
-            onClick={() => dispatch(setVideoId(currentVideoId))}
-          >
-            Veja o vídeo.
-          </a>
-        )}
-      </time>
+      <header className={styles.header}>
+        <time dateTime={currentDate} className={styles.time}>
+          {currentFormattedDate}
+          {currentVideoId && (
+            <a
+              className={styles.link}
+              onClick={() => dispatch(setVideoId(currentVideoId))}
+            >
+              Veja o vídeo
+            </a>
+          )}
+        </time>
+        <ShareBar />
+      </header>
       <Totals />
       <div className={styles.background} />
       <div className={styles.quotesContainer}>

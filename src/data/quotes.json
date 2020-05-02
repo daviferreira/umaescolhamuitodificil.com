@@ -243,5 +243,13 @@
     "date": "2020-03-27",
     "formattedDate": "27 de março",
     "text": "Infelizmente algumas mortes terão, paciência, acontece, e vamos tocar o barco."
+  },
+  {
+    "id": 31,
+    "deaths": 6434,
+    "cases": 92630,
+    "date": "2020-05-02",
+    "formattedDate": "02 de maio",
+    "text": "Esse vírus vai pegar mesmo, não tem como fugir."
   }
 ]
