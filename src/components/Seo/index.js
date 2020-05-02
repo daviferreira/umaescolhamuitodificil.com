@@ -65,6 +65,22 @@ function SEO({ description, lang, meta, title }) {
         {
           name: `twitter:description`,
           content: metaDescription
+        },
+        {
+          property: `og:image`,
+          content: `https://www.umaescolhamuitodificil.com/images/cemiterio.jpg`
+        },
+        {
+          property: `og:image:width`,
+          content: 1200
+        },
+        {
+          property: `og:image:height`,
+          content: 675
+        },
+        {
+          property: `og:url`,
+          content: `https://www.umaescolhamuitodificil.com`
         }
       ].concat(meta)}
     />

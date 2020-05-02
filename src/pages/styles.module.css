@@ -92,6 +92,20 @@
   opacity: 1;
 }
 
+.notFound {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+  justify-content: center;
+  width: 100%;
+}
+
+.notFound a {
+  color: #fff;
+  font-weight: 700;
+}
+
 @media only screen and (max-width: 767px) {
   .about {
     display: none;
