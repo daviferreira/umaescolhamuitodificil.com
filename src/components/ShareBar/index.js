@@ -10,7 +10,7 @@ import styles from './styles.module.css';
 
 const ShareBar = ({
   animated = true,
-  text = 'Uma escolha muito difícil - Bolsonaro e a pandemia',
+  text = 'Uma escolha muito difícil?',
   url = 'https://www.umaescolhamuitodificil.com'
 }) => (
   <div

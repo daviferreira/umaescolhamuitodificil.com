@@ -11,11 +11,15 @@
 
 .root a,
 .root a:active,
-.root a:hover,
 .root a:visited,
 .root a:focus {
   color: #02bdaa;
   text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.root a:hover {
+  color: #ea5568;
 }
 
 .root p {
