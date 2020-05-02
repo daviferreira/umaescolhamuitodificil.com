@@ -1,6 +1,5 @@
 const initialState = {
   cases: [2],
-  currentDate: '2 de março',
   deaths: [0],
   labels: ['2 de março'],
   totalCases: 2,
@@ -35,7 +34,6 @@ export default (state = initialState, action) => {
       return {
         ...state,
         cases: [2, ...data.map(item => item.cases)],
-        currentDate: currentItem.label,
         deaths: [0, ...data.map(item => item.deaths)],
         labels: ['2 de março', ...data.map(item => item.label)],
         totalCases: currentItem.cases,

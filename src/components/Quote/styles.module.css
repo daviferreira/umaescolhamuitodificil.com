@@ -5,6 +5,7 @@
   justify-content: center;
   margin: 25vh auto;
   max-width: 60vw;
+  transform: translateY(-26px);
   width: 100%;
 }
 
@@ -41,4 +42,11 @@
 .link:focus {
   color: var(--color-white);
   text-decoration: none;
+}
+
+.time {
+  display: block;
+  font-weight: 300;
+  margin-bottom: 12px;
+  opacity: 0.8;
 }

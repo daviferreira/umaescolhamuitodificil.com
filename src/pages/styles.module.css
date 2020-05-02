@@ -72,13 +72,3 @@
   width: 100%;
   z-index: 10;
 }
-
-.time {
-  display: block;
-  font-weight: 300;
-  left: 24px;
-  opacity: 0.6;
-  position: fixed;
-  top: 24px;
-  z-index: 10;
-}

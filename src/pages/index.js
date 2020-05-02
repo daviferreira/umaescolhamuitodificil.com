@@ -11,16 +11,11 @@ import Video from '../components/Video';
 import styles from './styles.module.css';
 
 const IndexPage = () => {
-  const { currentDate, videoId } = useSelector(state => state.app);
+  const { videoId } = useSelector(state => state.app);
 
   return (
     <Layout>
       <SEO title="Home" />
-      {currentDate && (
-        <time className={styles.time} key={currentDate}>
-          {currentDate}
-        </time>
-      )}
       <Totals />
       <div className={styles.background} />
       <div className={styles.quotesContainer}>

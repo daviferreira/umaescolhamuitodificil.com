@@ -51,8 +51,10 @@ const QuotesList = () => {
 
   return (
     <>
-      {data.map(({ node: { date, id, text, videoId } }) => (
+      {data.map(({ node: { date, formattedDate, id, text, videoId } }) => (
         <Quote
+          date={date}
+          formattedDate={formattedDate}
           key={id}
           onClick={() => dispatch(setVideoId(videoId))}
           onUpdate={() => handleUpdate(date)}
