@@ -6,16 +6,21 @@ import Layout from '../components/Layout';
 import QuotesList from '../components/QuotesList';
 import SEO from '../components/Seo';
 import Totals from '../components/Totals';
+import Video from '../components/Video';
 
 import styles from './styles.module.css';
 
 const IndexPage = () => {
-  const { currentDate } = useSelector(state => state.app);
+  const { currentDate, videoId } = useSelector(state => state.app);
 
   return (
     <Layout>
       <SEO title="Home" />
-      {currentDate && <time className={styles.time}>{currentDate}</time>}
+      {currentDate && (
+        <time className={styles.time} key={currentDate}>
+          {currentDate}
+        </time>
+      )}
       <Totals />
       <div className={styles.background} />
       <div className={styles.quotesContainer}>
@@ -26,6 +31,7 @@ const IndexPage = () => {
         <Graph />
       </div>
       <div className={styles.gradientBottom} />
+      {videoId && <Video id={videoId} />}
     </Layout>
   );
 };

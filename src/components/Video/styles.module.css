@@ -1,0 +1,59 @@
+.modal {
+  align-items: center;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: slideInUp;
+  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  left: 0;
+  outline: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+}
+
+.close {
+  align-items: center;
+  animation-delay: 1s;
+  animation-duration: 0.3s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+  cursor: pointer;
+  display: flex;
+  position: fixed;
+  right: 48px;
+  top: 48px;
+  z-index: 2000;
+}
+
+.close span {
+  display: block;
+  font-size: 24px;
+  font-weight: 300;
+  margin-right: 8px;
+}
+
+@keyframes slideInUp {
+  from {
+    transform: translate3d(0, 100%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

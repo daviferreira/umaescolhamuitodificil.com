@@ -5,8 +5,7 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { getDataOptions, getOptions } from './utils';
 
-const COLOR_CASES = 'rgba(75,192,192,1)';
-const COLOR_DEATHS = 'red';
+import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
 
 const Graph = () => {
   const { cases, deaths, labels } = useSelector(state => state.app);

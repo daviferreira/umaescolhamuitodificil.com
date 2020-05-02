@@ -4,8 +4,8 @@ import { InView } from 'react-intersection-observer';
 
 import styles from './styles.module.css';
 
-const Quote = ({ onUpdate, text }) => {
-  const handleVisibilityChange = (inView, entry) => {
+const Quote = ({ onClick, onUpdate, text }) => {
+  const handleVisibilityChange = inView => {
     if (inView) {
       onUpdate();
     }
@@ -14,7 +14,7 @@ const Quote = ({ onUpdate, text }) => {
   return (
     <InView as="div" onChange={handleVisibilityChange} threshold={0.5}>
       <div className={styles.root}>
-        <a href="#" className={styles.link}>
+        <a className={styles.link} onClick={onClick}>
           <blockquote>{text}</blockquote>
         </a>
       </div>
@@ -23,6 +23,7 @@ const Quote = ({ onUpdate, text }) => {
 };
 
 Quote.propTypes = {
+  onClick: PropTypes.func,
   onUpdate: PropTypes.func,
   text: PropTypes.string
 };

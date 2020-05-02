@@ -2,12 +2,12 @@
 
 .background {
   background-image: url('./bg.png');
-  background-position: -50vw -10px;
+  background-position: -55vw -10px;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100%;
   left: 0;
-  opacity: 0.4;
+  opacity: 0.3;
   position: fixed;
   top: 0;
   width: 100%;
@@ -16,8 +16,11 @@
 
 .gradient,
 .gradientBottom {
-  height: 180px;
+  height: 40vh;
+  left: 0;
+  pointer-events: none;
   position: fixed;
+  touch-action: none;
   width: 100%;
   z-index: 5;
 }
@@ -38,10 +41,10 @@
     rgba(0, 0, 0, 0) 50%
   );
   bottom: 0;
-  z-index: 2;
 }
 
 .quotesContainer {
+  bottom: 100vh; /* hack graph tooltip */
   left: 0;
   position: absolute;
   top: 0;
@@ -49,9 +52,22 @@
   z-index: 2;
 }
 
+.quotesContainer > div {
+  margin: 120px;
+}
+
+.quotesContainer > div:first-child {
+  margin-top: 0;
+}
+
+.quotesContainer > div:last-child {
+  margin-bottom: 0;
+}
+
 .graph {
   bottom: 0;
   left: 0;
+  pointer-events: none;
   position: fixed;
   width: 100%;
   z-index: 10;
@@ -59,9 +75,10 @@
 
 .time {
   display: block;
-  opacity: 1;
+  font-weight: 300;
+  left: 24px;
+  opacity: 0.6;
   position: fixed;
-  right: 24px;
   top: 24px;
   z-index: 10;
 }

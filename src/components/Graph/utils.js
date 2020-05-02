@@ -1,20 +1,5 @@
 export const getDataOptions = ({ color }) => ({
-  fill: false,
-  lineTension: 0.1,
-  backgroundColor: 'rgba(75,192,192,0)',
-  borderCapStyle: 'butt',
-  borderDash: [],
-  borderDashOffset: 0.0,
-  borderJoinStyle: 'miter',
-  pointBorderColor: 'rgba(75,192,192,0)',
-  pointBackgroundColor: color,
-  pointBorderWidth: 1,
-  pointHoverRadius: 5,
-  pointHoverBackgroundColor: color,
-  pointHoverBorderColor: 'rgba(220,220,220,0)',
-  pointHoverBorderWidth: 2,
-  pointRadius: 6,
-  pointHitRadius: 10
+  pointRadius: 0
 });
 
 export const getOptions = ({ suggestedMax }) => ({
@@ -45,7 +30,7 @@ export const getOptions = ({ suggestedMax }) => ({
   },
   animation: {
     duration: 300,
-    easing: 'easeInQuad'
+    easing: 'linear'
   },
   layout: {
     padding: {
@@ -54,5 +39,19 @@ export const getOptions = ({ suggestedMax }) => ({
       top: 24,
       bottom: 24
     }
+  },
+  tooltips: {
+    backgroundColor: 'rgba(0, 0, 0, 0.9)',
+    bodyFontColor: '#fff',
+    bodyFontSize: 13,
+    caretSize: 3,
+    cornerRadius: 2,
+    displayColors: false,
+    fontFamily: `'Open Sans', sans-serif`,
+    titleFontColor: '#fff',
+    titleFontFamily: `'Open Sans', sans-serif`,
+    titleFontSize: 13,
+    xPadding: 16,
+    yPadding: 16
   }
 });

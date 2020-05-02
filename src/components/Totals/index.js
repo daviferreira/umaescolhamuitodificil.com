@@ -4,6 +4,8 @@ import CountUp from 'react-countup';
 
 import usePrevious from '../../hooks/usePrevious';
 
+import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
+
 import styles from './styles.module.css';
 
 const Totals = () => {
@@ -17,17 +19,19 @@ const Totals = () => {
       <div className={styles.count}>
         <div>Casos</div>
         <CountUp
+          separator="."
           start={previousTotalCases}
           end={totalCases}
-          style={{ color: 'rgba(75, 192, 192, 1)' }}
+          style={{ color: COLOR_CASES }}
         />
       </div>
       <div className={styles.count}>
         <div>Óbitos</div>
         <CountUp
+          separator="."
           start={previousTotalDeaths}
           end={totalDeaths}
-          style={{ color: 'red' }}
+          style={{ color: COLOR_DEATHS }}
         />
       </div>
     </div>

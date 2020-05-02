@@ -1,25 +1,19 @@
 .root {
   font-size: 13px;
-  left: 24px;
+  font-weight: 700;
   line-height: 1;
   position: fixed;
+  right: 24px;
   top: 24px;
   z-index: 10;
 }
 
 .count {
-  align-items: center;
-  display: flex;
   font-size: 24px;
-  line-height: 1;
+  line-height: 32px;
+  margin-bottom: 24px;
 }
 
 .count > div:first-child {
-  flex: 0 0 120px;
   opacity: 0.5;
-  text-align: right;
-}
-
-.count > div {
-  padding: 12px 12px 12px 0;
 }
