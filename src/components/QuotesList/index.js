@@ -51,20 +51,44 @@ const QuotesList = () => {
         ),
       'date'
     );
-    dispatch(updateGraphData(graphData, nextQuoteId));
+    dispatch(
+      updateGraphData({
+        data: graphData,
+        currentData,
+        nextQuoteId
+      })
+    );
   };
 
   return (
     <>
       {data.map(
-        ({ node: { date, formattedDate, order, text, url, videoId } }) => (
+        ({
+          node: {
+            cases,
+            date,
+            deaths,
+            formattedDate,
+            order,
+            text,
+            url,
+            videoId
+          }
+        }) => (
           <Quote
             id={order}
             date={date}
             formattedDate={formattedDate}
             key={order}
             onUpdate={() =>
-              handleUpdate(order, { date, formattedDate, url, videoId })
+              handleUpdate(order, {
+                cases,
+                date,
+                deaths,
+                formattedDate,
+                url,
+                videoId
+              })
             }
             text={text}
           />
