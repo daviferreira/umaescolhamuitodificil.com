@@ -76,15 +76,15 @@
   display: flex;
   font-size: 13px;
   font-weight: 700;
-  height: 24px;
+  height: 16px;
   justify-content: center;
   left: 24px;
   line-height: 1;
-  opacity: 0.3;
+  opacity: 0.2;
   position: fixed;
-  top: 24px;
+  top: 31px;
   transition: opacity 0.2s;
-  width: 24px;
+  width: 16px;
   z-index: 15;
 }
 
