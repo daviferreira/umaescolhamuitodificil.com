@@ -29,7 +29,11 @@ const IndexPage = () => {
   };
 
   useEffect(() => {
+    let timer;
+
     const onKeyDown = e => {
+      clearTimeout(timer);
+
       // space or arrow up/down
       if (
         !(e.altKey || e.metaKey || e.shiftKey) &&
@@ -41,15 +45,11 @@ const IndexPage = () => {
         );
 
         if (el) {
-          // for some reason animateScrollTo doesn't work here, need to investigate
-          try {
-            window.scrollTo({
-              behavior: 'smooth',
-              top: el.offsetTop
+          timer = setTimeout(() => {
+            animateScrollTo(el, {
+              speed: 600
             });
-          } catch (err) {
-            el.scrollIntoView();
-          }
+          }, 0);
         }
       }
     };
