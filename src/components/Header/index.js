@@ -36,7 +36,7 @@ const Header = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {url.includes('facebook') ? 'Veja o vídeo' : 'Veja a reportagem'}
+              {url.includes('facebook') ? 'Veja o vídeo' : 'Leia a reportagem'}
             </a>
           )
         )}
