@@ -52,4 +52,8 @@
   .count:last-child {
     justify-content: flex-end;
   }
+
+  .count > span {
+    height: auto;
+  }
 }
