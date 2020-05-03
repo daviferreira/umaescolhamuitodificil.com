@@ -268,5 +268,14 @@
     "formattedDate": "02 de maio",
     "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
     "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
+  },
+  {
+    "order": 3300,
+    "deaths": 6750,
+    "cases": 96559,
+    "date": "2020-05-02",
+    "formattedDate": "02 de maio",
+    "text": "Desconheço qualquer hospital que esteja lotado, desconheço.",
+    "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/04/02/bolsonaro-desconheco-qualquer-hospital-que-esteja-lotado-desconheco.htm"
   }
 ]
