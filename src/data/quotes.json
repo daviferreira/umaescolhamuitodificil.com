@@ -145,7 +145,7 @@
   },
   {
     "order": 1800,
-    "deaths": 133,
+    "deaths": 136,
     "cases": 4256,
     "date": "2020-03-29",
     "formattedDate": "29 de março",
@@ -254,7 +254,7 @@
   {
     "order": 3100,
     "deaths": 6329,
-    "cases": 91589,
+    "cases": 91541,
     "date": "2020-05-01",
     "formattedDate": "01 de maio",
     "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos.",
