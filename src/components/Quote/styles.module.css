@@ -44,7 +44,7 @@
 
   .root blockquote::before {
     left: 24px;
-    top: -112px;
+    top: -64px;
     transform: translateX(-50%);
   }
 
