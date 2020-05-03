@@ -13,11 +13,11 @@ export const getDataOptions = ({ color }) => ({
   pointBorderColor: 'rgba(75,192,192,0)',
   pointBackgroundColor: color,
   pointBorderWidth: 1,
-  pointHoverRadius: 5,
+  pointHoverRadius: 7,
   pointHoverBackgroundColor: color,
   pointHoverBorderColor: 'rgba(220,220,220,0)',
   pointHoverBorderWidth: 2,
-  pointRadius: windowObject.innerWidth < 768 ? 0 : 6,
+  pointRadius: windowObject.innerWidth < 768 ? 0 : 4,
   pointHitRadius: 24
 });
 
