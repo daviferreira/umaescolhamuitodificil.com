@@ -33,8 +33,11 @@ const QuotesList = () => {
   `);
 
   const handleUpdate = (order, currentData) => {
-    const nextQuote = data.find(({ node }) => node.order > order);
+    const index = data.findIndex(({ node }) => node.order === order);
+    const nextQuote = data[index + 1];
     const nextQuoteId = nextQuote && nextQuote.node.order;
+    const previousQuote = data[index - 1];
+    const previousQuoteId = previousQuote && previousQuote.node.order;
 
     const graphData = removeDuplicates(
       data
@@ -55,7 +58,8 @@ const QuotesList = () => {
       updateGraphData({
         data: graphData,
         currentData,
-        nextQuoteId
+        nextQuoteId,
+        previousQuoteId
       })
     );
   };

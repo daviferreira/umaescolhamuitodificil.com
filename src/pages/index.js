@@ -1,5 +1,5 @@
 import animateScrollTo from 'animated-scroll-to';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
 
 import About from '../components/About';
@@ -18,13 +18,48 @@ import styles from './styles.module.css';
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
 
-  const { nextQuoteId, videoId } = useSelector(state => state.app);
+  const { nextQuoteId, previousQuoteId, videoId } = useSelector(
+    state => state.app
+  );
 
   const handleNextClick = () => {
     animateScrollTo(document.getElementById(`quote-${nextQuoteId}`), {
       speed: 600
     });
   };
+
+  useEffect(() => {
+    const onKeyDown = e => {
+      // space or arrow up/down
+      if (
+        !(e.altKey || e.metaKey || e.shiftKey) &&
+        (e.keyCode === 32 || e.keyCode === 38 || e.keyCode === 40)
+      ) {
+        e.preventDefault();
+        const el = document.getElementById(
+          `quote-${e.keyCode === 38 ? previousQuoteId : nextQuoteId}`
+        );
+
+        if (el) {
+          // for some reason animateScrollTo doesn't work here, need to investigate
+          try {
+            window.scrollTo({
+              behavior: 'smooth',
+              top: el.offsetTop
+            });
+          } catch (err) {
+            el.scrollIntoView();
+          }
+        }
+      }
+    };
+
+    document.addEventListener('keydown', onKeyDown);
+
+    return () => {
+      document.removeEventListener('keydown', onKeyDown);
+    };
+  }, [nextQuoteId, previousQuoteId]);
 
   return (
     <Layout>
