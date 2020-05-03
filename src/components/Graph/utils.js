@@ -103,7 +103,7 @@ export const getOptions = ({ edges, suggestedMax }) => ({
     yPadding: 16
   },
   onClick(event, elements) {
-    if (!elements || !elements[0]) {
+    if (windowObject.innerWidth < 768 || !elements || !elements[0]) {
       return;
     }
 
