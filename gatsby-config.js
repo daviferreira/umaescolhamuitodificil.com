@@ -35,6 +35,17 @@ module.exports = {
         name: `data`,
         path: `${__dirname}/src/data/`
       }
+    },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Open Sans`,
+            variants: [`300`, `700`]
+          }
+        ]
+      }
     }
   ]
 };

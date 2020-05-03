@@ -11,8 +11,8 @@ import styles from './styles.module.css';
 const Totals = () => {
   const { totalCases, totalDeaths } = useSelector(state => state.app);
 
-  const previousTotalCases = usePrevious(totalCases);
-  const previousTotalDeaths = usePrevious(totalDeaths);
+  const previousTotalCases = usePrevious(totalCases) || 0;
+  const previousTotalDeaths = usePrevious(totalDeaths) || 0;
 
   return (
     <div className={styles.root}>
