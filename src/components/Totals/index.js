@@ -11,8 +11,8 @@ import styles from './styles.module.css';
 const Totals = () => {
   const { totalCases, totalDeaths } = useSelector(state => state.app);
 
-  const previousTotalCases = usePrevious(totalCases) || 0;
-  const previousTotalDeaths = usePrevious(totalDeaths) || 0;
+  const previousTotalCases = usePrevious(totalCases);
+  const previousTotalDeaths = usePrevious(totalDeaths);
 
   return (
     <div className={styles.root}>
@@ -20,7 +20,7 @@ const Totals = () => {
         <div>Casos</div>
         <CountUp
           separator="."
-          start={previousTotalCases}
+          start={previousTotalCases || 0}
           end={totalCases}
           style={{ color: COLOR_CASES }}
         />
@@ -29,7 +29,7 @@ const Totals = () => {
         <div>Mortes</div>
         <CountUp
           separator="."
-          start={previousTotalDeaths}
+          start={previousTotalDeaths || 0}
           end={totalDeaths}
           style={{ color: COLOR_DEATHS }}
         />
