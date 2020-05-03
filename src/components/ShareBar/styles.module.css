@@ -22,6 +22,7 @@
   animation-duration: 0.4s;
   animation-fill-mode: both;
   animation-name: slideInDown;
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .button:last-child {
