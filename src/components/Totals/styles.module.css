@@ -20,6 +20,11 @@
   opacity: 0.5;
 }
 
+.count > span {
+  display: block;
+  height: 38px;
+}
+
 @media only screen and (max-width: 767px) {
   .root {
     align-items: center;
