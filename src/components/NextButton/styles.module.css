@@ -2,6 +2,7 @@
   align-items: center;
   animation-delay: 0.3s;
   animation-duration: 0.4s;
+  animation-fill-mode: forwards;
   animation-name: slideInUp;
   border: 1px solid #fff;
   border-radius: 100%;
@@ -9,7 +10,7 @@
   display: flex;
   height: 48px;
   justify-content: center;
-  opacity: 0.5;
+  opacity: 0;
   transition: background-color 0.2s, opacity 0.2s;
   width: 48px;
 }
