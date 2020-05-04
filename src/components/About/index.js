@@ -25,7 +25,7 @@ const About = () => (
       </a>{' '}
       com base no gráfico criado por{' '}
       <a
-        href="https://twitter.com/jasonptodd"
+        href="https://twitter.com/jasonptodd/"
         target="_blank"
         rel="noopener noreferrer"
       >
@@ -36,7 +36,7 @@ const About = () => (
     <p>
       Ideia da conta{' '}
       <a
-        href="https://twitter.com/tesoureiros/status/1255576526457798660"
+        href="https://twitter.com/tesoureiros/"
         target="_blank"
         rel="noopener noreferrer"
       >
