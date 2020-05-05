@@ -295,5 +295,14 @@
     "formattedDate": "03 de maio",
     "text": "Sabemos do efeito do vírus, mas, infelizmente, muitos serão infectados, muitos perderão suas vidas também, mas é uma realidade que temos que enfrentar.",
     "url": "https://www.facebook.com/jairmessias.bolsonaro/videos/252703235928656/"
+  },
+  {
+    "order": 3600,
+    "deaths": 7921,
+    "cases": 114715,
+    "date": "2020-05-05",
+    "formattedDate": "03 de maio",
+    "text": "Eu não sei se hoje caiu o número de mortes, foi menor do que ontem, eu não sei ainda, mas se foi, vai ser o sexto dia, se não me engano, consecutivo de queda no número de mortes. É um sinal de que o pior já passou.",
+    "url": "https://valor.globo.com/politica/noticia/2020/05/05/bolsonaro-sobre-troca-na-policia-federal-do-rj-o-rio-e-o-meu-estado.ghtml"
   }
 ]
