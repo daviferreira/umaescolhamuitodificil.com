@@ -54,6 +54,15 @@ const About = () => (
         Ministério da Saúde
       </a>
     </p>
+    <p>
+      <a
+        href="https://docs.google.com/spreadsheets/d/18SGmEnBtA157mAV-i2wDBO_yc4I1EekW7cNS8ameiJo"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Planilha com todas as frases
+      </a>
+    </p>
     <div className={styles.share}>
       <div className={styles.heading}>Compartilhe:</div>
       <ShareBar animated={false} />
