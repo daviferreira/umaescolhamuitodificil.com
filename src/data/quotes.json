@@ -307,11 +307,20 @@
   },
   {
     "order": 3700,
-    "deaths": 8536,
-    "cases": 125218,
+    "deaths": 9146,
+    "cases": 135106,
     "date": "2020-05-07",
     "formattedDate": "07 de maio",
     "text": "Nós temos um bem muito maior até que a própria vida, se me permitem falar isso, que é a nossa liberdade.",
     "url": "https://twitter.com/jnascim/status/1258419527685210117"
+  },
+  {
+    "order": 3700,
+    "deaths": 9146,
+    "cases": 135106,
+    "date": "2020-05-07",
+    "formattedDate": "07 de maio",
+    "text": "Estou cometendo um crime. Vou fazer um churrasco no sábado aqui em casa. Vamos bater um papo, quem sabe uma ‘peladinha’, alguns ministros, alguns servidores mais humildes que estão do meu lado.",
+    "url": "https://www.bastidorpolitico.com.br/bastidores/vamos-fazer-um-churrasco-e-uma-peladinha-aqui-no-alvorada-no-sabado-dia-bolsonaro-em-entrevista/"
   }
 ]
