@@ -37,6 +37,10 @@
   padding-top: 12px;
 }
 
+.extra {
+  margin-top: 32px;
+}
+
 @media only screen and (max-width: 767px) {
   .root {
     max-width: 100%;

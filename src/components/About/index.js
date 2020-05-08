@@ -58,6 +58,16 @@ const About = () => (
       <div className={styles.heading}>Compartilhe:</div>
       <ShareBar animated={false} />
     </div>
+    <p className={styles.extra}>
+      Veja também:{' '}
+      <a
+        href="https://www.vazajato.me"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        Linha do tempo da #VazaJato
+      </a>
+    </p>
   </div>
 );
 
