@@ -24,12 +24,12 @@
 
 .root p {
   line-height: 1.45;
-  margin-bottom: 32px;
+  margin-bottom: 16px;
 }
 
 .heading {
   font-weight: 700;
-  margin-top: 64px;
+  margin-top: 32px;
 }
 
 .share > div:last-child {
