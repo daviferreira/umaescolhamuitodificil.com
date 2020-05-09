@@ -20,15 +20,13 @@ const ShareBar = ({
         site {
           siteMetadata {
             title
-            description
-            author
           }
         }
       }
     `
   );
 
-  const shareText = text || site.siteMetadata.description;
+  const shareText = text || site.siteMetadata.title;
 
   return (
     <div
