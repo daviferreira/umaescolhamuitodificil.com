@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Veja frases de Bolsonaro durante a pandemia do novo coronavírus`,
+    title: `Veja frases de Bolsonaro sobre a pandemia do novo coronavírus`,
     description: `Gráfico interativo mostrando a relação das frases de Bolsonaro durante a pandemia do novo coronavírus com o número de casos e mortes.`,
     author: `@davitferreira`
   },
