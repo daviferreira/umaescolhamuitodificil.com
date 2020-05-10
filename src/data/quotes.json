@@ -331,5 +331,14 @@
     "formattedDate": "08 de maio",
     "text": "3 mil pessoas no churrasco amanhã.",
     "url": "https://twitter.com/desgovernobolso/status/1258863567333470209"
+  },
+  {
+    "order": 4000,
+    "deaths": 10627,
+    "cases": 155939,
+    "date": "2020-05-09",
+    "formattedDate": "09 de maio",
+    "text": "70% vai pegar o vírus. Não tem como. É uma loucura.",
+    "url": "https://twitter.com/pauloteixeira13/status/1259255561268408321"
   }
 ]
