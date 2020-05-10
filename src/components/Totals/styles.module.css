@@ -3,6 +3,7 @@
   line-height: 1;
   position: fixed;
   right: 48px;
+  text-shadow: 2px 2px 3px #000;
   top: 24px;
   z-index: 15;
 }
