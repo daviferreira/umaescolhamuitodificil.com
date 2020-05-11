@@ -340,5 +340,14 @@
     "formattedDate": "09 de maio",
     "text": "Isso é uma neurose, 70% vai pegar o vírus. Não tem como. É uma loucura.",
     "url": "https://twitter.com/fatourgente/status/1259241252517810179"
+  },
+  {
+    "order": 4100,
+    "deaths": 11123,
+    "cases": 162699,
+    "date": "2020-05-10",
+    "formattedDate": "10 de maio",
+    "text": "Já que não querem abrir, vou eu abrindo.",
+    "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/05/10/interna_politica,853363/ja-que-nao-querem-abrir-vou-eu-abrindo-diz-bolsonaro-sobre-decreto.shtml"
   }
 ]
