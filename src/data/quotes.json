@@ -352,8 +352,26 @@
   },
   {
     "order": 4200,
+    "deaths": 11519,
+    "cases": 168331,
+    "date": "2020-05-11",
+    "formattedDate": "11 de maio",
+    "text": "A questão da vida tem que ser tratado paralelamente com os empregos. Sem economia não tem vida, não tem médico, não tem material para hospital.",
+    "url": "https://economia.uol.com.br/noticias/reuters/2020/05/11/bolsonaro-amplia-de-novo-atividades-essenciais-e-inclui-academias-e-saloes-de-beleza.htm"
+  },
+  {
+    "order": 4300,
     "deaths": 13149,
     "cases": 188974,
+    "date": "2020-05-13",
+    "formattedDate": "13 de maio",
+    "text": "Quem não quiser trabalhar, que fique em casa, porra.",
+    "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/05/13/interna_politica,854347/bolsonaro-quem-nao-quiser-trabalhar-que-fique-em-casa-porra.shtml"
+  },
+  {
+    "order": 4400,
+    "deaths": 13993,
+    "cases": 202918,
     "date": "2020-05-14",
     "formattedDate": "14 de maio",
     "text": "Você pegou um país que está caminhando pro socialismo. [sobre Argentina ter 320 mortes e Brasil 12 mil]",
