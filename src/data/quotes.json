@@ -379,11 +379,20 @@
   },
   {
     "order": 4500,
-    "deaths": 16792,
-    "cases": 254220,
+    "deaths": 17971,
+    "cases": 271628,
     "date": "2020-05-19",
     "formattedDate": "19 de maio",
     "text": "É só você não ouvir a mídia, pô. Não ouve a mídia, não.",
     "url": "https://politica.estadao.com.br/noticias/geral,bolsonaro-diz-que-nenhum-ministro-saiu-do-governo-por-corrupcao,70003307491"
+  },
+  {
+    "order": 4600,
+    "deaths": 17971,
+    "cases": 271628,
+    "date": "2020-05-19",
+    "formattedDate": "19 de maio",
+    "text": "Quem é de direita toma cloroquina, quem é de esquerda toma tubaína.",
+    "url": "https://twitter.com/YviMcarneiro/status/1262900761102557184"
   }
 ]
