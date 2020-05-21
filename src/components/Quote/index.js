@@ -7,6 +7,13 @@ import styles from './styles.module.css';
 const Quote = ({ id, date, onUpdate, text }) => {
   const handleVisibilityChange = inView => {
     if (inView) {
+      if (
+        typeof window !== `undefined` &&
+        window.history &&
+        window.history.pushState
+      ) {
+        window.history.pushState(null, null, `?quote=${id}`);
+      }
       onUpdate();
     }
   };

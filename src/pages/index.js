@@ -29,6 +29,16 @@ const IndexPage = () => {
   };
 
   useEffect(() => {
+    if (typeof window !== 'undefined' && window.location.search) {
+      const match = window.location.search.match(/\d+/);
+      if (match && match[0]) {
+        const el = document.getElementById(`quote-${match[0]}`);
+        el && el.scrollIntoView();
+      }
+    }
+  }, []);
+
+  useEffect(() => {
     let timer;
 
     const onKeyDown = e => {

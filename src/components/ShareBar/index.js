@@ -26,7 +26,21 @@ const ShareBar = ({
     `
   );
 
-  const shareText = text || site.siteMetadata.title;
+  let shareText = text || site.siteMetadata.title;
+  let shareUrl = url;
+
+  if (typeof window !== 'undefined' && window.location.search) {
+    const match = window.location.search.match(/\d+/);
+    if (match && match[0] && match[0] !== '100') {
+      const el = document.getElementById(`quote-${match[0]}`);
+      if (el) {
+        shareUrl += window.location.search;
+        shareText = encodeURIComponent(`"${el.innerText}"`);
+
+        shareUrl = encodeURIComponent(shareUrl);
+      }
+    }
+  }
 
   return (
     <div
@@ -36,7 +50,7 @@ const ShareBar = ({
     >
       <a
         className={styles.button}
-        href={`https://www.facebook.com/sharer/sharer.php?u=${url}`}
+        href={`https://www.facebook.com/sharer/sharer.php?u=${shareUrl}`}
         rel="noopener noreferrer"
         target="_blank"
         title="Compartilhe no Facebook"
@@ -45,7 +59,7 @@ const ShareBar = ({
       </a>
       <a
         className={styles.button}
-        href={`https://twitter.com/share?text=${shareText}&url=${url}&via=davitferreira`}
+        href={`https://twitter.com/share?text=${shareText}&url=${shareUrl}`}
         rel="noopener noreferrer"
         target="_blank"
         title="Compartilhe no Twitter"
@@ -55,7 +69,7 @@ const ShareBar = ({
       <a
         className={styles.button}
         data-action="share/whatsapp/share"
-        href={`whatsapp://send?text=${shareText} - ${url}`}
+        href={`whatsapp://send?text=${shareText} - ${shareUrl}`}
         title="Compartilhe no Whatsapp"
       >
         <WhatsappIcon />
