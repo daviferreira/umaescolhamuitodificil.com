@@ -35,7 +35,7 @@ const ShareBar = ({
       const el = document.getElementById(`quote-${match[0]}`);
       if (el) {
         shareUrl += window.location.search;
-        shareText = encodeURIComponent(`"${el.innerText}"`);
+        shareText = encodeURIComponent(`"${el.textContent || el.innerText}"`);
 
         shareUrl = encodeURIComponent(shareUrl);
       }
