@@ -10,9 +10,13 @@ const Quote = ({ id, date, onUpdate, text }) => {
       if (
         typeof window !== `undefined` &&
         window.history &&
-        window.history.pushState
+        window.history.replaceState
       ) {
-        window.history.pushState(null, null, `?quote=${id}`);
+        window.history.replaceState(
+          null,
+          null,
+          id === 100 ? window.location.href.split('?')[0] : `?quote=${id}`
+        );
       }
       onUpdate();
     }
