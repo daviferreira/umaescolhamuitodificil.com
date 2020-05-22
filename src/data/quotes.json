@@ -397,11 +397,20 @@
   },
   {
     "order": 4700,
-    "deaths": 18859,
-    "cases": 291579,
+    "deaths": 20047,
+    "cases": 310087,
     "date": "2020-05-21",
     "formattedDate": "21 de maio",
     "text": "Imaginem uma pessoa do nível dessas autoridades estaduais na Presidência da República. O que teria acontecido com o Brasil já.",
     "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/05/21/antes-de-reuniao-bolsonaro-critica-governadores-voces-terao-que-sentir.htm"
+  },
+  {
+    "order": 4800,
+    "deaths": 20047,
+    "cases": 310087,
+    "date": "2020-05-22",
+    "formattedDate": "22 de maio",
+    "text": "Morre muito mais gente de pavor do que do ato em si. Então o pavor também mata, leva ao estresse, ao cansaço, a pessoa não dorme direito, fica sempre preocupada, 'vou morrer, se esse vírus pegar vou morrer'.",
+    "url": "https://twitter.com/jairmearrependi/status/1263622098058186752"
   }
 ]
