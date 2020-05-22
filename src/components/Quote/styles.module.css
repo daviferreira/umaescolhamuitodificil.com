@@ -11,9 +11,9 @@
 }
 
 .root blockquote {
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 700;
-  line-height: 1.33;
+  line-height: 1.45;
   margin: 0 0 12px;
   position: relative;
 }
@@ -39,7 +39,7 @@
   }
 
   .root blockquote {
-    font-size: 26px;
+    font-size: 22px;
   }
 
   .root blockquote::before {

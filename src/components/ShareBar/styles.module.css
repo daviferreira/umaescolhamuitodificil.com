@@ -81,5 +81,8 @@
 
   .button {
     animation: none !important;
+    flex: 0 0 48px;
+    height: 48px;
+    width: 48px;
   }
 }

@@ -9,6 +9,8 @@ import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
 
 import removeDuplicates from '../../utils/removeDuplicates';
 
+const windowObject = typeof window !== `undefined` ? window : {};
+
 const Graph = () => {
   const { cases, deaths, labels } = useSelector(state => state.app);
 
@@ -63,6 +65,9 @@ const Graph = () => {
         ),
         suggestedMax
       })}
+      height={
+        windowObject.innerWidth < 768 ? null : windowObject.innerHeight / 2
+      }
     />
   );
 };

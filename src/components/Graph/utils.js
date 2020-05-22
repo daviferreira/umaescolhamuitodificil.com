@@ -114,5 +114,6 @@ export const getOptions = ({ edges, suggestedMax }) => ({
         maxDuration: 1000,
         speed: 300
       });
-  }
+  },
+  maintainAspectRatio: false
 });
