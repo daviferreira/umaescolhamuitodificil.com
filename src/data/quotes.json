@@ -421,5 +421,14 @@
     "formattedDate": "28 de maio",
     "text": "No Rio de Janeiro caiu assustadoramente o número de óbitos de 'corona' depois que a Polícia Federal passou por lá. Acho que a PF mata vírus.",
     "url": "https://www.facebook.com/watch/?v=671761803369788"
+  },
+  {
+    "order": 5000,
+    "deaths": 31199,
+    "cases": 555383,
+    "date": "2020-06-02",
+    "formattedDate": "02 de junho",
+    "text": "Se ele pegar uma chuva e ficar molhado na chuva vai pegar pneumonia. E se bobear entra em óbito. (...) Quem tem problema tem que se cuidar sempre. Não é questão desse vírus apenas. Agora, não precisa ficar com medo.",
+    "url": "https://twitter.com/SamPancher/status/1268012211986890753"
   }
 ]
