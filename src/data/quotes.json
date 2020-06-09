@@ -442,6 +442,15 @@
   },
   {
     "order": 5200,
+    "deaths": 35026,
+    "cases": 645771,
+    "date": "2020-06-05",
+    "formattedDate": "05 de junho",
+    "text": "Acabou matéria no Jornal Nacional. [após atrasar divulgação de dados da pandemia da COVID-19]",
+    "url": "https://twitter.com/lucasnegrisoli/status/1269045029882003456"
+  },
+  {
+    "order": 5300,
     "deaths": 37312,
     "cases": 710887,
     "date": "2020-06-09",
