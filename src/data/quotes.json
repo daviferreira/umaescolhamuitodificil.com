@@ -451,11 +451,20 @@
   },
   {
     "order": 5300,
-    "deaths": 37312,
-    "cases": 710887,
+    "deaths": 38406,
+    "cases": 742084,
     "date": "2020-06-09",
     "formattedDate": "09 de junho",
     "text": "Esse pânico que foi pregado lá atrás por parte da grande mídia começa talvez a se dissipar levando em conta o que a OMS falou por parte do contágio dos assintomáticos.",
     "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/06/09/bolsonaro-distorce-oms-sobre-assintomaticos-e-diz-que-panico-esta-acabando.htm"
+  },
+  {
+    "order": 5400,
+    "deaths": 39680,
+    "cases": 772416,
+    "date": "2020-06-10",
+    "formattedDate": "10 de junho",
+    "text": "Se você quiser falar, sai daqui, que você já foi ouvida. Cobre do seu governador. Sai daqui.",
+    "url": "https://twitter.com/gentedemal/status/1270705046485901312"
   }
 ]
