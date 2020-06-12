@@ -452,7 +452,7 @@
   {
     "order": 5300,
     "deaths": 38406,
-    "cases": 742084,
+    "cases": 739503,
     "date": "2020-06-09",
     "formattedDate": "09 de junho",
     "text": "Esse pânico que foi pregado lá atrás por parte da grande mídia começa talvez a se dissipar levando em conta o que a OMS falou por parte do contágio dos assintomáticos.",
@@ -466,5 +466,14 @@
     "formattedDate": "10 de junho",
     "text": "Se você quiser falar, sai daqui, que você já foi ouvida. Cobre do seu governador. Sai daqui.",
     "url": "https://twitter.com/gentedemal/status/1270705046485901312"
+  },
+  {
+    "order": 5500,
+    "deaths": 40919,
+    "cases": 802828,
+    "date": "2020-06-11",
+    "formattedDate": "11 de junho",
+    "text": "Tem um ganho político dos caras, só pode ser isso. Aproveitando aí as pessoas que falecem pra ter um ganho político e pra culpar o governo federal. Olha, não tem como impedir essa doença, o óbito, né?",
+    "url": "https://twitter.com/alexaguiarpoa/status/1271222421438283776"
   }
 ]
