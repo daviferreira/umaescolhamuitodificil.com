@@ -475,5 +475,14 @@
     "formattedDate": "11 de junho",
     "text": "Tem um ganho político dos caras, só pode ser isso. Aproveitando aí as pessoas que falecem pra ter um ganho político e pra culpar o governo federal. Olha, não tem como impedir essa doença, o óbito, né?",
     "url": "https://twitter.com/alexaguiarpoa/status/1271222421438283776"
+  },
+  {
+    "order": 5600,
+    "deaths": 43959,
+    "cases": 888271,
+    "date": "2020-06-15",
+    "formattedDate": "15 de junho",
+    "text": "Não temos informações que qualquer pessoa tenha falecido por falta de UTI ou de respiradores, abastecemos estados e municípios com recursos.",
+    "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/06/15/bolsonaro-nao-temos-informacoes-de-que-alguem-tenha-falecido-por-falta-de-uti.htm"
   }
 ]
