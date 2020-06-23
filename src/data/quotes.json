@@ -484,5 +484,14 @@
     "formattedDate": "15 de junho",
     "text": "Não temos informações que qualquer pessoa tenha falecido por falta de UTI ou de respiradores, abastecemos estados e municípios com recursos.",
     "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/06/15/bolsonaro-nao-temos-informacoes-de-que-alguem-tenha-falecido-por-falta-de-uti.htm"
+  },
+  {
+    "order": 5700,
+    "deaths": 51271,
+    "cases": 1106470,
+    "date": "2020-06-22",
+    "formattedDate": "22 de junho",
+    "text": "A gente apela aqui aos senhores governadores e prefeitos que obviamente com responsabilidade comecem a abrir o comércio. Porque novas informações vêm do mundo todo, vêm da OMS, através dos seus equívocos, que talvez tenha havido um pouco de exagero no trato dessa questão lá atrás.",
+    "url": "https://g1.globo.com/politica/noticia/2020/06/22/bolsonaro-defende-reabertura-do-comercio-e-fala-em-pouco-de-exagero-no-trato-da-pandemia.ghtml"
   }
 ]
