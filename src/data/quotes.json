@@ -511,5 +511,14 @@
     "formattedDate": "15 de julho",
     "text": "O futuro vai dizer se esse remédio é eficaz ou não. Para mim foi, crédito a ele. E se for, muita gente encaminhou o contrário, gente com responsabilidade. Então a história vai dizer quem estava certo no futuro.",
     "url": "https://www.facebook.com/watch/?v=2573025329680456"
+  },
+  {
+    "order": 6000,
+    "deaths": 79485,
+    "cases": 2098389,
+    "date": "2020-07-19",
+    "formattedDate": "19 de julho",
+    "image": true,
+    "url": "https://twitter.com/SamPancher/status/1284974259698380801"
   }
 ]

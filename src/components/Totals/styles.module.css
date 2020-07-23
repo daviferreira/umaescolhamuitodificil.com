@@ -40,9 +40,9 @@
     align-items: center;
     display: flex;
     flex: 1;
-    font-size: 24px;
+    font-size: 16px;
     line-height: 22px;
-    padding: 24px;
+    padding: 12px;
     text-align: left;
   }
 

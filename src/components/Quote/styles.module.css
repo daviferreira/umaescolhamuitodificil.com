@@ -30,6 +30,33 @@
   transform: translateX(-100%);
 }
 
+.image {
+  color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  text-decoration: none;
+}
+
+.image:hover,
+.image:active,
+.image:visited,
+.image:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.image img {
+  display: block;
+  margin: 0;
+}
+
+.image small {
+  display: block;
+  font-size: 11px;
+  opacity: 0.6;
+  text-align: right;
+}
+
 @media only screen and (max-width: 767px) {
   .root {
     height: 100vh;

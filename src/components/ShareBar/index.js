@@ -31,7 +31,7 @@ const ShareBar = ({
 
   if (typeof window !== 'undefined' && window.location.search) {
     const match = window.location.search.match(/\d+/);
-    if (match && match[0] && match[0] !== '100') {
+    if (match && match[0] && match[0] !== '100' && match[0] !== '6000') {
       const el = document.getElementById(`quote-${match[0]}`);
       if (el) {
         shareUrl += window.location.search;

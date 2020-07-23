@@ -23,6 +23,7 @@ const QuotesList = () => {
             date
             deaths
             formattedDate
+            image
             text
             url
             videoId
@@ -73,6 +74,7 @@ const QuotesList = () => {
             date,
             deaths,
             formattedDate,
+            image,
             order,
             text,
             url,
@@ -84,6 +86,7 @@ const QuotesList = () => {
             date={date}
             formattedDate={formattedDate}
             key={order}
+            image={image}
             onUpdate={() =>
               handleUpdate(order, {
                 cases,
@@ -95,6 +98,7 @@ const QuotesList = () => {
               })
             }
             text={text}
+            url={url}
           />
         )
       )}
