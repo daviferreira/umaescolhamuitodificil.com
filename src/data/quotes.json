@@ -514,6 +514,15 @@
   },
   {
     "order": 6000,
+    "deaths": 78735,
+    "cases": 2074834,
+    "date": "2020-07-18",
+    "formattedDate": "18 de julho",
+    "text": "Não adianta ficar falando em vida, vida, vida, porque isolamento mata.",
+    "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/07/18/interna_politica,873318/bolsonaro-diz-ser-a-prova-de-que-cloroquina-funciona-e-que-isolamento.shtml"
+  },
+  {
+    "order": 6100,
     "deaths": 79485,
     "cases": 2098389,
     "date": "2020-07-19",
