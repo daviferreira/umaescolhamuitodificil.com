@@ -9,6 +9,8 @@ import WhatsappIcon from './whatsapp.svg';
 
 import styles from './styles.module.css';
 
+const DEFAULT_TEXT_QUOTES = ['100', '6100', '6200'];
+
 const ShareBar = ({
   animated = true,
   text,
@@ -31,7 +33,7 @@ const ShareBar = ({
 
   if (typeof window !== 'undefined' && window.location.search) {
     const match = window.location.search.match(/\d+/);
-    if (match && match[0] && match[0] !== '100' && match[0] !== '6100') {
+    if (match && match[0] && !DEFAULT_TEXT_QUOTES.includes(match[0])) {
       const el = document.getElementById(`quote-${match[0]}`);
       if (el) {
         shareUrl += window.location.search;
