@@ -529,5 +529,14 @@
     "formattedDate": "19 de julho",
     "image": true,
     "url": "https://twitter.com/SamPancher/status/1284974259698380801"
+  },
+  {
+    "order": 6200,
+    "deaths": 91263,
+    "cases": 2610102,
+    "date": "2020-07-30",
+    "formattedDate": "30 de julho",
+    "image": true,
+    "url": "https://g1.globo.com/pi/piaui/noticia/2020/07/30/em-1o-evento-publico-apos-covid-19-bolsonaro-fica-sem-mascara-em-meio-a-aglomeracao-com-apoiadores-em-aeroporto-no-piaui.ghtml"
   }
 ]

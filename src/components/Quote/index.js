@@ -2,9 +2,15 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { InView } from 'react-intersection-observer';
 
-import thumb from '../../images/thumb.jpg';
+import image1 from '../../images/6100.jpg';
+import image2 from '../../images/6200.gif';
 
 import styles from './styles.module.css';
+
+const IMAGES = {
+  6100: image1,
+  6200: image2
+};
 
 const Quote = ({ id, date, image, onUpdate, text, url }) => {
   const handleVisibilityChange = inView => {
@@ -34,8 +40,8 @@ const Quote = ({ id, date, image, onUpdate, text, url }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img src={thumb} />
-            <small>Foto: Orlando Brito</small>
+            <img src={IMAGES[id]} />
+            {id === 6100 && <small>Foto: Orlando Brito</small>}
           </a>
         ) : (
           <blockquote>{text}</blockquote>
