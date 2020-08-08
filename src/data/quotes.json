@@ -547,5 +547,14 @@
     "formattedDate": "30 de julho",
     "image": true,
     "url": "https://g1.globo.com/pi/piaui/noticia/2020/07/30/em-1o-evento-publico-apos-covid-19-bolsonaro-fica-sem-mascara-em-meio-a-aglomeracao-com-apoiadores-em-aeroporto-no-piaui.ghtml"
+  },
+  {
+    "order": 6300,
+    "deaths": 98493,
+    "cases": 2912212,
+    "date": "2020-08-06",
+    "formattedDate": "06 de agosto",
+    "text": "A gente lamenta todas as mortes, vamos chegar a 100 mil, mas vamos tocar a vida e se safar desse problema.",
+    "videoId": "Y-nyxW-5mGY"
   }
 ]
