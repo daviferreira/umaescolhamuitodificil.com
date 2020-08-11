@@ -556,5 +556,14 @@
     "formattedDate": "06 de agosto",
     "text": "A gente lamenta todas as mortes, vamos chegar a 100 mil, mas vamos tocar a vida e se safar desse problema.",
     "videoId": "Y-nyxW-5mGY"
+  },
+  {
+    "order": 6400,
+    "deaths": 101752,
+    "cases": 3057470,
+    "date": "2020-08-11",
+    "formattedDate": "11 de agosto",
+    "text": "Volta ao trabalho, o melhor remédio.",
+    "url": "https://twitter.com/jairbolsonaro/status/1292974736625020929"
   }
 ]
