@@ -601,5 +601,14 @@
     "formattedDate": "25 de agosto",
     "text": "É igual a numa guerra... Se você ficar dentro da toca, tu vai morrer.",
     "url": "https://twitter.com/UOLNoticias/status/1298641745698332674"
+  },
+  {
+    "order": 6800,
+    "deaths": 121381,
+    "cases": 3908272,
+    "date": "2020-08-31",
+    "formattedDate": "31 de agosto",
+    "text": "A vacina... ninguém pode obrigar ninguém a tomar vacina.",
+    "url": "https://twitter.com/SamPancher/status/1300563412712333313"
   }
 ]
