@@ -610,5 +610,14 @@
     "formattedDate": "31 de agosto",
     "text": "A vacina... ninguém pode obrigar ninguém a tomar vacina.",
     "url": "https://twitter.com/SamPancher/status/1300563412712333313"
+  },
+  {
+    "order": 6900,
+    "deaths": 123780,
+    "cases": 3997865,
+    "date": "2020-09-03",
+    "formattedDate": "03 de setembro",
+    "text": "Desde o começo assumi posição ímpar, não só dentro do Brasil, mas como chefe de Estado no mundo todo. Não vi um chefe de Estado tomar uma decisão como a minha.",
+    "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/09/03/bolsonaro-diz-que-teve-gestao-impar-contra-a-pandemia-de-coronavirus.htm"
   }
 ]
