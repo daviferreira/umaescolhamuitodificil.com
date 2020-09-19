@@ -619,5 +619,14 @@
     "formattedDate": "03 de setembro",
     "text": "Desde o começo assumi posição ímpar, não só dentro do Brasil, mas como chefe de Estado no mundo todo. Não vi um chefe de Estado tomar uma decisão como a minha.",
     "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/09/03/bolsonaro-diz-que-teve-gestao-impar-contra-a-pandemia-de-coronavirus.htm"
+  },
+  {
+    "order": 7000,
+    "deaths": 135793,
+    "cases": 4495183,
+    "date": "2020-09-18",
+    "formattedDate": "18 de setembro",
+    "text": "\"Fica em casa e a economia a gente vê depois\", isso é para os fracos.",
+    "url": "https://twitter.com/delucca/status/1307089035526053889"
   }
 ]
