@@ -664,5 +664,14 @@
     "formattedDate": "19 de outubro",
     "text": "Eu não apostei nem joguei na hidroxicloroquina.",
     "url": "https://twitter.com/tesoureiros/status/1318316300704321536"
+  },
+  {
+    "order": 7500,
+    "deaths": 156471,
+    "cases": 5353656,
+    "date": "2020-10-23",
+    "formattedDate": "23 de outubro",
+    "text": "No Brasil, tomando a cloroquina no início dos sintomas, 100% de cura.",
+    "url": "https://twitter.com/SamPancher/status/1319500458373844994"
   }
 ]
