@@ -700,5 +700,14 @@
     "formattedDate": "28 de outubro",
     "text": "Olha, eu não consigo entender uma medida como essa porque tá aí o vírus. Vai ter que enfrentá-lo. Tá de máscara, tudo bem, mas daqui a pouco nada disso vai tá livre dele vírus.",
     "url": "https://exame.com/brasil/bolsonaro-diz-que-nao-entende-lockdown-contra-covid-19-na-franca/"
+  },
+  {
+    "order": 7900,
+    "deaths": 162711,
+    "cases": 5678828,
+    "date": "2020-11-10",
+    "formattedDate": "10 de novembro",
+    "text": "Mais uma que Jair Bolsonaro ganha. [sobre a suspensão dos testes da CoronaVac]",
+    "url": "https://www1.folha.uol.com.br/equilibrioesaude/2020/11/mais-uma-que-jair-bolsonaro-ganha-diz-presidente-sobre-suspensao-de-testes-da-coronavac.shtml"
   }
 ]
