@@ -709,5 +709,14 @@
     "formattedDate": "10 de novembro",
     "text": "Mais uma que Jair Bolsonaro ganha. [sobre a suspensão dos testes da CoronaVac]",
     "url": "https://www1.folha.uol.com.br/equilibrioesaude/2020/11/mais-uma-que-jair-bolsonaro-ganha-diz-presidente-sobre-suspensao-de-testes-da-coronavac.shtml"
+  },
+  {
+    "order": 8000,
+    "deaths": 162711,
+    "cases": 5678828,
+    "date": "2020-11-10",
+    "formattedDate": "10 de novembro",
+    "text": "Tem que deixar de ser um país de maricas.",
+    "url": "https://twitter.com/SamPancher/status/1326258453300514819"
   }
 ]
