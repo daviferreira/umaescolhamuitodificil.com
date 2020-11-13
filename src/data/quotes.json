@@ -718,5 +718,14 @@
     "formattedDate": "10 de novembro",
     "text": "Tem que deixar de ser um país de maricas.",
     "url": "https://twitter.com/SamPancher/status/1326258453300514819"
+  },
+  {
+    "order": 8100,
+    "deaths": 164392,
+    "cases": 5785101,
+    "date": "2020-11-13",
+    "formattedDate": "13 de novembro",
+    "text": "E agora tem a 'conversinha' de segunda onda...",
+    "url": "https://twitter.com/jairmearrependi/status/1327289309284732936"
   }
 ]
