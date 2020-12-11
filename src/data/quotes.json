@@ -754,5 +754,14 @@
     "formattedDate": "02 de dezembro",
     "text": "Eu não chutei nada na questão do vírus, tudo o que eu falei deu certo. Tudo.",
     "url": "https://twitter.com/tesoureiros/status/1334476766237384704"
+  },
+  {
+    "order": 8500,
+    "deaths": 179870,
+    "cases": 6786509,
+    "date": "2020-12-10",
+    "formattedDate": "10 de dezembro",
+    "text": "Estamos vivendo um finalzinho de pandemia.",
+    "videoId": "rndJhPMnMDg"
   }
 ]
