@@ -763,5 +763,14 @@
     "formattedDate": "10 de dezembro",
     "text": "Estamos vivendo um finalzinho de pandemia.",
     "videoId": "rndJhPMnMDg"
+  },
+  {
+    "order": 8600,
+    "deaths": 182925,
+    "cases": 6977796,
+    "date": "2020-12-15",
+    "formattedDate": "15 de dezembro",
+    "text": "Eu não vou tomar vacina e ponto final. Minha vida está em risco? O problema é meu.",
+    "videoId": "Zv0mQCgcOnc"
   }
 ]
