@@ -772,5 +772,14 @@
     "formattedDate": "15 de dezembro",
     "text": "Eu não vou tomar vacina e ponto final. Minha vida está em risco? O problema é meu.",
     "videoId": "Zv0mQCgcOnc"
+  },
+  {
+    "order": 8700,
+    "deaths": 183894,
+    "cases": 7045871,
+    "date": "2020-12-16",
+    "formattedDate": "16 de dezembro",
+    "text": "Quem esperava depois de meses difíceis chegarmos a uma situação de quase normalidade ainda em 2020?",
+    "url": "https://noticias.uol.com.br/ultimas-noticias/reuters/2020/12/16/com-alta-de-casos-e-mortes-por-covid-19-bolsonaro-fala-em-quase-normalidade.htm"
   }
 ]
