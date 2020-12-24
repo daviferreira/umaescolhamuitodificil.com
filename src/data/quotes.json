@@ -799,5 +799,14 @@
     "formattedDate": "19 de dezembro",
     "text": "A pressa pela vacina não se justifica, porque você mexe com a vida das pessoas.",
     "url": "https://twitter.com/jnascim/status/1340440179799158786"
+  },
+  {
+    "order": 9000,
+    "deaths": 189265,
+    "cases": 7365846,
+    "date": "2020-12-23",
+    "formattedDate": "23 de dezembro",
+    "text": "Eu tive a melhor vacina, foi o vírus... Sem efeito colateral.",
+    "url": "https://twitter.com/SamPancher/status/1341850656316022785"
   }
 ]
