@@ -808,5 +808,14 @@
     "formattedDate": "23 de dezembro",
     "text": "Eu tive a melhor vacina, foi o vírus... Sem efeito colateral.",
     "url": "https://twitter.com/SamPancher/status/1341850656316022785"
+  },
+  {
+    "order": 9100,
+    "deaths": 190590,
+    "cases": 7451283,
+    "date": "2020-12-26",
+    "formattedDate": "26 de dezembro",
+    "text": "Ninguém me pressiona pra nada, eu não dou bola pra isso. [sobre outros países já terem começado a imunizar suas populações]",
+    "url": "https://oglobo.globo.com/sociedade/vacina/nao-dou-bola-pra-isso-diz-bolsonaro-sobre-brasil-ficar-para-tras-em-vacinacao-1-24813081"
   }
 ]
