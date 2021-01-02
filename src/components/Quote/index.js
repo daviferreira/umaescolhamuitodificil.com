@@ -39,7 +39,7 @@ const Quote = ({ id, date, image, onUpdate, text, url }) => {
               {id === 6100 ? (
                 <small>Foto: Orlando Brito</small>
               ) : (
-                <small>Foto: Neyara Pinheiro/ TV Clube</small>
+                id === 6200 && <small>Foto: Neyara Pinheiro/ TV Clube</small>
               )}
             </div>
           </a>

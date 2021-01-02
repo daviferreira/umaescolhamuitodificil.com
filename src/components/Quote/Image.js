@@ -20,6 +20,13 @@ const Image = ({ id }) => {
           }
         }
       }
+      image9500: file(relativePath: { eq: "9500.jpg" }) {
+        childImageSharp {
+          fluid(maxWidth: 900) {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
     }
   `);
 

@@ -844,5 +844,14 @@
     "formattedDate": "30 de dezembro",
     "text": "Toca a vida.",
     "url": "https://www.facebook.com/watch/?v=388962298863194"
+  },
+  {
+    "order": 9500,
+    "deaths": 195509,
+    "cases": 7702582,
+    "date": "2021-01-01",
+    "formattedDate": "1º de janeiro",
+    "image": true,
+    "url": "https://twitter.com/lilian_tahan/status/1345101627863277568"
   }
 ]
