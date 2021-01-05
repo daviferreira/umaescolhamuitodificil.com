@@ -853,5 +853,14 @@
     "formattedDate": "01 de janeiro",
     "image": true,
     "url": "https://twitter.com/lilian_tahan/status/1345101627863277568"
+  },
+  {
+    "order": 9600,
+    "deaths": 196670,
+    "cases": 7759048,
+    "date": "2021-01-04",
+    "formattedDate": "04 de janeiro",
+    "text": "Mergulhei de máscara também, pra não pegar Covid nos peixinhos.",
+    "url": "https://istoe.com.br/mergulhei-de-mascara-para-nao-pegar-covid-nos-peixinhos-ironiza-bolsonaro/"
   }
 ]
