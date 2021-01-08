@@ -7,6 +7,7 @@ const initialState = {
   lastLoadedDate: '2020-03-02',
   nextQuoteId: null,
   previousQuoteId: null,
+  showGraph: true,
   totalCases: 2,
   totalDeaths: 0,
   url: null,
@@ -16,6 +17,7 @@ const initialState = {
 const UPDATE_CURRENT_DATA = 'UPDATE_CURRENT_DATA';
 const UPDATE_GRAPH_DATA = 'UPDATE_GRAPH_DATA';
 const SET_VIDEO_ID = 'SET_VIDEO_ID';
+const TOGGLE_GRAPH = 'TOGGLE_GRAPH';
 
 export const updateCurrentData = data => ({
   type: UPDATE_CURRENT_DATA,
@@ -44,6 +46,10 @@ export const setVideoId = videoId => ({
   data: {
     videoId
   }
+});
+
+export const toggleGraph = () => ({
+  type: TOGGLE_GRAPH
 });
 
 export default (state = initialState, action) => {
@@ -97,6 +103,13 @@ export default (state = initialState, action) => {
       return {
         ...state,
         videoId
+      };
+    }
+
+    case TOGGLE_GRAPH: {
+      return {
+        ...state,
+        showGraph: !state.showGraph
       };
     }
 

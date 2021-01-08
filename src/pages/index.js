@@ -18,7 +18,7 @@ import styles from './styles.module.css';
 const IndexPage = () => {
   const [open, setOpen] = useState(false);
 
-  const { nextQuoteId, previousQuoteId, videoId } = useSelector(
+  const { nextQuoteId, previousQuoteId, showGraph, videoId } = useSelector(
     state => state.app
   );
 
@@ -93,9 +93,11 @@ const IndexPage = () => {
         </div>
       )}
       <div className={styles.gradient} />
-      <div className={styles.graph}>
-        <Graph />
-      </div>
+      {showGraph && (
+        <div className={styles.graph}>
+          <Graph />
+        </div>
+      )}
       <div className={styles.gradientBottom} />
       {videoId && <Video id={videoId} />}
       {open && (
