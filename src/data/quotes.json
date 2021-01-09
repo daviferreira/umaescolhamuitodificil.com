@@ -871,5 +871,14 @@
     "formattedDate": "07 de janeiro",
     "text": "Não podemos nos transformar num país de pobres, um país desempregado, sem PIB, endividado, um país tão rico como o nosso com a população sendo empobrecida por decisões de alguns. Aumentamos as mortes, a vida continua e pedimos a Deus que abençoe o nosso Brasil.",
     "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2021/01/07/bolsonaro-lamenta-200-mil-mortes-e-insinua-que-covid-nao-foi-causa-de-todas.htm"
+  },
+  {
+    "order": 9800,
+    "deaths": 200637,
+    "cases": 7967322,
+    "date": "2021-01-07",
+    "formattedDate": "07 de janeiro",
+    "text": "O tratamento precoce deu certo comigo... mais de duzentas pessoas do meu prédio pegaram a Covid, tá? E, pelo que me consta, ninguém sequer foi pro hospital.",
+    "url": "https://twitter.com/Lewis_Ranieri/status/1347342003449847810"
   }
 ]
