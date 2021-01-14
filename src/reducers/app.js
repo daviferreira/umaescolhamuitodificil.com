@@ -1,4 +1,4 @@
-import store from 'storejs';
+import store from 'store2';
 
 const initialState = {
   cases: [2],
