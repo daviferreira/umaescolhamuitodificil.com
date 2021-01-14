@@ -889,5 +889,14 @@
     "formattedDate": "13 de janeiro",
     "text": "Essa de 50% é uma boa? [ironizando eficácia da CoronaVac]",
     "url": "https://twitter.com/UOLNoticias/status/1349416264557621254"
+  },
+  {
+    "order": 10000,
+    "deaths": 207182,
+    "cases": 8327134,
+    "date": "2021-01-14",
+    "formattedDate": "14 de janeiro",
+    "text": "Ninguém vai ser obrigado a tomar vacina. Você não quer tomar? Não tome! É um direito teu. Afinal de contas, é algo emergencial, não temos comprovação.",
+    "url": "https://twitter.com/gentedemal/status/1349862282617040902"
   }
 ]
