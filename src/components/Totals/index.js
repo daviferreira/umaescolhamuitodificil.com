@@ -46,7 +46,7 @@ const Totals = () => {
             checked={showGraph}
             onChange={() => dispatch(toggleGraph())}
           />
-          Exibir gráfico
+          <span>Exibir gráfico</span>
         </label>
       </div>
     </div>

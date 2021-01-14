@@ -37,8 +37,13 @@
 .graphToggler label {
   cursor: pointer;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1;
+  text-align: right;
+}
+
+.graphToggler label span {
+  opacity: 0.5;
 }
 
 @media only screen and (max-width: 767px) {
