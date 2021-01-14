@@ -880,5 +880,14 @@
     "formattedDate": "07 de janeiro",
     "text": "O tratamento precoce deu certo comigo... mais de duzentas pessoas do meu prédio pegaram a Covid, tá? E, pelo que me consta, ninguém sequer foi pro hospital.",
     "url": "https://twitter.com/Lewis_Ranieri/status/1347342003449847810"
+  },
+  {
+    "order": 9900,
+    "deaths": 206101,
+    "cases": 8261849,
+    "date": "2021-01-13",
+    "formattedDate": "13 de janeiro",
+    "text": "Essa de 50% é uma boa? [ironizando eficácia da CoronaVac]",
+    "url": "https://twitter.com/UOLNoticias/status/1349416264557621254"
   }
 ]
