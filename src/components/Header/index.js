@@ -1,7 +1,7 @@
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
-import { setVideoId, toggleGraph } from '../../reducers/app';
+import { setVideoId } from '../../reducers/app';
 
 import ShareBar from '../ShareBar';
 
@@ -14,7 +14,6 @@ const Header = () => {
     currentDate,
     currentFormattedDate,
     currentVideoId,
-    showGraph,
     url
   } = useSelector(state => state.app);
 
@@ -43,16 +42,6 @@ const Header = () => {
             </a>
           )
         )}
-        <div className={styles.graphToggler}>
-          <label>
-            <input
-              type="checkbox"
-              checked={showGraph}
-              onChange={() => dispatch(toggleGraph())}
-            />
-            Exibir gráfico
-          </label>
-        </div>
       </div>
       <ShareBar />
     </header>

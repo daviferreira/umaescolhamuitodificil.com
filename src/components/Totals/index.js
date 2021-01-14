@@ -1,6 +1,8 @@
 import React from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 import CountUp from 'react-countup';
+
+import { toggleGraph } from '../../reducers/app';
 
 import usePrevious from '../../hooks/usePrevious';
 
@@ -9,7 +11,10 @@ import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
 import styles from './styles.module.css';
 
 const Totals = () => {
-  const { totalCases, totalDeaths } = useSelector(state => state.app);
+  const dispatch = useDispatch();
+  const { showGraph, totalCases, totalDeaths } = useSelector(
+    state => state.app
+  );
 
   const previousTotalCases = usePrevious(totalCases);
   const previousTotalDeaths = usePrevious(totalDeaths);
@@ -33,6 +38,16 @@ const Totals = () => {
           end={totalDeaths}
           style={{ color: COLOR_DEATHS }}
         />
+      </div>
+      <div className={styles.graphToggler}>
+        <label>
+          <input
+            type="checkbox"
+            checked={showGraph}
+            onChange={() => dispatch(toggleGraph())}
+          />
+          Exibir gráfico
+        </label>
       </div>
     </div>
   );

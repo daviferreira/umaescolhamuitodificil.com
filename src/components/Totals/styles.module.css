@@ -26,6 +26,21 @@
   height: 38px;
 }
 
+.graphToggler {
+  margin-left: 16px;
+}
+
+.graphToggler input {
+  margin-right: 8px;
+}
+
+.graphToggler label {
+  cursor: pointer;
+  display: block;
+  font-size: 14px;
+  line-height: 1;
+}
+
 @media only screen and (max-width: 767px) {
   .root {
     align-items: center;
@@ -56,5 +71,9 @@
 
   .count > span {
     height: auto;
+  }
+
+  .graphToggler {
+    display: none;
   }
 }
