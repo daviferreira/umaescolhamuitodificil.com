@@ -55,6 +55,13 @@ const About = () => (
       </a>
     </p>
     <p>
+      Ícone do gráfico por{' '}
+      <a href="https://www.flaticon.com/authors/becris" title="Becris">
+        Becris
+      </a>
+      .
+    </p>
+    <p>
       <a
         href="https://docs.google.com/spreadsheets/d/18SGmEnBtA157mAV-i2wDBO_yc4I1EekW7cNS8ameiJo"
         target="_blank"

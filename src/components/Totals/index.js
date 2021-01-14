@@ -1,3 +1,4 @@
+import classnames from 'classnames';
 import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import CountUp from 'react-countup';
@@ -7,6 +8,8 @@ import { toggleGraph } from '../../reducers/app';
 import usePrevious from '../../hooks/usePrevious';
 
 import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
+
+import Graph from './graph.svg';
 
 import styles from './styles.module.css';
 
@@ -39,15 +42,14 @@ const Totals = () => {
           style={{ color: COLOR_DEATHS }}
         />
       </div>
-      <div className={styles.graphToggler}>
-        <label>
-          <input
-            type="checkbox"
-            checked={showGraph}
-            onChange={() => dispatch(toggleGraph())}
-          />
-          <span>Exibir gráfico</span>
-        </label>
+      <div
+        className={classnames(styles.graphToggler, {
+          [styles.active]: showGraph
+        })}
+        onClick={() => dispatch(toggleGraph())}
+        title={showGraph ? 'Esconder gráfico' : 'Exibir gráfico'}
+      >
+        <Graph />
       </div>
     </div>
   );

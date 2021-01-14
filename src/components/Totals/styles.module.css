@@ -27,25 +27,23 @@
 }
 
 .graphToggler {
-  margin-left: 16px;
-}
-
-.graphToggler input {
-  margin-right: 8px;
-}
-
-.graphToggler label {
-  align-items: center;
   cursor: pointer;
-  display: flex;
-  font-size: 12px;
-  justify-content: flex-end;
-  line-height: 1;
   text-align: right;
 }
 
-.graphToggler label span {
-  opacity: 0.5;
+.graphToggler svg {
+  height: 24px;
+}
+
+.graphToggler path {
+  cursor: pointer;
+  fill: #fff;
+  opacity: 0.4;
+  transition: opacity 0.3s ease;
+}
+
+.graphToggler.active path {
+  opacity: 1;
 }
 
 @media only screen and (max-width: 767px) {
