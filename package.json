@@ -30,7 +30,8 @@
     "react-redux": "^7.2.1",
     "react-youtube": "^7.12.0",
     "redux": "^4.0.5",
-    "redux-devtools-extension": "^2.13.8"
+    "redux-devtools-extension": "^2.13.8",
+    "storejs": "^1.1.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",

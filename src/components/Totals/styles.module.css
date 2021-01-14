@@ -35,9 +35,11 @@
 }
 
 .graphToggler label {
+  align-items: center;
   cursor: pointer;
-  display: block;
+  display: flex;
   font-size: 12px;
+  justify-content: flex-end;
   line-height: 1;
   text-align: right;
 }

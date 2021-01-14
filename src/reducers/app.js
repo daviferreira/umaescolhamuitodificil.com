@@ -1,3 +1,5 @@
+import store from 'storejs';
+
 const initialState = {
   cases: [2],
   currentDate: '2020-03-02',
@@ -7,7 +9,7 @@ const initialState = {
   lastLoadedDate: '2020-03-02',
   nextQuoteId: null,
   previousQuoteId: null,
-  showGraph: true,
+  showGraph: store.get('show_graph') !== false,
   totalCases: 2,
   totalDeaths: 0,
   url: null,
@@ -107,9 +109,14 @@ export default (state = initialState, action) => {
     }
 
     case TOGGLE_GRAPH: {
+      const showGraph = !state.showGraph;
+
+      // side-effect
+      store.set('show_graph', showGraph);
+
       return {
         ...state,
-        showGraph: !state.showGraph
+        showGraph
       };
     }
 
