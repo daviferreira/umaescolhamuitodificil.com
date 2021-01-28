@@ -934,5 +934,23 @@
     "formattedDate": "26 de janeiro",
     "text": "Já somos o sexto país que mais vacinou no mundo.",
     "url": "https://twitter.com/GabineteOcio/status/1354129375835410432?s=20"
+  },
+  {
+    "order": 10400,
+    "deaths": 221707,
+    "cases": 9061639,
+    "date": "2021-01-28",
+    "formattedDate": "28 de janeiro",
+    "text": "As pessoas que continuam adotando essa política de isolamento, de lockdown, de confinamento, são responsáveis, em grande parte, até pelo aumento de infectados. A maioria dos casos de infecções acontecem dentro de casa.",
+    "url": "https://www.cartacapital.com.br/politica/bolsonaro-diz-que-pessoas-que-adotam-o-isolamento-sao-responsaveis-por-infeccoes/"
+  },
+  {
+    "order": 10500,
+    "deaths": 221707,
+    "cases": 9061639,
+    "date": "2021-01-28",
+    "formattedDate": "28 de janeiro",
+    "text": "Temos que conviver com a Covid. Lamento as mortes mais uma vez, mas temos que conviver com esse problema. Não podemos destruir empregos. Isso leva à depressão, ao desemprego, ao suicídio.",
+    "url": "https://www.cartacapital.com.br/politica/bolsonaro-diz-que-pessoas-que-adotam-o-isolamento-sao-responsaveis-por-infeccoes/"
   }
 ]
