@@ -970,5 +970,14 @@
     "formattedDate": "8 de fevereiro",
     "text": "Eu nunca fui contra vacina.",
     "url": "https://twitter.com/SamPancher/status/1358977991175454725"
+  },
+  {
+    "order": 10800,
+    "deaths": 236499,
+    "cases": 9721720,
+    "date": "2021-02-11",
+    "formattedDate": "11 de fevereiro",
+    "text": "Não adianta ficar em casa chorando, não vai chegar a lugar nenhum.",
+    "videoId": "vaSGPeORMFA"
   }
 ]
