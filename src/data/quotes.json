@@ -979,5 +979,14 @@
     "formattedDate": "11 de fevereiro",
     "text": "Não adianta ficar em casa chorando, não vai chegar a lugar nenhum.",
     "videoId": "vaSGPeORMFA"
+  },
+  {
+    "order": 10900,
+    "deaths": 251763,
+    "cases": 10399328,
+    "date": "2021-02-26",
+    "formattedDate": "26 de fevereiro",
+    "text": "O povo não consegue mais ficar dentro de casa. O povo quer trabalhar. Esses que fecham tudo e fecham empregos estão na contramão daquilo que seu povo quer.",
+    "url": "https://www.cnnbrasil.com.br/politica/2021/02/26/em-evento-no-ceara-bolsonaro-volta-a-defender-fim-das-medidas-restritivas"
   }
 ]
