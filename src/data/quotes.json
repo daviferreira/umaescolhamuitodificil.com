@@ -988,5 +988,14 @@
     "formattedDate": "26 de fevereiro",
     "text": "O povo não consegue mais ficar dentro de casa. O povo quer trabalhar. Esses que fecham tudo e fecham empregos estão na contramão daquilo que seu povo quer.",
     "url": "https://www.cnnbrasil.com.br/politica/2021/02/26/em-evento-no-ceara-bolsonaro-volta-a-defender-fim-das-medidas-restritivas"
+  },
+  {
+    "order": 11000,
+    "deaths": 255949,
+    "cases": 10595709,
+    "date": "2021-03-01",
+    "formattedDate": "01 de março",
+    "text": "Eu não errei nenhuma desde Março do ano passado.",
+    "url": "https://twitter.com/desmentindobozo/status/1366568819616014336"
   }
 ]
