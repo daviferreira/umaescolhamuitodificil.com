@@ -3,7 +3,7 @@ import store from 'store2';
 const initialState = {
   cases: [2],
   currentDate: '2020-03-02',
-  currentFormattedDate: '2 de março',
+  currentFormattedDate: '2 de março de 2020',
   deaths: [0],
   labels: ['2 de março'],
   lastLoadedDate: '2020-03-02',
