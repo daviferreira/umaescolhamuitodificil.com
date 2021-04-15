@@ -1051,5 +1051,32 @@
     "formattedDate": "23 de março",
     "text": "O Brasil vem dando exemplo, somos um dos poucos países que está na vanguarda em busca de soluções.",
     "url": "https://twitter.com/desmentindobozo/status/1374057861672804355"
+  },
+  {
+    "order": 11600,
+    "deaths": 295818,
+    "cases": 12057988,
+    "date": "2021-03-23",
+    "formattedDate": "23 de março",
+    "text": "Em nenhum momento, o governo deixou de tomar medidas importantes tanto para combater o coronavírus como para combater o caos na economia.",
+    "url": "https://www.bbc.com/portuguese/brasil-56505496"
+  },
+  {
+    "order": 11700,
+    "deaths": 330421,
+    "cases": 12957938,
+    "date": "2021-04-03",
+    "formattedDate": "03 de abril",
+    "text": "Nós apoiamos medidas protetivas. Tá certo?",
+    "url": "https://twitter.com/desmentindobozo/status/1381982884559470595"
+  },
+  {
+    "order": 11800,
+    "deaths": 362335,
+    "cases": 13684447,
+    "date": "2021-04-14",
+    "formattedDate": "14 de abril",
+    "text": "Tem doenças que simplesmente o vírus acabou. Várias… Problema de coração parece que acabou no Brasil. Morre pouca gente. Morre de doença respiratória, pouca gente também. Tudo é covid-19… Lamentamos, morre gente, lamentamos quem perdeu a vida.",
+    "videoId": "fasn_UwgTm4"
   }
 ]
