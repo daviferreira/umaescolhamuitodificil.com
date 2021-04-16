@@ -2,11 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { InView } from 'react-intersection-observer';
 
-import Image from './Image';
-
 import styles from './styles.module.css';
 
-const Quote = ({ id, date, image, onUpdate, text, url }) => {
+const Quote = ({ id, date, onUpdate, text }) => {
   const handleVisibilityChange = inView => {
     if (inView) {
       if (
@@ -27,25 +25,7 @@ const Quote = ({ id, date, image, onUpdate, text, url }) => {
   return (
     <InView as="div" onChange={handleVisibilityChange} threshold={0.5}>
       <div className={styles.root} data-date={date} id={`quote-${id}`}>
-        {image ? (
-          <a
-            className={styles.image}
-            href={url}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <div>
-              <Image id={id} />
-              {id === 6100 ? (
-                <small>Foto: Orlando Brito</small>
-              ) : (
-                id === 6200 && <small>Foto: Neyara Pinheiro/ TV Clube</small>
-              )}
-            </div>
-          </a>
-        ) : (
-          <blockquote>{text}</blockquote>
-        )}
+        <blockquote>{text}</blockquote>
       </div>
     </InView>
   );
@@ -54,10 +34,8 @@ const Quote = ({ id, date, image, onUpdate, text, url }) => {
 Quote.propTypes = {
   id: PropTypes.number,
   date: PropTypes.string,
-  image: PropTypes.bool,
   onUpdate: PropTypes.func,
-  text: PropTypes.string,
-  url: PropTypes.string
+  text: PropTypes.string
 };
 
 export default Quote;
