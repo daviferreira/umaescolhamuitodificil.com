@@ -6,7 +6,6 @@ const fetch = require('node-fetch');
 const moment = require('moment');
 const prettier = require('prettier');
 const signale = require('signale');
-const uuid = require('short-uuid');
 
 const prettierOptions = {
   singleQuote: true
@@ -44,7 +43,6 @@ function importSheet() {
         .then(async quotes => {
           let order = 100;
           quotes.forEach(({ deaths, cases, date, text, url }) => {
-            const id = uuid.generate();
             const momentDate = moment(date, 'DD/MM/YYYY');
 
             const videoId = url.includes('youtube')
@@ -52,7 +50,6 @@ function importSheet() {
               : undefined;
 
             parsedQuotes.push({
-              id,
               order,
               deaths: parseInt(deaths.replace(/\./g, '')),
               cases: parseInt(cases.replace(/\./g, '')),
