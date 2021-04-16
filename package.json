@@ -34,6 +34,7 @@
   },
   "devDependencies": {
     "babel-eslint": "^10.1.0",
+    "csvtojson": "^2.0.10",
     "eslint": "^7.11.0",
     "eslint-config-prettier": "^6.12.0",
     "eslint-config-standard": "^14.1.1",
@@ -45,7 +46,11 @@
     "eslint-plugin-standard": "^4.0.1",
     "husky": "^4.3.0",
     "lint-staged": "^10.4.0",
+    "moment": "^2.29.1",
+    "node-fetch": "^2.6.1",
     "prettier": "^2.1.2",
+    "short-uuid": "^4.1.0",
+    "signale": "^1.4.0",
     "stylelint": "^13.7.2",
     "stylelint-config-recommended": "^3.0.0",
     "stylelint-order": "^4.1.0"
@@ -66,7 +71,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "lint": "eslint . --cache --cache-location node_modules/.eslintcache && prettier --check '**/*.{js,css,json}' && stylelint './src/**/*.css'",
-    "test": "npm run lint"
+    "test": "npm run lint",
+    "import": "node ./tasks/import"
   },
   "repository": {
     "type": "git",

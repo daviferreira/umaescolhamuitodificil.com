@@ -1,35 +1,44 @@
 [
   {
     "order": 100,
-    "cases": 25,
     "deaths": 0,
+    "cases": 25,
     "date": "2020-03-09",
     "formattedDate": "9 de março de 2020",
-    "text": "Tem a questão do coronavírus também que, no meu entender, está sendo superdimensionado o poder destruidor desse vírus.",
+    "text": "Está sendo superdimensionado o poder destruidor deste vírus.",
     "videoId": "VTCHQkJqv3I"
   },
   {
     "order": 200,
-    "cases": 34,
     "deaths": 0,
+    "cases": 34,
     "date": "2020-03-10",
     "formattedDate": "10 de março de 2020",
-    "text": "Obviamente, temos no momento uma crise, uma pequena crise... ou no meu entender muito mais fantasia.",
+    "text": "Obviamente, temos no momento uma crise. Uma pequena crise, né. Ou no meu entender, muito mais fantasia.",
     "videoId": "Ai742dM_tNA"
   },
   {
     "order": 300,
-    "cases": 52,
     "deaths": 0,
+    "cases": 52,
     "date": "2020-03-11",
     "formattedDate": "11 de março de 2020",
     "text": "Eu não sou médico, eu não sou infectologista. O que eu ouvi até o momento outras gripes mataram mais do que essa.",
     "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/03/11/bolsonaro-nao-sou-medico-pelo-que-ouvi-outras-gripes-mataram-mais.htm"
   },
   {
-    "order": 500,
-    "cases": 200,
+    "order": 400,
     "deaths": 0,
+    "cases": 200,
+    "date": "2020-03-15",
+    "formattedDate": "15 de março de 2020",
+    "text": "Mas não podemos entrar numa neurose, como se fosse o fim do mundo.",
+    "videoId": "DYJV4G5Oz1c"
+  },
+  {
+    "order": 500,
+    "deaths": 0,
+    "cases": 200,
     "date": "2020-03-15",
     "formattedDate": "15 de março de 2020",
     "text": "Com toda certeza há um interesse econômico envolvido nisso tudo... para que se chegue a esta histeria.",
@@ -37,8 +46,8 @@
   },
   {
     "order": 600,
-    "cases": 291,
     "deaths": 1,
+    "cases": 291,
     "date": "2020-03-17",
     "formattedDate": "17 de março de 2020",
     "text": "Não pode algumas autoridades começar a proibir isso ou aquilo... afinal de contas está havendo uma histeria.",
@@ -150,7 +159,7 @@
     "date": "2020-03-29",
     "formattedDate": "29 de março de 2020",
     "text": "O vírus tá aí. Vamos ter que enfrentá-lo, mas enfrentar como homem, porra. Não como um moleque. Vamos enfrentar o vírus com a realidade. É a vida. Todos nós iremos morrer um dia.",
-    "url": "https://www.facebook.com/watch/?v=675670036521008"
+    "url": "https://www.facebook.com/DeLuccaWilliam/videos/675670036521008/?t=6"
   },
   {
     "order": 1900,
@@ -166,7 +175,7 @@
     "deaths": 241,
     "cases": 6834,
     "date": "2020-04-01",
-    "formattedDate": "01 de abril de 2020",
+    "formattedDate": "1 de abril de 2020",
     "text": "O vírus é igual a uma chuva. Ela vem e você vai se molhar, mas não vai morrer afogado.",
     "videoId": "I_GRKK5GGu8"
   },
@@ -175,7 +184,7 @@
     "deaths": 299,
     "cases": 7910,
     "date": "2020-04-02",
-    "formattedDate": "02 de abril de 2020",
+    "formattedDate": "2 de abril de 2020",
     "text": "Tá com medinho de pegar vírus?",
     "videoId": "G0DA7c4mAq4"
   },
@@ -184,12 +193,12 @@
     "deaths": 359,
     "cases": 9056,
     "date": "2020-04-03",
-    "formattedDate": "03 de abril de 2020",
+    "formattedDate": "3 de abril de 2020",
     "text": "Agora, desses 70%, uma pequena parte, que são os idosos e quem têm problema de saúde, vai ter problemas sérios.",
     "videoId": "OIn1EjxiObc"
   },
   {
-    "order": 2400,
+    "order": 2300,
     "deaths": 1056,
     "cases": 19638,
     "date": "2020-04-10",
@@ -198,7 +207,7 @@
     "videoId": "NjFIbKjYk6U"
   },
   {
-    "order": 2500,
+    "order": 2400,
     "deaths": 1223,
     "cases": 22169,
     "date": "2020-04-12",
@@ -207,7 +216,7 @@
     "url": "https://www.cnnbrasil.com.br/politica/2020/04/12/religiosos-relembram-isolamento-em-celebracao-de-pascoa-online-com-bolsonaro"
   },
   {
-    "order": 2600,
+    "order": 2500,
     "deaths": 2141,
     "cases": 33682,
     "date": "2020-04-17",
@@ -216,7 +225,7 @@
     "videoId": "1yZqBvB3HWc"
   },
   {
-    "order": 2700,
+    "order": 2600,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
@@ -225,7 +234,7 @@
     "videoId": "IrKpqx74BWY"
   },
   {
-    "order": 2800,
+    "order": 2700,
     "deaths": 2575,
     "cases": 40581,
     "date": "2020-04-20",
@@ -234,16 +243,16 @@
     "url": "https://istoe.com.br/questionado-sobre-mortes-por-coronavirus-bolsonaro-responde-nao-sou-coveiro-ta/"
   },
   {
-    "order": 2900,
+    "order": 2800,
     "deaths": 5017,
     "cases": 71886,
     "date": "2020-04-28",
     "formattedDate": "28 de abril de 2020",
-    "text": "E daí? Lamento. Quer que eu faça o quê? Eu sou Messias, mas não faço milagres.",
+    "text": "E daí? Lamento. Quer que eu faça o que? Eu sou Messias, mas não faço milagres.",
     "videoId": "KGACSgIToUk"
   },
   {
-    "order": 3000,
+    "order": 2900,
     "deaths": 5466,
     "cases": 78162,
     "date": "2020-04-29",
@@ -252,106 +261,106 @@
     "url": "https://www.msn.com/pt-br/noticias/brasil/e-da%C3%AD-causa-rep%C3%BAdio-em-autoridades-bolsonaro-se-esquiva/ar-BB13pEGz"
   },
   {
-    "order": 3100,
+    "order": 3000,
     "deaths": 6329,
     "cases": 91541,
     "date": "2020-05-01",
-    "formattedDate": "01 de maio de 2020",
+    "formattedDate": "1 de maio de 2020",
     "text": "Eu gostaria que todos voltassem a trabalhar, mas quem decide isso não sou eu, são os governadores e prefeitos.",
     "videoId": "_1xNTZ2GZoE"
+  },
+  {
+    "order": 3100,
+    "deaths": 6750,
+    "cases": 96559,
+    "date": "2020-05-02",
+    "formattedDate": "2 de maio de 2020",
+    "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
+    "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
   },
   {
     "order": 3200,
     "deaths": 6750,
     "cases": 96559,
     "date": "2020-05-02",
-    "formattedDate": "02 de maio de 2020",
-    "text": "Esse vírus vai pegar mesmo, não tem como fugir.",
-    "url": "https://www1.folha.uol.com.br/poder/2020/05/bolsonaro-volta-a-provocar-aglomeracao-apos-pais-ultrapassar-6-mil-mortos-por-coronavirus.shtml"
+    "formattedDate": "2 de maio de 2020",
+    "text": "Desconheço qualquer hospital que esteja lotado, desconheço.",
+    "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/04/02/bolsonaro-desconheco-qualquer-hospital-que-esteja-lotado-desconheco.htm"
   },
   {
     "order": 3300,
-    "deaths": 6750,
-    "cases": 96559,
-    "date": "2020-05-02",
-    "formattedDate": "02 de maio de 2020",
-    "text": "Desconheço qualquer hospital que esteja lotado, desconheço.",
-    "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/04/02/bolsonaro-desconheco-qualquer-hospital-que-esteja-lotado-desconheco.htm"
+    "deaths": 7025,
+    "cases": 101147,
+    "date": "2020-05-03",
+    "formattedDate": "3 de maio de 2020",
+    "text": "Essa destruição de empregos irresponsável por parte de alguns governadores é inadmissível.",
+    "url": "https://www.facebook.com/jairmessias.bolsonaro/videos/252703235928656/"
   },
   {
     "order": 3400,
     "deaths": 7025,
     "cases": 101147,
     "date": "2020-05-03",
-    "formattedDate": "03 de maio de 2020",
-    "text": "Essa destruição de empregos irresponsável por parte de alguns governadores é inadmissível.",
-    "url": "https://www.facebook.com/jairmessias.bolsonaro/videos/252703235928656/"
-  },
-  {
-    "order": 3500,
-    "deaths": 7025,
-    "cases": 101147,
-    "date": "2020-05-03",
-    "formattedDate": "03 de maio de 2020",
+    "formattedDate": "3 de maio de 2020",
     "text": "Sabemos do efeito do vírus, mas, infelizmente, muitos serão infectados, muitos perderão suas vidas também, mas é uma realidade que temos que enfrentar.",
     "url": "https://www.facebook.com/jairmessias.bolsonaro/videos/252703235928656/"
   },
   {
-    "order": 3600,
+    "order": 3500,
     "deaths": 7921,
     "cases": 114715,
     "date": "2020-05-05",
-    "formattedDate": "05 de maio de 2020",
+    "formattedDate": "5 de maio de 2020",
     "text": "Eu não sei se hoje caiu o número de mortes, foi menor do que ontem, eu não sei ainda, mas se foi, vai ser o sexto dia, se não me engano, consecutivo de queda no número de mortes. É um sinal de que o pior já passou.",
     "videoId": "b44LbWPUflw"
+  },
+  {
+    "order": 3600,
+    "deaths": 9146,
+    "cases": 135106,
+    "date": "2020-05-07",
+    "formattedDate": "7 de maio de 2020",
+    "text": "Nós temos um bem muito maior até que a própria vida, se me permitem falar isso, que é a nossa liberdade.",
+    "url": "https://twitter.com/jnascim/status/1258419527685210117?s=20"
   },
   {
     "order": 3700,
     "deaths": 9146,
     "cases": 135106,
     "date": "2020-05-07",
-    "formattedDate": "07 de maio de 2020",
-    "text": "Nós temos um bem muito maior até que a própria vida, se me permitem falar isso, que é a nossa liberdade.",
-    "url": "https://twitter.com/jnascim/status/1258419527685210117"
-  },
-  {
-    "order": 3800,
-    "deaths": 9146,
-    "cases": 135106,
-    "date": "2020-05-07",
-    "formattedDate": "07 de maio de 2020",
+    "formattedDate": "7 de maio de 2020",
     "text": "Estou cometendo um crime. Vou fazer um churrasco no sábado aqui em casa. Vamos bater um papo, quem sabe uma ‘peladinha’, alguns ministros, alguns servidores mais humildes que estão do meu lado.",
     "url": "https://twitter.com/mvitorodrigues/status/1258551731132096512"
   },
   {
-    "order": 3900,
+    "order": 3800,
     "deaths": 9897,
     "cases": 145328,
     "date": "2020-05-08",
-    "formattedDate": "08 de maio de 2020",
+    "formattedDate": "8 de maio de 2020",
     "text": "3 mil pessoas no churrasco amanhã.",
     "url": "https://twitter.com/desgovernobolso/status/1258863567333470209"
   },
   {
-    "order": 4000,
+    "order": 3900,
     "deaths": 10627,
     "cases": 155939,
     "date": "2020-05-09",
-    "formattedDate": "09 de maio de 2020",
+    "formattedDate": "9 de maio de 2020",
     "text": "Isso é uma neurose, 70% vai pegar o vírus. Não tem como. É uma loucura.",
     "url": "https://twitter.com/fatourgente/status/1259241252517810179"
   },
   {
-    "order": 4100,
+    "order": 4000,
     "deaths": 11123,
     "cases": 162699,
     "date": "2020-05-10",
     "formattedDate": "10 de maio de 2020",
-    "text": "Já que não querem abrir, vou eu abrindo.",
+    "text": " Já que não querem abrir, vou eu abrindo.",
     "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/05/10/interna_politica,853363/ja-que-nao-querem-abrir-vou-eu-abrindo-diz-bolsonaro-sobre-decreto.shtml"
   },
   {
-    "order": 4200,
+    "order": 4100,
     "deaths": 11519,
     "cases": 168331,
     "date": "2020-05-11",
@@ -360,7 +369,7 @@
     "url": "https://economia.uol.com.br/noticias/reuters/2020/05/11/bolsonaro-amplia-de-novo-atividades-essenciais-e-inclui-academias-e-saloes-de-beleza.htm"
   },
   {
-    "order": 4300,
+    "order": 4200,
     "deaths": 13149,
     "cases": 188974,
     "date": "2020-05-13",
@@ -369,7 +378,7 @@
     "url": "https://www.correiobraziliense.com.br/app/noticia/politica/2020/05/13/interna_politica,854347/bolsonaro-quem-nao-quiser-trabalhar-que-fique-em-casa-porra.shtml"
   },
   {
-    "order": 4400,
+    "order": 4300,
     "deaths": 13993,
     "cases": 202918,
     "date": "2020-05-14",
@@ -378,7 +387,7 @@
     "url": "https://twitter.com/HaddadDebochado/status/1260967910396305408"
   },
   {
-    "order": 4500,
+    "order": 4400,
     "deaths": 17971,
     "cases": 271628,
     "date": "2020-05-19",
@@ -387,7 +396,7 @@
     "url": "https://politica.estadao.com.br/noticias/geral,bolsonaro-diz-que-nenhum-ministro-saiu-do-governo-por-corrupcao,70003307491"
   },
   {
-    "order": 4600,
+    "order": 4500,
     "deaths": 17971,
     "cases": 271628,
     "date": "2020-05-19",
@@ -396,7 +405,7 @@
     "url": "https://twitter.com/YviMcarneiro/status/1262900761102557184"
   },
   {
-    "order": 4700,
+    "order": 4600,
     "deaths": 20047,
     "cases": 310087,
     "date": "2020-05-21",
@@ -405,16 +414,16 @@
     "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/05/21/antes-de-reuniao-bolsonaro-critica-governadores-voces-terao-que-sentir.htm"
   },
   {
-    "order": 4800,
+    "order": 4700,
     "deaths": 21048,
     "cases": 330890,
     "date": "2020-05-22",
     "formattedDate": "22 de maio de 2020",
-    "text": "Morre muito mais gente de pavor do que do ato em si. Então o pavor também mata, leva ao estresse, ao cansaço, a pessoa não dorme direito, fica sempre preocupada, 'vou morrer, se esse vírus pegar vou morrer'.",
+    "text": "É a vida, é a realidade. Morre muito mais gente de pavor do que do ato em si. Então o pavor também mata, leva ao estresse, ao cansaço, a pessoa não dorme direito, fica sempre preocupada, 'vou morrer, se esse vírus pegar vou morrer'.",
     "url": "https://twitter.com/jairmearrependi/status/1263622098058186752"
   },
   {
-    "order": 4900,
+    "order": 4800,
     "deaths": 26754,
     "cases": 438238,
     "date": "2020-05-28",
@@ -423,43 +432,43 @@
     "url": "https://www.facebook.com/watch/?v=671761803369788"
   },
   {
-    "order": 5000,
+    "order": 4900,
     "deaths": 31199,
     "cases": 555383,
     "date": "2020-06-02",
-    "formattedDate": "02 de junho de 2020",
+    "formattedDate": "2 de junho de 2020",
     "text": "Lamento a todos os mortos, mas é o destino de todo mundo.",
     "url": "https://twitter.com/gentedemal/status/1268196036629139457"
   },
   {
-    "order": 5100,
+    "order": 5000,
     "deaths": 31199,
     "cases": 555383,
     "date": "2020-06-02",
-    "formattedDate": "02 de junho de 2020",
+    "formattedDate": "2 de junho de 2020",
     "text": "Se ele pegar uma chuva e ficar molhado na chuva vai pegar pneumonia. E se bobear entra em óbito. (...) Quem tem problema tem que se cuidar sempre. Não é questão desse vírus apenas. Agora, não precisa ficar com medo.",
     "url": "https://twitter.com/SamPancher/status/1268012211986890753"
   },
   {
-    "order": 5200,
+    "order": 5100,
     "deaths": 35026,
     "cases": 645771,
     "date": "2020-06-05",
-    "formattedDate": "05 de junho de 2020",
+    "formattedDate": "5 de junho de 2020",
     "text": "Acabou matéria no Jornal Nacional. [após atrasar divulgação de dados da pandemia da COVID-19]",
     "url": "https://twitter.com/lucasnegrisoli/status/1269045029882003456"
   },
   {
-    "order": 5300,
+    "order": 5200,
     "deaths": 38406,
-    "cases": 739503,
+    "cases": 742084,
     "date": "2020-06-09",
-    "formattedDate": "09 de junho de 2020",
+    "formattedDate": "9 de junho de 2020",
     "text": "Esse pânico que foi pregado lá atrás por parte da grande mídia começa talvez a se dissipar levando em conta o que a OMS falou por parte do contágio dos assintomáticos.",
     "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2020/06/09/bolsonaro-distorce-oms-sobre-assintomaticos-e-diz-que-panico-esta-acabando.htm"
   },
   {
-    "order": 5400,
+    "order": 5300,
     "deaths": 39680,
     "cases": 772416,
     "date": "2020-06-10",
@@ -468,7 +477,7 @@
     "url": "https://twitter.com/gentedemal/status/1270705046485901312"
   },
   {
-    "order": 5500,
+    "order": 5400,
     "deaths": 40919,
     "cases": 802828,
     "date": "2020-06-11",
@@ -477,7 +486,7 @@
     "url": "https://twitter.com/alexaguiarpoa/status/1271222421438283776"
   },
   {
-    "order": 5600,
+    "order": 5500,
     "deaths": 43959,
     "cases": 888271,
     "date": "2020-06-15",
@@ -486,7 +495,7 @@
     "url": "https://noticias.uol.com.br/ultimas-noticias/agencia-estado/2020/06/15/bolsonaro-nao-temos-informacoes-de-que-alguem-tenha-falecido-por-falta-de-uti.htm"
   },
   {
-    "order": 5700,
+    "order": 5600,
     "deaths": 51271,
     "cases": 1106470,
     "date": "2020-06-22",
@@ -495,16 +504,16 @@
     "url": "https://g1.globo.com/politica/noticia/2020/06/22/bolsonaro-defende-reabertura-do-comercio-e-fala-em-pouco-de-exagero-no-trato-da-pandemia.ghtml"
   },
   {
-    "order": 5800,
+    "order": 5700,
     "deaths": 66741,
     "cases": 1668589,
     "date": "2020-07-07",
-    "formattedDate": "07 de julho de 2020",
+    "formattedDate": "7 de julho de 2020",
     "text": "Eu confio na hidroxicloroquina, e você?",
     "url": "https://twitter.com/gentedemal/status/1280625424695992322"
   },
   {
-    "order": 5900,
+    "order": 5800,
     "deaths": 75366,
     "cases": 1966748,
     "date": "2020-07-15",
@@ -513,7 +522,7 @@
     "url": "https://www.facebook.com/watch/?v=2573025329680456"
   },
   {
-    "order": 6000,
+    "order": 5900,
     "deaths": 78735,
     "cases": 2074834,
     "date": "2020-07-18",
@@ -522,16 +531,7 @@
     "videoId": "RvEIEZqOguE"
   },
   {
-    "order": 6100,
-    "deaths": 79485,
-    "cases": 2098389,
-    "date": "2020-07-19",
-    "formattedDate": "19 de julho de 2020",
-    "image": true,
-    "url": "https://twitter.com/SamPancher/status/1284974259698380801"
-  },
-  {
-    "order": 6110,
+    "order": 6000,
     "deaths": 90134,
     "cases": 2552265,
     "date": "2020-07-29",
@@ -540,25 +540,16 @@
     "url": "https://twitter.com/SamPancher/status/1288972820207357959"
   },
   {
-    "order": 6200,
-    "deaths": 91263,
-    "cases": 2610102,
-    "date": "2020-07-30",
-    "formattedDate": "30 de julho de 2020",
-    "image": true,
-    "url": "https://g1.globo.com/pi/piaui/noticia/2020/07/30/em-1o-evento-publico-apos-covid-19-bolsonaro-fica-sem-mascara-em-meio-a-aglomeracao-com-apoiadores-em-aeroporto-no-piaui.ghtml"
-  },
-  {
-    "order": 6300,
+    "order": 6100,
     "deaths": 98493,
     "cases": 2912212,
     "date": "2020-08-06",
-    "formattedDate": "06 de agosto de 2020",
+    "formattedDate": "6 de agosto de 2020",
     "text": "A gente lamenta todas as mortes, vamos chegar a 100 mil, mas vamos tocar a vida e se safar desse problema.",
     "videoId": "Y-nyxW-5mGY"
   },
   {
-    "order": 6400,
+    "order": 6200,
     "deaths": 101752,
     "cases": 3057470,
     "date": "2020-08-11",
@@ -567,7 +558,7 @@
     "url": "https://twitter.com/jairbolsonaro/status/1292974736625020929"
   },
   {
-    "order": 6500,
+    "order": 6300,
     "deaths": 104201,
     "cases": 3165785,
     "date": "2020-08-13",
@@ -576,7 +567,7 @@
     "url": "https://twitter.com/SamPancher/status/1293926094589001732"
   },
   {
-    "order": 6600,
+    "order": 6400,
     "deaths": 111100,
     "cases": 3456642,
     "date": "2020-08-19",
@@ -585,7 +576,7 @@
     "url": "https://www.correiobraziliense.com.br/politica/2020/08/4869697-bolsonaro---nao-vi-no-mundo-quem-enfrentou-melhor-a-pandemia-do-que-nos.html"
   },
   {
-    "order": 6700,
+    "order": 6500,
     "deaths": 114744,
     "cases": 3605783,
     "date": "2020-08-24",
@@ -594,7 +585,7 @@
     "url": "https://twitter.com/SamPancher/status/1297912844390928385"
   },
   {
-    "order": 6710,
+    "order": 6600,
     "deaths": 116580,
     "cases": 3669995,
     "date": "2020-08-25",
@@ -603,7 +594,7 @@
     "url": "https://twitter.com/UOLNoticias/status/1298641745698332674"
   },
   {
-    "order": 6800,
+    "order": 6700,
     "deaths": 121381,
     "cases": 3908272,
     "date": "2020-08-31",
@@ -612,16 +603,16 @@
     "url": "https://twitter.com/SamPancher/status/1300563412712333313"
   },
   {
-    "order": 6900,
+    "order": 6800,
     "deaths": 123780,
     "cases": 3997865,
     "date": "2020-09-03",
-    "formattedDate": "03 de setembro de 2020",
+    "formattedDate": "3 de setembro de 2020",
     "text": "Desde o começo assumi posição ímpar, não só dentro do Brasil, mas como chefe de Estado no mundo todo. Não vi um chefe de Estado tomar uma decisão como a minha.",
     "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/09/03/bolsonaro-diz-que-teve-gestao-impar-contra-a-pandemia-de-coronavirus.htm"
   },
   {
-    "order": 7000,
+    "order": 6900,
     "deaths": 135793,
     "cases": 4495183,
     "date": "2020-09-18",
@@ -630,7 +621,7 @@
     "url": "https://twitter.com/delucca/status/1307089035526053889"
   },
   {
-    "order": 7100,
+    "order": 7000,
     "deaths": 139808,
     "cases": 4657702,
     "date": "2020-09-24",
@@ -639,16 +630,16 @@
     "url": "https://noticias.uol.com.br/politica/ultimas-noticias/2020/09/24/bolsonaro-ironiza-alta-cupula-de-brasilia-por-usar-mascara-e-pegar-covid.htm"
   },
   {
-    "order": 7200,
+    "order": 7100,
     "deaths": 143952,
     "cases": 4810935,
     "date": "2020-10-01",
-    "formattedDate": "01 de outubro de 2020",
+    "formattedDate": "1 de outubro de 2020",
     "text": "Deus foi tão abençoado que nos deu a hidroxicloroquina para quem se acometer da doença. Quem não acreditou engula agora. Eu não sou médico, mas sou ousado, como o cabra da peste nordestino. Nós temos que buscar uma solução para os nossos problemas, e ela apareceu.",
     "url": "https://twitter.com/SamPancher/status/1311679244658003970"
   },
   {
-    "order": 7300,
+    "order": 7200,
     "deaths": 150998,
     "cases": 5113628,
     "date": "2020-10-14",
@@ -657,7 +648,7 @@
     "url": "https://www.poder360.com.br/coronavirus/bolsonaro-diz-que-pandemia-foi-superdimensionada-em-evento-da-industria-do-rio/"
   },
   {
-    "order": 7400,
+    "order": 7300,
     "deaths": 154176,
     "cases": 5250727,
     "date": "2020-10-19",
@@ -666,7 +657,7 @@
     "url": "https://twitter.com/tesoureiros/status/1318316300704321536"
   },
   {
-    "order": 7500,
+    "order": 7400,
     "deaths": 156471,
     "cases": 5353656,
     "date": "2020-10-23",
@@ -675,7 +666,7 @@
     "url": "https://twitter.com/SamPancher/status/1319500458373844994"
   },
   {
-    "order": 7600,
+    "order": 7500,
     "deaths": 157397,
     "cases": 5409854,
     "date": "2020-10-26",
@@ -684,7 +675,7 @@
     "url": "https://twitter.com/SamPancher/status/1320751569583951875"
   },
   {
-    "order": 7700,
+    "order": 7600,
     "deaths": 158456,
     "cases": 5468270,
     "date": "2020-10-28",
@@ -693,7 +684,7 @@
     "url": "https://twitter.com/SamPancher/status/1321640587578220549"
   },
   {
-    "order": 7800,
+    "order": 7700,
     "deaths": 158456,
     "cases": 5468270,
     "date": "2020-10-28",
@@ -702,7 +693,7 @@
     "url": "https://exame.com/brasil/bolsonaro-diz-que-nao-entende-lockdown-contra-covid-19-na-franca/"
   },
   {
-    "order": 7810,
+    "order": 7800,
     "deaths": 158969,
     "cases": 5494376,
     "date": "2020-10-29",
@@ -760,7 +751,7 @@
     "deaths": 173928,
     "cases": 6391640,
     "date": "2020-12-02",
-    "formattedDate": "02 de dezembro de 2020",
+    "formattedDate": "2 de dezembro de 2020",
     "text": "Eu não chutei nada na questão do vírus, tudo o que eu falei deu certo. Tudo.",
     "url": "https://twitter.com/tesoureiros/status/1334476766237384704"
   },
@@ -856,91 +847,82 @@
   },
   {
     "order": 9500,
-    "deaths": 195509,
-    "cases": 7702582,
-    "date": "2021-01-01",
-    "formattedDate": "01 de janeiro",
-    "image": true,
-    "url": "https://twitter.com/lilian_tahan/status/1345101627863277568"
-  },
-  {
-    "order": 9600,
     "deaths": 196670,
     "cases": 7759048,
     "date": "2021-01-04",
-    "formattedDate": "04 de janeiro",
+    "formattedDate": "4 de janeiro de 2021",
     "text": "Mergulhei de máscara também, pra não pegar Covid nos peixinhos.",
     "url": "https://istoe.com.br/mergulhei-de-mascara-para-nao-pegar-covid-nos-peixinhos-ironiza-bolsonaro/"
+  },
+  {
+    "order": 9600,
+    "deaths": 200637,
+    "cases": 7967322,
+    "date": "2021-01-07",
+    "formattedDate": "7 de janeiro de 2021",
+    "text": "Não podemos nos transformar num país de pobres, um país desempregado, sem PIB, endividado, um país tão rico como o nosso com a população sendo empobrecida por decisões de alguns. Aumentamos as mortes, a vida continua e pedimos a Deus que abençoe o nosso Brasil.",
+    "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2021/01/07/bolsonaro-lamenta-200-mil-mortes-e-insinua-que-covid-nao-foi-causa-de-todas.htm"
   },
   {
     "order": 9700,
     "deaths": 200637,
     "cases": 7967322,
     "date": "2021-01-07",
-    "formattedDate": "07 de janeiro",
-    "text": "Não podemos nos transformar num país de pobres, um país desempregado, sem PIB, endividado, um país tão rico como o nosso com a população sendo empobrecida por decisões de alguns. Aumentamos as mortes, a vida continua e pedimos a Deus que abençoe o nosso Brasil.",
-    "url": "https://noticias.uol.com.br/saude/ultimas-noticias/redacao/2021/01/07/bolsonaro-lamenta-200-mil-mortes-e-insinua-que-covid-nao-foi-causa-de-todas.htm"
-  },
-  {
-    "order": 9800,
-    "deaths": 200637,
-    "cases": 7967322,
-    "date": "2021-01-07",
-    "formattedDate": "07 de janeiro",
+    "formattedDate": "7 de janeiro de 2021",
     "text": "O tratamento precoce deu certo comigo... mais de duzentas pessoas do meu prédio pegaram a Covid, tá? E, pelo que me consta, ninguém sequer foi pro hospital.",
     "url": "https://twitter.com/Lewis_Ranieri/status/1347342003449847810"
   },
   {
-    "order": 9900,
+    "order": 9800,
     "deaths": 206101,
     "cases": 8261849,
     "date": "2021-01-13",
-    "formattedDate": "13 de janeiro",
+    "formattedDate": "13 de janeiro de 2021",
     "text": "Essa de 50% é uma boa? [ironizando eficácia da CoronaVac]",
     "url": "https://twitter.com/UOLNoticias/status/1349416264557621254"
+  },
+  {
+    "order": 9900,
+    "deaths": 207182,
+    "cases": 8327134,
+    "date": "2021-01-14",
+    "formattedDate": "14 de janeiro de 2021",
+    "text": "Ninguém vai ser obrigado a tomar vacina. Você não quer tomar? Não tome! É um direito teu. Afinal de contas, é algo emergencial, não temos comprovação.",
+    "url": "https://twitter.com/gentedemal/status/1349862282617040902"
   },
   {
     "order": 10000,
     "deaths": 207182,
     "cases": 8327134,
     "date": "2021-01-14",
-    "formattedDate": "14 de janeiro",
-    "text": "Ninguém vai ser obrigado a tomar vacina. Você não quer tomar? Não tome! É um direito teu. Afinal de contas, é algo emergencial, não temos comprovação.",
-    "url": "https://twitter.com/gentedemal/status/1349862282617040902"
-  },
-  {
-    "order": 10100,
-    "deaths": 207182,
-    "cases": 8327134,
-    "date": "2021-01-14",
-    "formattedDate": "14 de janeiro",
+    "formattedDate": "14 de janeiro de 2021",
     "text": "Com todo o respeito a muita gente no Brasil, mas dificilmente tem alguém melhor que o Pazuello como gestor dentro do Ministério da Saúde.",
     "videoId": "-tTgxztuqTs"
   },
   {
-    "order": 10200,
+    "order": 10100,
     "deaths": 208384,
     "cases": 8398886,
     "date": "2021-01-15",
-    "formattedDate": "15 de janeiro",
+    "formattedDate": "15 de janeiro de 2021",
     "text": "O Marcos Pontes também está trabalhando, né, numa vacina brasileira... que ele acha que pode ficar pronta esse ano na fase experimental ainda, mas pode ficar pronta. Quem sabe até viemos a usá-la.",
     "url": "https://twitter.com/LeviKaique/status/1350187166614380547"
   },
   {
-    "order": 10300,
+    "order": 10200,
     "deaths": 209958,
     "cases": 8490508,
     "date": "2021-01-18",
-    "formattedDate": "18 de janeiro",
+    "formattedDate": "18 de janeiro de 2021",
     "text": "Apesar da vacina... Apesar, não. A Anvisa aprovou, não tem o que discutir mais. Agora, havendo disponibilidade no mercado, a gente vai comprar. Então, está liberada a aplicação no Brasil. E a vacina é do Brasil, não é de nenhum governador, não.",
     "url": "https://twitter.com/BrunnoMeloCBN/status/1351174434418290695"
   },
   {
-    "order": 10305,
+    "order": 10300,
     "deaths": 217831,
     "cases": 8878795,
     "date": "2021-01-26",
-    "formattedDate": "26 de janeiro",
+    "formattedDate": "26 de janeiro de 2021",
     "text": "Já somos o sexto país que mais vacinou no mundo.",
     "url": "https://twitter.com/GabineteOcio/status/1354129375835410432?s=20"
   },
@@ -949,7 +931,7 @@
     "deaths": 221707,
     "cases": 9061639,
     "date": "2021-01-28",
-    "formattedDate": "28 de janeiro",
+    "formattedDate": "28 de janeiro de 2021",
     "text": "As pessoas que continuam adotando essa política de isolamento, de lockdown, de confinamento, são responsáveis, em grande parte, até pelo aumento de infectados. A maioria dos casos de infecções acontecem dentro de casa.",
     "url": "https://www.cartacapital.com.br/politica/bolsonaro-diz-que-pessoas-que-adotam-o-isolamento-sao-responsaveis-por-infeccoes/"
   },
@@ -958,7 +940,7 @@
     "deaths": 221707,
     "cases": 9061639,
     "date": "2021-01-28",
-    "formattedDate": "28 de janeiro",
+    "formattedDate": "28 de janeiro de 2021",
     "text": "Temos que conviver com a Covid. Lamento as mortes mais uma vez, mas temos que conviver com esse problema. Não podemos destruir empregos. Isso leva à depressão, ao desemprego, ao suicídio.",
     "url": "https://www.cartacapital.com.br/politica/bolsonaro-diz-que-pessoas-que-adotam-o-isolamento-sao-responsaveis-por-infeccoes/"
   },
@@ -967,7 +949,7 @@
     "deaths": 228991,
     "cases": 9403854,
     "date": "2021-02-04",
-    "formattedDate": "4 de fevereiro",
+    "formattedDate": "4 de fevereiro de 2021",
     "text": "Alguns vão pra zombação ‘Capitão Cloroquina’, deixa de ser otário! Pode ser que lá na frente fala 'a chance é zero, era um placebo’. Tudo bem, paciência, me desculpa, tchau. Pelo menos não matei ninguém.",
     "url": "https://twitter.com/SamPancher/status/1357480687608213505"
   },
@@ -976,7 +958,7 @@
     "deaths": 231646,
     "cases": 9526875,
     "date": "2021-02-08",
-    "formattedDate": "8 de fevereiro",
+    "formattedDate": "8 de fevereiro de 2021",
     "text": "Eu nunca fui contra vacina.",
     "url": "https://twitter.com/SamPancher/status/1358977991175454725"
   },
@@ -985,7 +967,7 @@
     "deaths": 236499,
     "cases": 9721720,
     "date": "2021-02-11",
-    "formattedDate": "11 de fevereiro",
+    "formattedDate": "11 de fevereiro de 2021",
     "text": "Não adianta ficar em casa chorando, não vai chegar a lugar nenhum.",
     "videoId": "vaSGPeORMFA"
   },
@@ -994,7 +976,7 @@
     "deaths": 251763,
     "cases": 10399328,
     "date": "2021-02-26",
-    "formattedDate": "26 de fevereiro",
+    "formattedDate": "26 de fevereiro de 2021",
     "text": "O povo não consegue mais ficar dentro de casa. O povo quer trabalhar. Esses que fecham tudo e fecham empregos estão na contramão daquilo que seu povo quer.",
     "url": "https://www.cnnbrasil.com.br/politica/2021/02/26/em-evento-no-ceara-bolsonaro-volta-a-defender-fim-das-medidas-restritivas"
   },
@@ -1003,7 +985,7 @@
     "deaths": 255949,
     "cases": 10595709,
     "date": "2021-03-01",
-    "formattedDate": "01 de março",
+    "formattedDate": "1 de março de 2021",
     "text": "Eu não errei nenhuma desde Março do ano passado.",
     "url": "https://twitter.com/desmentindobozo/status/1366568819616014336"
   },
@@ -1012,7 +994,7 @@
     "deaths": 259496,
     "cases": 10728218,
     "date": "2021-03-03",
-    "formattedDate": "03 de março",
+    "formattedDate": "3 de março de 2021",
     "text": "No que depender de mim nunca teremos lockdown. Nunca, uma política que não deu certo em lugar nenhum do mundo.",
     "url": "https://www1.folha.uol.com.br/equilibrioesaude/2021/03/no-que-depender-de-mim-nunca-teremos-lockdown-diz-bolsonaro.shtml"
   },
@@ -1021,7 +1003,7 @@
     "deaths": 261314,
     "cases": 10803828,
     "date": "2021-03-04",
-    "formattedDate": "04 de março",
+    "formattedDate": "4 de março de 2021",
     "text": "Chega de frescura e de mimimi. Vão ficar chorando até quando?",
     "url": "https://twitter.com/SamPancher/status/1367513792863756288"
   },
@@ -1030,7 +1012,7 @@
     "deaths": 261314,
     "cases": 10803828,
     "date": "2021-03-04",
-    "formattedDate": "04 de março",
+    "formattedDate": "4 de março de 2021",
     "text": "Tem idiota, pelas redes sociais e pela imprensa, que diz: vai comprar vacina! Só se for na casa da sua mãe!",
     "url": "https://twitter.com/BrunnoMeloCBN/status/1367536361004236800"
   },
@@ -1039,7 +1021,7 @@
     "deaths": 287800,
     "cases": 11790785,
     "date": "2021-03-18",
-    "formattedDate": "18 de março",
+    "formattedDate": "18 de março de 2021",
     "text": "Se você começar a sentir um negócio esquisito lá, você segue a receita do ministro Mandetta. Você vai para casa, e quando você estiver lá… [barulhos de alguém sufocando] com falta de ar, aí você vai para o hospital.",
     "url": "https://twitter.com/JornalismoWando/status/1372712518293012483"
   },
@@ -1048,7 +1030,7 @@
     "deaths": 295818,
     "cases": 12057988,
     "date": "2021-03-23",
-    "formattedDate": "23 de março",
+    "formattedDate": "23 de março de 2021",
     "text": "O Brasil vem dando exemplo, somos um dos poucos países que está na vanguarda em busca de soluções.",
     "url": "https://twitter.com/desmentindobozo/status/1374057861672804355"
   },
@@ -1057,7 +1039,7 @@
     "deaths": 295818,
     "cases": 12057988,
     "date": "2021-03-23",
-    "formattedDate": "23 de março",
+    "formattedDate": "23 de março de 2021",
     "text": "Em nenhum momento, o governo deixou de tomar medidas importantes tanto para combater o coronavírus como para combater o caos na economia.",
     "url": "https://www.bbc.com/portuguese/brasil-56505496"
   },
@@ -1066,7 +1048,7 @@
     "deaths": 330421,
     "cases": 12957938,
     "date": "2021-04-03",
-    "formattedDate": "03 de abril",
+    "formattedDate": "3 de abril de 2021",
     "text": "Nós apoiamos medidas protetivas. Tá certo?",
     "url": "https://twitter.com/desmentindobozo/status/1381982884559470595"
   },
@@ -1075,7 +1057,7 @@
     "deaths": 362335,
     "cases": 13684447,
     "date": "2021-04-14",
-    "formattedDate": "14 de abril",
+    "formattedDate": "14 de abril de 2021",
     "text": "Tem doenças que simplesmente o vírus acabou. Várias… Problema de coração parece que acabou no Brasil. Morre pouca gente. Morre de doença respiratória, pouca gente também. Tudo é covid-19… Lamentamos, morre gente, lamentamos quem perdeu a vida.",
     "videoId": "fasn_UwgTm4"
   }

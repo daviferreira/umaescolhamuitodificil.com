@@ -9,7 +9,7 @@ const initialState = {
   lastLoadedDate: '2020-03-02',
   nextQuoteId: null,
   previousQuoteId: null,
-  showGraph: store.get('show_graph') !== false,
+  showGraph: store.get('show_graph') === true,
   totalCases: 2,
   totalDeaths: 0,
   url: null,
