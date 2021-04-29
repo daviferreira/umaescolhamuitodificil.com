@@ -1018,6 +1018,15 @@
   },
   {
     "order": 11400,
+    "deaths": 266646,
+    "cases": 11058490,
+    "date": "2021-03-08",
+    "formattedDate": "8 de março de 2021",
+    "text": "Mas o pessoal é igual a TV funerária, né? Morreram tantos...",
+    "url": "https://twitter.com/jairmearrependi/status/1387811006496260097"
+  },
+  {
+    "order": 11500,
     "deaths": 287800,
     "cases": 11790785,
     "date": "2021-03-18",
@@ -1026,7 +1035,7 @@
     "url": "https://twitter.com/JornalismoWando/status/1372712518293012483"
   },
   {
-    "order": 11500,
+    "order": 11600,
     "deaths": 295818,
     "cases": 12057988,
     "date": "2021-03-23",
@@ -1035,7 +1044,7 @@
     "url": "https://twitter.com/desmentindobozo/status/1374057861672804355"
   },
   {
-    "order": 11600,
+    "order": 11700,
     "deaths": 295818,
     "cases": 12057988,
     "date": "2021-03-23",
@@ -1044,7 +1053,7 @@
     "url": "https://www.bbc.com/portuguese/brasil-56505496"
   },
   {
-    "order": 11700,
+    "order": 11800,
     "deaths": 330421,
     "cases": 12957938,
     "date": "2021-04-03",
@@ -1053,7 +1062,7 @@
     "url": "https://twitter.com/desmentindobozo/status/1381982884559470595"
   },
   {
-    "order": 11800,
+    "order": 11900,
     "deaths": 337369,
     "cases": 13111454,
     "date": "2021-04-07",
@@ -1062,7 +1071,7 @@
     "url": "https://www.facebook.com/watch/?v=207299617425726"
   },
   {
-    "order": 11900,
+    "order": 12000,
     "deaths": 337369,
     "cases": 13111454,
     "date": "2021-04-07",
@@ -1071,7 +1080,7 @@
     "videoId": "wvQAGmmVbXU"
   },
   {
-    "order": 12000,
+    "order": 12100,
     "deaths": 362335,
     "cases": 13684447,
     "date": "2021-04-14",
@@ -1080,7 +1089,7 @@
     "videoId": "fasn_UwgTm4"
   },
   {
-    "order": 12100,
+    "order": 12200,
     "deaths": 365834,
     "cases": 13756521,
     "date": "2021-04-15",
