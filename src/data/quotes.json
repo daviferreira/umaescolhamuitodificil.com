@@ -1096,5 +1096,14 @@
     "formattedDate": "15 de abril de 2021",
     "text": "Nós sabemos aí do vírus da Covid, que mata muita gente, mas parece que os números começaram a cair depois que a CPI lá do Senado incluiu também a investigação em cima de governadores e prefeitos.",
     "videoId": "lMSehnJeYEI"
+  },
+  {
+    "order": 12300,
+    "deaths": 412032,
+    "cases": 14868252,
+    "date": "2021-05-05",
+    "formattedDate": "5 de maio de 2021",
+    "text": "Já encheu o saco isso.",
+    "url": "https://twitter.com/BernardoMF/status/1389954345626656768"
   }
 ]
