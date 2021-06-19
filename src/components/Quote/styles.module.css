@@ -50,6 +50,10 @@
     font-size: 22px;
   }
 
+  .root.genocide blockquote {
+    font-size: 64px;
+  }
+
   .root blockquote::before {
     left: 24px;
     top: -64px;
