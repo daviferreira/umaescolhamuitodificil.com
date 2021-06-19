@@ -1114,5 +1114,15 @@
     "formattedDate": "17 de maio de 2021",
     "text": "Tem alguns idiotas que até hoje ficam em casa.",
     "videoId": "ynUNL5cIYJo"
+  },
+  {
+    "order": 12500,
+    "deaths": 500000,
+    "cases": 17808472,
+    "date": "2021-06-19",
+    "formattedDate": "19 de junho de 2021",
+    "text": "500.000",
+    "url": "https://www1.folha.uol.com.br/equilibrioesaude/2021/06/brasil-chega-a-500-mil-mortes-por-covid.shtml",
+    "className": "genocide"
   }
 ]

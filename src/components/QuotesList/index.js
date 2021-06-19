@@ -27,6 +27,7 @@ const QuotesList = () => {
             text
             url
             videoId
+            className
           }
         }
       }
@@ -44,8 +45,19 @@ const QuotesList = () => {
       data
         .filter(({ node }) => node.order <= order)
         .map(
-          ({ node: { cases, date, deaths, formattedDate, url, videoId } }) => ({
+          ({
+            node: {
+              cases,
+              className,
+              date,
+              deaths,
+              formattedDate,
+              url,
+              videoId
+            }
+          }) => ({
             cases,
+            className,
             date,
             deaths,
             formattedDate,
@@ -71,6 +83,7 @@ const QuotesList = () => {
         ({
           node: {
             cases,
+            className,
             date,
             deaths,
             formattedDate,
@@ -85,6 +98,7 @@ const QuotesList = () => {
             date={date}
             formattedDate={formattedDate}
             key={order}
+            modifier={className}
             onUpdate={() =>
               handleUpdate(order, {
                 cases,

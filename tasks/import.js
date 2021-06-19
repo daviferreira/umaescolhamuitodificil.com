@@ -28,7 +28,7 @@ function importSheet() {
 
   const settings = { method: 'GET' };
 
-  const header = 'date,text,url,cases,deaths';
+  const header = 'date,text,url,cases,deaths,className';
 
   fetch(url, settings)
     .then(res => res.text())
@@ -42,7 +42,7 @@ function importSheet() {
         .fromString(csvStr)
         .then(async quotes => {
           let order = 100;
-          quotes.forEach(({ deaths, cases, date, text, url }) => {
+          quotes.forEach(({ deaths, cases, date, text, url, className }) => {
             const momentDate = moment(date, 'DD/MM/YYYY');
 
             const videoId = url.includes('youtube')
@@ -57,7 +57,8 @@ function importSheet() {
               formattedDate: momentDate.format('LL'),
               text,
               url: videoId ? undefined : url,
-              videoId
+              videoId,
+              className: className || undefined
             });
 
             order += 100;
