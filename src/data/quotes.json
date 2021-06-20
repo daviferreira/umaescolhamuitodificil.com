@@ -1117,8 +1117,17 @@
   },
   {
     "order": 12500,
-    "deaths": 500000,
-    "cases": 17808472,
+    "deaths": 496350,
+    "cases": 17710132,
+    "date": "2021-06-17",
+    "formattedDate": "17 de junho de 2021",
+    "text": "Quem pegou o vírus está imunizado, não se discute.",
+    "url": "https://www.metropoles.com/brasil/politica-brasil/contrair-o-virus-e-imunizacao-mais-eficaz-que-vacina-diz-bolsonaro"
+  },
+  {
+    "order": 12600,
+    "deaths": 501007,
+    "cases": 17886678,
     "date": "2021-06-19",
     "formattedDate": "19 de junho de 2021",
     "text": "500.000",
