@@ -1133,5 +1133,14 @@
     "text": "500.000",
     "url": "https://www1.folha.uol.com.br/equilibrioesaude/2021/06/brasil-chega-a-500-mil-mortes-por-covid.shtml",
     "className": "genocide"
+  },
+  {
+    "order": 12700,
+    "deaths": 544482,
+    "cases": 19426452,
+    "date": "2021-07-21",
+    "formattedDate": "21 de julho de 2021",
+    "text": "Passamos pelo 1º ano da pandemia relativamente bem.",
+    "url": "https://www.metropoles.com/brasil/politica-brasil/passamos-pelo-1o-ano-da-pandemia-relativamente-bem-diz-bolsonaro"
   }
 ]
