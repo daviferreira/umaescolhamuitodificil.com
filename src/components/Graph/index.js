@@ -52,7 +52,7 @@ const Graph = () => {
   useEffect(() => {
     setTimeout(() => {
       setRender(true);
-    }, 2000);
+    }, 500);
   }, []);
 
   if (!render) {
