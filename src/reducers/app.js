@@ -9,8 +9,7 @@ const initialState = {
   lastLoadedDate: '2020-03-02',
   nextQuoteId: null,
   previousQuoteId: null,
-  showGraph:
-    store.get('show_graph') === true || store.get('show_graph') === 'true',
+  showGraph: false,
   totalCases: 2,
   totalDeaths: 0,
   url: null,
@@ -21,6 +20,7 @@ const UPDATE_CURRENT_DATA = 'UPDATE_CURRENT_DATA';
 const UPDATE_GRAPH_DATA = 'UPDATE_GRAPH_DATA';
 const SET_VIDEO_ID = 'SET_VIDEO_ID';
 const TOGGLE_GRAPH = 'TOGGLE_GRAPH';
+const SET_SHOW_GRAPH = 'SET_SHOW_GRAPH';
 
 export const updateCurrentData = data => ({
   type: UPDATE_CURRENT_DATA,
@@ -48,6 +48,13 @@ export const setVideoId = videoId => ({
   type: SET_VIDEO_ID,
   data: {
     videoId
+  }
+});
+
+export const setShowGraph = showGraph => ({
+  type: SET_SHOW_GRAPH,
+  data: {
+    showGraph
   }
 });
 
@@ -114,6 +121,15 @@ export default (state = initialState, action) => {
 
       // side-effect
       store.set('show_graph', showGraph);
+
+      return {
+        ...state,
+        showGraph
+      };
+    }
+
+    case SET_SHOW_GRAPH: {
+      const { showGraph } = action.data;
 
       return {
         ...state,

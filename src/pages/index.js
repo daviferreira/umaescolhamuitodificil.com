@@ -1,6 +1,7 @@
 import animateScrollTo from 'animated-scroll-to';
 import React, { useEffect, useState } from 'react';
-import { useSelector } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
+import store from 'store2';
 
 import About from '../components/About';
 import Graph from '../components/Graph';
@@ -12,10 +13,12 @@ import QuotesList from '../components/QuotesList';
 import SEO from '../components/Seo';
 import Totals from '../components/Totals';
 import Video from '../components/Video';
+import { setShowGraph } from '../reducers/app';
 
 import styles from './styles.module.css';
 
 const IndexPage = () => {
+  const dispatch = useDispatch();
   const [open, setOpen] = useState(false);
 
   const { nextQuoteId, previousQuoteId, showGraph, videoId } = useSelector(
@@ -29,14 +32,22 @@ const IndexPage = () => {
   };
 
   useEffect(() => {
-    if (typeof window !== 'undefined' && window.location.search) {
-      const match = window.location.search.match(/\d+/);
-      if (match && match[0]) {
-        const el = document.getElementById(`quote-${match[0]}`);
-        el && el.scrollIntoView();
+    if (typeof window !== 'undefined') {
+      dispatch(
+        setShowGraph(
+          store.get('show_graph') === true || store.get('show_graph') === 'true'
+        )
+      );
+
+      if (window.location.search) {
+        const match = window.location.search.match(/\d+/);
+        if (match && match[0]) {
+          const el = document.getElementById(`quote-${match[0]}`);
+          el && el.scrollIntoView();
+        }
       }
     }
-  }, []);
+  }, [dispatch]);
 
   useEffect(() => {
     let timer;
