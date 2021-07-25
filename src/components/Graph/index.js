@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 import { Line } from 'react-chartjs-2';
 import { useSelector } from 'react-redux';
 import { useStaticQuery, graphql } from 'gatsby';
@@ -11,7 +11,6 @@ import removeDuplicates from '../../utils/removeDuplicates';
 
 const Graph = () => {
   const { cases, deaths, labels } = useSelector(state => state.app);
-  const [render, setRender] = useState(false);
 
   const {
     quotes: { edges }
@@ -48,16 +47,6 @@ const Graph = () => {
   };
 
   const suggestedMax = edges[edges.length - 1].node.cases;
-
-  useEffect(() => {
-    setTimeout(() => {
-      setRender(true);
-    }, 500);
-  }, []);
-
-  if (!render) {
-    return null;
-  }
 
   return (
     <Line
