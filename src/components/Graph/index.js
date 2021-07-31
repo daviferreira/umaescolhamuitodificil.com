@@ -5,12 +5,12 @@ import { useStaticQuery, graphql } from 'gatsby';
 
 import { getDataOptions, getOptions } from './utils';
 
-import { COLOR_CASES, COLOR_DEATHS } from '../../constants/colors';
+import { COLOR_DEATHS } from '../../constants/colors';
 
 import removeDuplicates from '../../utils/removeDuplicates';
 
 const Graph = () => {
-  const { cases, deaths, labels } = useSelector(state => state.app);
+  const { deaths, labels } = useSelector(state => state.app);
 
   const {
     quotes: { edges }
@@ -21,6 +21,7 @@ const Graph = () => {
           node {
             cases
             date
+            deaths
             formattedDate
           }
         }
@@ -32,12 +33,6 @@ const Graph = () => {
     labels,
     datasets: [
       {
-        ...getDataOptions({ color: COLOR_CASES }),
-        borderColor: COLOR_CASES,
-        label: 'Casos confirmados',
-        data: cases
-      },
-      {
         ...getDataOptions({ color: COLOR_DEATHS }),
         borderColor: COLOR_DEATHS,
         label: 'Mortes',
@@ -46,7 +41,7 @@ const Graph = () => {
     ]
   };
 
-  const suggestedMax = edges[edges.length - 1].node.cases;
+  const suggestedMax = edges[edges.length - 1].node.deaths;
 
   return (
     <Line
