@@ -1151,5 +1151,14 @@
     "formattedDate": "24 de julho de 2021",
     "text": "Se eu estivesse coordenando a pandemia, não teria morrido tanta gente.",
     "url": "https://oglobo.globo.com/brasil/se-eu-estivesse-coordenando-pandemia-nao-teria-morrido-tanta-gente-diz-bolsonaro-1-25125268"
+  },
+  {
+    "order": 12900,
+    "deaths": 573843,
+    "cases": 20534547,
+    "date": "2021-08-21",
+    "formattedDate": "21 de agosto de 2021",
+    "text": "Alguns pega de jeito.",
+    "url": "https://twitter.com/Metropoles/status/1429135792815976449"
   }
 ]
