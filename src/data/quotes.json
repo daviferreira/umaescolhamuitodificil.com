@@ -1160,5 +1160,23 @@
     "formattedDate": "21 de agosto de 2021",
     "text": "Alguns pega de jeito.",
     "url": "https://twitter.com/Metropoles/status/1429135792815976449"
+  },
+  {
+    "order": 13000,
+    "deaths": 584208,
+    "cases": 20913578,
+    "date": "2021-09-08",
+    "formattedDate": "8 de setembro de 2021",
+    "text": "O número de mortes no Brasil foi superdimensionado.",
+    "url": "https://www.terra.com.br/noticias/coronavirus/a-covid-apenas-encurtou-a-vida-das-pessoas-diz-bolsonaro,e2a6c6f4f330d2d3f78cd17f1d43efe3jdcpd8rn.html"
+  },
+  {
+    "order": 13100,
+    "deaths": 584208,
+    "cases": 20913578,
+    "date": "2021-09-08",
+    "formattedDate": "8 de setembro de 2021",
+    "text": "Muitas tinham alguma comorbidade, então a covid apenas encurtou a vida delas por alguns dias ou algumas semanas.",
+    "url": "https://www.terra.com.br/noticias/coronavirus/a-covid-apenas-encurtou-a-vida-das-pessoas-diz-bolsonaro,e2a6c6f4f330d2d3f78cd17f1d43efe3jdcpd8rn.html"
   }
 ]
