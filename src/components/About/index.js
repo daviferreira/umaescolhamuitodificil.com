@@ -17,7 +17,7 @@ const About = () => (
       </a>{' '}
       por{' '}
       <a
-        href="http://twitter.com/davitferreira/"
+        href="https://www.daviferreira.com"
         target="_blank"
         rel="noopener noreferrer"
       >
