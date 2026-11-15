@@ -6,7 +6,6 @@ Ideia da conta [Tesoureiros do Jair](https://twitter.com/tesoureiros/status/1255
 
 Dados: [Ministério da Saúde](https://covid.saude.gov.br/)
 
-## 🚀 Stack
+## Arquivo
 
-- Gatsby
-- redux
+Este site é um arquivo estático. `public/` contém os arquivos gerados (originalmente com Gatsby + redux) e é servido diretamente pelo Netlify, sem build.

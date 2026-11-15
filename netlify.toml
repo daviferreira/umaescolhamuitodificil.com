@@ -1,2 +1,4 @@
-[[plugins]]
-  package = "netlify-plugin-gatsby-cache"
+# Static archive: no build step, just serve the files.
+[build]
+  publish = "public"
+  command = "echo 'Static archive, nothing to build'"
